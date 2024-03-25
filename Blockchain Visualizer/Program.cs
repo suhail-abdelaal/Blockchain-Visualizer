@@ -8,7 +8,7 @@ namespace Blockchain_Visualizer
         
         [STAThread]
         static void Main()
-        {
+        {/*
             string hash = "";
             string input = "Who is your favorite fearless hero?";
             int nonce = 0;
@@ -20,17 +20,10 @@ namespace Blockchain_Visualizer
                 ++nonce;
             }
             Console.WriteLine(nonce);
+            */
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
 
- 
-        static string CalculateSHA256(string input)
-        {
-            SHA256 sha256 = SHA256.Create();
-            byte[] inputBytes = Encoding.UTF8.GetBytes(input);
-            byte[] hash = sha256.ComputeHash(inputBytes);
-            return BitConverter.ToString(hash).Replace("-", "").ToLower(); ;
-        }
     }
 }

@@ -1,4 +1,4 @@
-using System.Security.Cryptography;
+using Blockchain_Visualizer.UserControls;
 using System.Text;
 
 namespace Blockchain_Visualizer
@@ -8,21 +8,27 @@ namespace Blockchain_Visualizer
         public Form1()
         {
             InitializeComponent();
-            tb_data.Text = "";
-            tb_data.TextChanged += tb_data_TextChanged;
+            addUserControl(new UC_SHA256());
+
         }
 
-        private void tb_data_TextChanged(object sender, EventArgs e)
+
+
+        private void addUserControl(UserControl userControl)
         {
-            tb_hash.Text = CalculateSHA256(tb_data.Text);
+            userControl.Dock = DockStyle.Fill;
+            panel2.Controls.Clear();
+            panel2.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
+        private void btn_SHA256_Click(object sender, EventArgs e)
+        {
+            addUserControl(new UC_SHA256());
         }
 
-        private string CalculateSHA256(string input)
+        private void btn_block_Click(object sender, EventArgs e)
         {
-            SHA256 sha256 = SHA256.Create();
-            byte[] inputBytes = Encoding.UTF8.GetBytes(input);
-            byte[] hash = sha256.ComputeHash(inputBytes);
-            return BitConverter.ToString(hash).Replace("-", "").ToLower(); ;
+            addUserControl(new UC_Block());
         }
     }
 }

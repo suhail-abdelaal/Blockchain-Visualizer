@@ -28,90 +28,152 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tb_data = new TextBox();
-            tb_hash = new TextBox();
-            data_label = new Label();
-            label1 = new Label();
-            label2 = new Label();
+            panel1 = new Panel();
+            btn_block = new Button();
+            btn_blockChain = new Button();
+            btn_distributed = new Button();
+            btn_SHA256 = new Button();
+            btn_tokens = new Button();
+            btn_coinBase = new Button();
+            panel2 = new Panel();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // tb_data
+            // panel1
             // 
-            tb_data.BorderStyle = BorderStyle.FixedSingle;
-            tb_data.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_data.Location = new Point(78, 103);
-            tb_data.Multiline = true;
-            tb_data.Name = "tb_data";
-            tb_data.Size = new Size(785, 301);
-            tb_data.TabIndex = 0;
-            tb_data.TextChanged += tb_data_TextChanged;
+            panel1.BackColor = Color.Transparent;
+            panel1.BackgroundImageLayout = ImageLayout.None;
+            panel1.Controls.Add(btn_block);
+            panel1.Controls.Add(btn_blockChain);
+            panel1.Controls.Add(btn_distributed);
+            panel1.Controls.Add(btn_SHA256);
+            panel1.Controls.Add(btn_tokens);
+            panel1.Controls.Add(btn_coinBase);
+            panel1.Dock = DockStyle.Top;
+            panel1.ForeColor = Color.Black;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(884, 50);
+            panel1.TabIndex = 5;
             // 
-            // tb_hash
+            // btn_block
             // 
-            tb_hash.BorderStyle = BorderStyle.FixedSingle;
-            tb_hash.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_hash.Location = new Point(78, 443);
-            tb_hash.Multiline = true;
-            tb_hash.Name = "tb_hash";
-            tb_hash.ReadOnly = true;
-            tb_hash.Size = new Size(785, 31);
-            tb_hash.TabIndex = 1;
+            btn_block.FlatStyle = FlatStyle.Flat;
+            btn_block.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_block.ForeColor = Color.Black;
+            btn_block.Location = new Point(181, 0);
+            btn_block.Name = "btn_block";
+            btn_block.Size = new Size(126, 50);
+            btn_block.TabIndex = 6;
+            btn_block.Text = "Block";
+            btn_block.UseVisualStyleBackColor = true;
+            btn_block.Click += btn_block_Click;
             // 
-            // data_label
+            // btn_blockChain
             // 
-            data_label.AutoSize = true;
-            data_label.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            data_label.Location = new Point(22, 103);
-            data_label.Name = "data_label";
-            data_label.Size = new Size(50, 21);
-            data_label.TabIndex = 2;
-            data_label.Text = "Data:";
+            btn_blockChain.FlatStyle = FlatStyle.Flat;
+            btn_blockChain.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_blockChain.ForeColor = Color.Black;
+            btn_blockChain.Location = new Point(313, 0);
+            btn_blockChain.Name = "btn_blockChain";
+            btn_blockChain.Size = new Size(126, 50);
+            btn_blockChain.TabIndex = 7;
+            btn_blockChain.Text = "Blockchain";
+            btn_blockChain.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // btn_distributed
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(20, 443);
-            label1.Name = "label1";
-            label1.Size = new Size(52, 21);
-            label1.TabIndex = 3;
-            label1.Text = "Hash:";
+            btn_distributed.FlatStyle = FlatStyle.Flat;
+            btn_distributed.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_distributed.ForeColor = Color.Black;
+            btn_distributed.Location = new Point(445, 0);
+            btn_distributed.Name = "btn_distributed";
+            btn_distributed.Size = new Size(126, 50);
+            btn_distributed.TabIndex = 8;
+            btn_distributed.Text = "Distributed";
+            btn_distributed.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // btn_SHA256
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(12, 9);
-            label2.Name = "label2";
-            label2.Size = new Size(147, 30);
-            label2.TabIndex = 4;
-            label2.Text = "SHA265 Hash";
+            btn_SHA256.FlatStyle = FlatStyle.Flat;
+            btn_SHA256.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_SHA256.ForeColor = Color.Black;
+            btn_SHA256.Location = new Point(49, 0);
+            btn_SHA256.Name = "btn_SHA256";
+            btn_SHA256.Size = new Size(126, 50);
+            btn_SHA256.TabIndex = 0;
+            btn_SHA256.Text = "SHA256";
+            btn_SHA256.UseVisualStyleBackColor = true;
+            btn_SHA256.Click += btn_SHA256_Click;
+            // 
+            // btn_tokens
+            // 
+            btn_tokens.FlatStyle = FlatStyle.Flat;
+            btn_tokens.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_tokens.ForeColor = Color.Black;
+            btn_tokens.Location = new Point(577, 0);
+            btn_tokens.Name = "btn_tokens";
+            btn_tokens.Size = new Size(126, 50);
+            btn_tokens.TabIndex = 9;
+            btn_tokens.Text = "Tokens";
+            btn_tokens.UseVisualStyleBackColor = true;
+            // 
+            // btn_coinBase
+            // 
+            btn_coinBase.FlatStyle = FlatStyle.Flat;
+            btn_coinBase.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_coinBase.ForeColor = Color.Black;
+            btn_coinBase.Location = new Point(709, 0);
+            btn_coinBase.Name = "btn_coinBase";
+            btn_coinBase.Size = new Size(126, 50);
+            btn_coinBase.TabIndex = 10;
+            btn_coinBase.Text = "Coinbase";
+            btn_coinBase.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(flowLayoutPanel1);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(884, 542);
+            panel2.TabIndex = 6;
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Location = new Point(146, 30);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(8, 8);
+            flowLayoutPanel1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 542);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(data_label);
-            Controls.Add(tb_hash);
-            Controls.Add(tb_data);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Blockchain Visualizer";
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private TextBox tb_data;
-        private TextBox tb_hash;
-        private Label data_label;
-        private Label label1;
-        private Label label2;
+        private Panel panel1;
+        private Button btn_block;
+        private Button btn_blockChain;
+        private Button btn_distributed;
+        private Button btn_SHA256;
+        private Button btn_tokens;
+        private Button btn_coinBase;
+        private Panel panel2;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }
