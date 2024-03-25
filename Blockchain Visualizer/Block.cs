@@ -11,14 +11,28 @@ namespace Blockchain_Visualizer
     {
         public int number {  get; set; }
         public int nonce { get; set; }
-        public string data {  get; set; }
-        public string hash { get; set; }
-        public string prev_hash { get; set; }
-        Block(int number, int nonce, string prev_hash) {
+        public StringBuilder data {  get; set; }
+        public StringBuilder hash { get; set; }
+        public StringBuilder prev_hash { get; set; }
+        public bool isValid {  get; set; }
+        public Block(int number, int nonce, string prev_hash) {
             this.number = number;
             this.nonce = nonce; 
-            this.prev_hash = prev_hash;
-            this.data = "";
+            this.prev_hash = new StringBuilder(prev_hash);
+            this.data = new StringBuilder("");
+            this.hash = new StringBuilder();
+            this.isValid = true;
+        }
+
+        public void UpdateHash(string newHash)
+        {
+            this.hash.Clear();
+            this.hash.Append(newHash);
+
+            if (newHash.StartsWith(Hash.target))
+                isValid = true;
+            else 
+                isValid =false;
         }
     }
 }

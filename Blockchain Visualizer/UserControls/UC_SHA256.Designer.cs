@@ -100,6 +100,7 @@
             Margin = new Padding(4);
             Name = "UC_SHA256";
             Size = new Size(884, 542);
+            Load += UC_SHA256_Load;
             ResumeLayout(false);
             PerformLayout();
         }

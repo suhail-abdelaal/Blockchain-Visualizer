@@ -23,6 +23,9 @@ namespace Blockchain_Visualizer.UserControls
             tb_hash.Text = Hash.CalculateSHA256(tb_data.Text);
         }
 
+        private void UC_SHA256_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
