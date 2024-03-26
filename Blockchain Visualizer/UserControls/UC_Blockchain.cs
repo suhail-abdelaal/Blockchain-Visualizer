@@ -26,6 +26,14 @@ namespace Blockchain_Visualizer.UserControls
             }
             InitializeComponent();
 
+            chain_A_onChanging();
+
+        }
+
+
+        private void chain_A_onChanging()
+        {
+
             tb_block1.TextChanged += tb_block1_TextChanged;
             tb_nonce1.TextChanged += tb_nonce1_TextChanged;
             tb_data1.TextChanged += tb_data1_TextChanged;
@@ -41,7 +49,6 @@ namespace Blockchain_Visualizer.UserControls
             tb_block4.TextChanged += tb_block4_TextChanged;
             tb_nonce4.TextChanged += tb_nonce4_TextChanged;
             tb_data4.TextChanged += tb_data4_TextChanged;
-
         }
 
         private void UC_Blockchain_Load(object sender, EventArgs e)
@@ -106,9 +113,8 @@ namespace Blockchain_Visualizer.UserControls
                     }
                     break;
             }
-
-
         }
+
         private void label13_Click(object sender, EventArgs e)
         {
 
@@ -148,7 +154,7 @@ namespace Blockchain_Visualizer.UserControls
 
 
             Hash.UpdateChain(blocks, 0);
-            UpdateChainTextBoxes(0);
+            UpdateChainTextBoxes();
             UpdateBackgroundColor(blocks[0], 0);
         }
 
@@ -161,7 +167,7 @@ namespace Blockchain_Visualizer.UserControls
 
 
             Hash.UpdateChain(blocks, 0);
-            UpdateChainTextBoxes(0);
+            UpdateChainTextBoxes();
             UpdateBackgroundColor(blocks[0], 0);
         }
 
@@ -171,11 +177,11 @@ namespace Blockchain_Visualizer.UserControls
             blocks[0].data.Append(tb_data1.Text);
 
             Hash.UpdateChain(blocks, 0);
-            UpdateChainTextBoxes(0);
+            UpdateChainTextBoxes();
             UpdateBackgroundColor(blocks[0], 0);
         }
 
-        private void UpdateChainTextBoxes(int block_idx)
+        private void UpdateChainTextBoxes()
         {
             tb_prev1.Text = blocks[0].prev_hash.ToString();
             tb_hash1.Text = blocks[0].hash.ToString();
@@ -203,8 +209,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[1].number = BigInteger.Parse(tb_block2.Text);
 
             Hash.UpdateChain(blocks, 1);
-            UpdateChainTextBoxes(1);
-            UpdateBackgroundColor(blocks[1], 1);
+            UpdateChainTextBoxes();
         }
 
         private void tb_nonce2_TextChanged(object sender, EventArgs e)
@@ -215,8 +220,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[1].nonce = BigInteger.Parse(tb_nonce2.Text);
 
             Hash.UpdateChain(blocks, 1);
-            UpdateChainTextBoxes(1);
-            UpdateBackgroundColor(blocks[1], 1);
+            UpdateChainTextBoxes();
         }
 
         private void tb_data2_TextChanged(object sender, EventArgs e)
@@ -225,8 +229,7 @@ namespace Blockchain_Visualizer.UserControls
             blocks[1].data.Append(tb_data2.Text);
 
             Hash.UpdateChain(blocks, 1);
-            UpdateChainTextBoxes(1);
-            UpdateBackgroundColor(blocks[1], 1);
+            UpdateChainTextBoxes();
         }
 
         private void tb_block3_TextChanged(object sender, EventArgs e)
@@ -237,8 +240,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[2].number = BigInteger.Parse(tb_block3.Text);
 
             Hash.UpdateChain(blocks, 2);
-            UpdateChainTextBoxes(2);
-            UpdateBackgroundColor(blocks[2], 2);
+            UpdateChainTextBoxes();
         }
 
         private void tb_nonce3_TextChanged(object sender, EventArgs e)
@@ -249,8 +251,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[2].nonce = BigInteger.Parse(tb_nonce3.Text);
 
             Hash.UpdateChain(blocks, 2);
-            UpdateChainTextBoxes(2);
-            UpdateBackgroundColor(blocks[2], 2);
+            UpdateChainTextBoxes();
 
         }
 
@@ -260,8 +261,7 @@ namespace Blockchain_Visualizer.UserControls
             blocks[2].data.Append(tb_data3.Text);
 
             Hash.UpdateChain(blocks, 2);
-            UpdateChainTextBoxes(2);
-            UpdateBackgroundColor(blocks[2], 2);
+            UpdateChainTextBoxes();
         }
 
         private void tb_block4_TextChanged(object sender, EventArgs e)
@@ -272,8 +272,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[3].number = BigInteger.Parse(tb_block4.Text);
 
             Hash.UpdateChain(blocks, 3);
-            UpdateChainTextBoxes(3);
-            UpdateBackgroundColor(blocks[3], 3);
+            UpdateChainTextBoxes();
         }
 
         private void tb_nonce4_TextChanged(object sender, EventArgs e)
@@ -284,8 +283,7 @@ namespace Blockchain_Visualizer.UserControls
                 blocks[3].nonce = BigInteger.Parse(tb_nonce4.Text);
 
             Hash.UpdateChain(blocks, 3);
-            UpdateChainTextBoxes(3);
-            UpdateBackgroundColor(blocks[3], 3);
+            UpdateChainTextBoxes();
         }
 
         private void tb_data4_TextChanged(object sender, EventArgs e)
@@ -294,8 +292,7 @@ namespace Blockchain_Visualizer.UserControls
             blocks[3].data.Append(tb_data4.Text);
 
             Hash.UpdateChain(blocks, 3);
-            UpdateChainTextBoxes(3);
-            UpdateBackgroundColor(blocks[3], 3);
+            UpdateChainTextBoxes();
         }
 
         private void btn_mine1_Click(object sender, EventArgs e)
@@ -305,8 +302,7 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce1.Text = blocks[0].nonce.ToString();
             tb_hash1.Text = blocks[0].hash.ToString();
             Hash.UpdateChain(blocks, 0);
-            UpdateChainTextBoxes(0);
-            UpdateBackgroundColor(blocks[0], 0);
+            UpdateChainTextBoxes();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -316,8 +312,7 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce2.Text = blocks[1].nonce.ToString();
             tb_hash2.Text = blocks[1].hash.ToString();
             Hash.UpdateChain(blocks, 1);
-            UpdateChainTextBoxes(1);
-            UpdateBackgroundColor(blocks[1], 1);
+            UpdateChainTextBoxes();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -327,8 +322,7 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce3.Text = blocks[2].nonce.ToString();
             tb_hash3.Text = blocks[2].hash.ToString();
             Hash.UpdateChain(blocks, 2);
-            UpdateChainTextBoxes(2);
-            UpdateBackgroundColor(blocks[2], 2);
+            UpdateChainTextBoxes();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -338,11 +332,15 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce4.Text = blocks[3].nonce.ToString();
             tb_hash4.Text = blocks[3].hash.ToString();
             Hash.UpdateChain(blocks, 3);
-            UpdateChainTextBoxes(3);
-            UpdateBackgroundColor(blocks[3], 3);
+            UpdateChainTextBoxes();
         }
 
         private void tb_prev1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tb_hash1_TextChanged(object sender, EventArgs e)
         {
 
         }

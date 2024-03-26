@@ -77,10 +77,13 @@
             panel4 = new Panel();
             label16 = new Label();
             tb_prev4 = new TextBox();
+            panel5 = new Panel();
+            flowLayoutPanel = new FlowLayoutPanel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // btn_mine1
@@ -180,6 +183,7 @@
             tb_hash1.ReadOnly = true;
             tb_hash1.Size = new Size(602, 31);
             tb_hash1.TabIndex = 21;
+            tb_hash1.TextChanged += tb_hash1_TextChanged;
             // 
             // tb_data1
             // 
@@ -627,6 +631,21 @@
             tb_prev4.Size = new Size(653, 31);
             tb_prev4.TabIndex = 63;
             // 
+            // panel5
+            // 
+            panel5.Controls.Add(flowLayoutPanel);
+            panel5.Location = new Point(3, 89);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1420, 436);
+            panel5.TabIndex = 61;
+            // 
+            // flowLayoutPanel
+            // 
+            flowLayoutPanel.Location = new Point(0, 1);
+            flowLayoutPanel.Name = "flowLayoutPanel";
+            flowLayoutPanel.Size = new Size(1420, 435);
+            flowLayoutPanel.TabIndex = 62;
+            // 
             // UC_Blockchain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -674,6 +693,7 @@
             Controls.Add(tb_hash1);
             Controls.Add(tb_data1);
             Controls.Add(panel1);
+            Controls.Add(panel5);
             Name = "UC_Blockchain";
             Size = new Size(2909, 525);
             Load += UC_Blockchain_Load;
@@ -685,6 +705,7 @@
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            panel5.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -740,5 +761,7 @@
         private TextBox tb_prev3;
         private Label label16;
         private TextBox tb_prev4;
+        private Panel panel5;
+        private FlowLayoutPanel flowLayoutPanel;
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Numerics;
 using System.Security.Cryptography;
 using System.Security.Policy;
 using System.Text;
@@ -28,7 +29,7 @@ namespace Blockchain_Visualizer
             string data = CombineData(block);
             data = data.Replace("-" + block.nonce.ToString(), "-");
 
-            int nonce = -1;
+            BigInteger nonce = new BigInteger(-1);
             StringBuilder new_data = new StringBuilder();
 
             string hash = block.hash.ToString();

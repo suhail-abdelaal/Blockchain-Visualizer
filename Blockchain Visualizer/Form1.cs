@@ -34,13 +34,15 @@ namespace Blockchain_Visualizer
         private void btn_blockChain_Click(object sender, EventArgs e)
         {
             addUserControl(new UC_Blockchain());
-
         }
 
+        private void btn_distributed_Click(object sender, EventArgs e)
+        {
+            addUserControl(new UC_Distributed());
+        }
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
     }
 }

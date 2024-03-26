@@ -95,6 +95,7 @@
             btn_distributed.TabIndex = 8;
             btn_distributed.Text = "Distributed";
             btn_distributed.UseVisualStyleBackColor = true;
+            btn_distributed.Click += btn_distributed_Click;
             // 
             // btn_SHA256
             // 
