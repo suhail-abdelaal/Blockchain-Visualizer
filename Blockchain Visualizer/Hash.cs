@@ -64,5 +64,19 @@ namespace Blockchain_Visualizer
                 blocks[i].UpdateHash(Hash.CalculateSHA256(Hash.CombineData(blocks[i])));
             }
         }
+
+        public static void onlyNumbers(object sender, KeyPressEventArgs e)
+        {
+
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

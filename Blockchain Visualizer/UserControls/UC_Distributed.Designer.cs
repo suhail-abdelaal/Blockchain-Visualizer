@@ -175,7 +175,6 @@
             tb_hash_c2 = new TextBox();
             tb_data_c2 = new TextBox();
             panel10 = new Panel();
-            label59 = new Label();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
             panel1.SuspendLayout();
@@ -222,6 +221,7 @@
             tb_block_a3.Size = new Size(618, 28);
             tb_block_a3.TabIndex = 88;
             tb_block_a3.TextChanged += tb_block_a3_TextChanged;
+            tb_block_a3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label6
             // 
@@ -244,6 +244,7 @@
             tb_nonce_a3.Size = new Size(618, 28);
             tb_nonce_a3.TabIndex = 86;
             tb_nonce_a3.TextChanged += tb_nonce_a3_TextChanged;
+            tb_nonce_a3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label7
             // 
@@ -353,6 +354,7 @@
             tb_block_a4.Size = new Size(653, 28);
             tb_block_a4.TabIndex = 98;
             tb_block_a4.TextChanged += tb_block_a4_TextChanged;
+            tb_block_a4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label10
             // 
@@ -375,6 +377,7 @@
             tb_nonce_a4.Size = new Size(653, 28);
             tb_nonce_a4.TabIndex = 96;
             tb_nonce_a4.TextChanged += tb_nonce_a4_TextChanged;
+            tb_nonce_a4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label11
             // 
@@ -506,6 +509,7 @@
             tb_block_a1.Size = new Size(602, 28);
             tb_block_a1.TabIndex = 68;
             tb_block_a1.TextChanged += tb_block_a1_TextChanged;
+            tb_block_a1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // lbl_nonce1
             // 
@@ -528,6 +532,7 @@
             tb_nonce_a1.Size = new Size(602, 28);
             tb_nonce_a1.TabIndex = 66;
             tb_nonce_a1.TextChanged += tb_nonce_a1_TextChanged;
+            tb_nonce_a1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // lbl_block
             // 
@@ -649,6 +654,7 @@
             tb_block_a2.Size = new Size(594, 28);
             tb_block_a2.TabIndex = 78;
             tb_block_a2.TextChanged += tb_block_a2_TextChanged;
+            tb_block_a2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label2
             // 
@@ -671,6 +677,7 @@
             tb_nonce_a2.Size = new Size(594, 28);
             tb_nonce_a2.TabIndex = 76;
             tb_nonce_a2.TextChanged += tb_nonce_a2_TextChanged;
+            tb_nonce_a2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label3
             // 
@@ -759,6 +766,7 @@
             tb_block_b3.Size = new Size(618, 28);
             tb_block_b3.TabIndex = 129;
             tb_block_b3.TextChanged += tb_block_b3_TextChanged;
+            tb_block_b3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label19
             // 
@@ -781,6 +789,7 @@
             tb_nonce_b3.Size = new Size(618, 28);
             tb_nonce_b3.TabIndex = 127;
             tb_nonce_b3.TextChanged += tb_nonce_b3_TextChanged;
+            tb_nonce_b3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label20
             // 
@@ -890,6 +899,7 @@
             tb_block_b4.Size = new Size(653, 28);
             tb_block_b4.TabIndex = 139;
             tb_block_b4.TextChanged += tb_block_b4_TextChanged;
+            tb_block_b4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label24
             // 
@@ -912,6 +922,7 @@
             tb_nonce_b4.Size = new Size(653, 28);
             tb_nonce_b4.TabIndex = 137;
             tb_nonce_b4.TextChanged += tb_nonce_b4_TextChanged;
+            tb_nonce_b4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label25
             // 
@@ -1043,6 +1054,7 @@
             tb_block_b1.Size = new Size(602, 28);
             tb_block_b1.TabIndex = 109;
             tb_block_b1.TextChanged += tb_block_b1_TextChanged;
+            tb_block_b1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label29
             // 
@@ -1065,6 +1077,7 @@
             tb_nonce_b1.Size = new Size(602, 28);
             tb_nonce_b1.TabIndex = 107;
             tb_nonce_b1.TextChanged += tb_nonce_b1_TextChanged;
+            tb_nonce_b1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label30
             // 
@@ -1185,6 +1198,7 @@
             tb_block_b2.Size = new Size(594, 28);
             tb_block_b2.TabIndex = 119;
             tb_block_b2.TextChanged += tb_block_b2_TextChanged;
+            tb_block_b2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label35
             // 
@@ -1207,6 +1221,7 @@
             tb_nonce_b2.Size = new Size(594, 28);
             tb_nonce_b2.TabIndex = 117;
             tb_nonce_b2.TextChanged += tb_nonce_b2_TextChanged;
+            tb_nonce_b2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label36
             // 
@@ -1295,6 +1310,7 @@
             tb_block_c3.Size = new Size(618, 28);
             tb_block_c3.TabIndex = 170;
             tb_block_c3.TextChanged += tb_block_c3_TextChanged;
+            tb_block_c3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label40
             // 
@@ -1317,6 +1333,7 @@
             tb_nonce_c3.Size = new Size(618, 28);
             tb_nonce_c3.TabIndex = 168;
             tb_nonce_c3.TextChanged += tb_nonce_c3_TextChanged;
+            tb_nonce_c3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label41
             // 
@@ -1426,6 +1443,7 @@
             tb_block_c4.Size = new Size(653, 28);
             tb_block_c4.TabIndex = 180;
             tb_block_c4.TextChanged += tb_block_c4_TextChanged;
+            tb_block_c4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label45
             // 
@@ -1448,6 +1466,7 @@
             tb_nonce_c4.Size = new Size(653, 28);
             tb_nonce_c4.TabIndex = 178;
             tb_nonce_c4.TextChanged += tb_nonce_c4_TextChanged;
+            tb_nonce_c4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label46
             // 
@@ -1579,6 +1598,7 @@
             tb_block_c1.Size = new Size(602, 28);
             tb_block_c1.TabIndex = 150;
             tb_block_c1.TextChanged += tb_block_c1_TextChanged;
+            tb_block_c1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label50
             // 
@@ -1601,6 +1621,7 @@
             tb_nonce_c1.Size = new Size(602, 28);
             tb_nonce_c1.TabIndex = 148;
             tb_nonce_c1.TextChanged += tb_nonce_c1_TextChanged;
+            tb_nonce_c1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label51
             // 
@@ -1721,6 +1742,7 @@
             tb_block_c2.Size = new Size(594, 28);
             tb_block_c2.TabIndex = 160;
             tb_block_c2.TextChanged += tb_block_c2_TextChanged;
+            tb_block_c2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label56
             // 
@@ -1743,6 +1765,7 @@
             tb_nonce_c2.Size = new Size(594, 28);
             tb_nonce_c2.TabIndex = 158;
             tb_nonce_c2.TextChanged += tb_nonce_c2_TextChanged;
+            tb_nonce_c2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label57
             // 
@@ -1799,23 +1822,13 @@
             panel10.Size = new Size(690, 426);
             panel10.TabIndex = 163;
             // 
-            // label59
-            // 
-            label59.AutoSize = true;
-            label59.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label59.Location = new Point(357, 46);
-            label59.Name = "label59";
-            label59.Size = new Size(125, 25);
-            label59.TabIndex = 184;
-            label59.Text = "Blockchain";
-            // 
             // UC_Distributed
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
+            AutoSize = true;
             Controls.Add(btn_mine_a3);
-            Controls.Add(label59);
             Controls.Add(label39);
             Controls.Add(tb_block_c3);
             Controls.Add(label40);
@@ -2118,6 +2131,5 @@
         private TextBox tb_hash_c2;
         private TextBox tb_data_c2;
         private Panel panel10;
-        private Label label59;
     }
 }

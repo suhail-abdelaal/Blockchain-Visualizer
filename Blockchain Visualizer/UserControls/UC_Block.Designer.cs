@@ -42,6 +42,7 @@
             // 
             // lbl_block
             // 
+            lbl_block.Anchor = AnchorStyles.Top;
             lbl_block.AutoSize = true;
             lbl_block.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_block.Location = new Point(409, 84);
@@ -52,6 +53,7 @@
             // 
             // lbl_hash_block
             // 
+            lbl_hash_block.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_hash_block.AutoSize = true;
             lbl_hash_block.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_hash_block.Location = new Point(20, 440);
@@ -62,6 +64,7 @@
             // 
             // lbl_data_block
             // 
+            lbl_data_block.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_data_block.AutoSize = true;
             lbl_data_block.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_data_block.Location = new Point(21, 214);
@@ -72,6 +75,7 @@
             // 
             // tb_hash
             // 
+            tb_hash.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_hash.BorderStyle = BorderStyle.FixedSingle;
             tb_hash.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_hash.Location = new Point(79, 440);
@@ -83,6 +87,7 @@
             // 
             // tb_data
             // 
+            tb_data.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_data.BorderStyle = BorderStyle.FixedSingle;
             tb_data.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_data.Location = new Point(79, 214);
@@ -95,6 +100,7 @@
             // 
             // lbl_nonce_block
             // 
+            lbl_nonce_block.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_nonce_block.AutoSize = true;
             lbl_nonce_block.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_nonce_block.Location = new Point(6, 167);
@@ -105,6 +111,7 @@
             // 
             // tb_nonce
             // 
+            tb_nonce.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_nonce.BorderStyle = BorderStyle.FixedSingle;
             tb_nonce.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_nonce.Location = new Point(79, 167);
@@ -113,10 +120,11 @@
             tb_nonce.Size = new Size(785, 28);
             tb_nonce.TabIndex = 15;
             tb_nonce.TextChanged += tb_nonce_block_TextChanged;
-            tb_nonce.KeyPress += tb_nonce_block_KeyPress;
+            tb_nonce.KeyPress += UC_Block_KeyPress;
             // 
             // lbl_block_block
             // 
+            lbl_block_block.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_block_block.AutoSize = true;
             lbl_block_block.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_block_block.Location = new Point(16, 124);
@@ -127,6 +135,7 @@
             // 
             // tb_block
             // 
+            tb_block.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_block.BorderStyle = BorderStyle.FixedSingle;
             tb_block.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_block.Location = new Point(79, 124);
@@ -135,10 +144,11 @@
             tb_block.Size = new Size(785, 28);
             tb_block.TabIndex = 17;
             tb_block.TextChanged += tb_block_block_TextChanged;
-            tb_block.KeyPress += tb_block_block_KeyPress;
+            tb_block.KeyPress += UC_Block_KeyPress;
             // 
             // btn_mine_block
             // 
+            btn_mine_block.Anchor = AnchorStyles.Top;
             btn_mine_block.Location = new Point(398, 486);
             btn_mine_block.Name = "btn_mine_block";
             btn_mine_block.Size = new Size(89, 39);
@@ -167,7 +177,7 @@
             Name = "UC_Block";
             Size = new Size(884, 542);
             Load += UC_Block_Load;
-            Paint += UC_Block_Paint;
+            KeyPress += UC_Block_KeyPress;
             ResumeLayout(false);
             PerformLayout();
         }

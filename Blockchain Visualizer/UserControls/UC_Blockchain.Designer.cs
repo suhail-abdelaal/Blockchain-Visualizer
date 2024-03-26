@@ -118,6 +118,7 @@
             tb_block1.Size = new Size(602, 28);
             tb_block1.TabIndex = 27;
             tb_block1.TextChanged += tb_block1_TextChanged;
+            tb_block1.KeyPress += tb_block1_KeyPress;
             // 
             // lbl_nonce1
             // 
@@ -140,6 +141,7 @@
             tb_nonce1.Size = new Size(602, 28);
             tb_nonce1.TabIndex = 25;
             tb_nonce1.TextChanged += tb_nonce1_TextChanged;
+            tb_nonce1.KeyPress += tb_block1_KeyPress;
             // 
             // lbl_block
             // 
@@ -263,6 +265,7 @@
             tb_block2.Size = new Size(594, 28);
             tb_block2.TabIndex = 37;
             tb_block2.TextChanged += tb_block2_TextChanged;
+            tb_block2.KeyPress += tb_block1_KeyPress;
             // 
             // label2
             // 
@@ -285,6 +288,7 @@
             tb_nonce2.Size = new Size(594, 28);
             tb_nonce2.TabIndex = 35;
             tb_nonce2.TextChanged += tb_nonce2_TextChanged;
+            tb_nonce2.KeyPress += tb_block1_KeyPress;
             // 
             // label3
             // 
@@ -394,6 +398,7 @@
             tb_block3.Size = new Size(618, 28);
             tb_block3.TabIndex = 47;
             tb_block3.TextChanged += tb_block3_TextChanged;
+            tb_block3.KeyPress += tb_block1_KeyPress;
             // 
             // label6
             // 
@@ -416,6 +421,7 @@
             tb_nonce3.Size = new Size(618, 28);
             tb_nonce3.TabIndex = 45;
             tb_nonce3.TextChanged += tb_nonce3_TextChanged;
+            tb_nonce3.KeyPress += tb_block1_KeyPress;
             // 
             // label7
             // 
@@ -525,6 +531,7 @@
             tb_block4.Size = new Size(653, 28);
             tb_block4.TabIndex = 57;
             tb_block4.TextChanged += tb_block4_TextChanged;
+            tb_block4.KeyPress += tb_block1_KeyPress;
             // 
             // label10
             // 
@@ -548,6 +555,7 @@
             tb_nonce4.Size = new Size(653, 28);
             tb_nonce4.TabIndex = 55;
             tb_nonce4.TextChanged += tb_nonce4_TextChanged;
+            tb_nonce4.KeyPress += tb_block1_KeyPress;
             // 
             // label11
             // 
@@ -651,6 +659,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
+            AutoSize = true;
             BackColor = SystemColors.Control;
             Controls.Add(btn_mine4);
             Controls.Add(label9);
@@ -695,7 +704,7 @@
             Controls.Add(panel1);
             Controls.Add(panel5);
             Name = "UC_Blockchain";
-            Size = new Size(2909, 525);
+            Size = new Size(2909, 528);
             Load += UC_Blockchain_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -155,7 +155,6 @@ namespace Blockchain_Visualizer.UserControls
 
             Hash.UpdateChain(blocks, 0);
             UpdateChainTextBoxes();
-            UpdateBackgroundColor(blocks[0], 0);
         }
 
         private void tb_nonce1_TextChanged(object sender, EventArgs e)
@@ -168,7 +167,6 @@ namespace Blockchain_Visualizer.UserControls
 
             Hash.UpdateChain(blocks, 0);
             UpdateChainTextBoxes();
-            UpdateBackgroundColor(blocks[0], 0);
         }
 
         private void tb_data1_TextChanged(object sender, EventArgs e)
@@ -178,7 +176,6 @@ namespace Blockchain_Visualizer.UserControls
 
             Hash.UpdateChain(blocks, 0);
             UpdateChainTextBoxes();
-            UpdateBackgroundColor(blocks[0], 0);
         }
 
         private void UpdateChainTextBoxes()
@@ -343,6 +340,11 @@ namespace Blockchain_Visualizer.UserControls
         private void tb_hash1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void tb_block1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Hash.onlyNumbers(sender, e);
         }
     }
 }

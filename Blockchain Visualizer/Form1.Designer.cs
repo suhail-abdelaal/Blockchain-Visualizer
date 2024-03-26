@@ -43,6 +43,7 @@
             // 
             // panel1
             // 
+            panel1.Anchor = AnchorStyles.Top;
             panel1.BackColor = Color.Transparent;
             panel1.BackgroundImageLayout = ImageLayout.None;
             panel1.Controls.Add(btn_block);
@@ -51,15 +52,15 @@
             panel1.Controls.Add(btn_SHA256);
             panel1.Controls.Add(btn_tokens);
             panel1.Controls.Add(btn_coinBase);
-            panel1.Dock = DockStyle.Top;
             panel1.ForeColor = Color.Black;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(884, 50);
+            panel1.Size = new Size(884, 58);
             panel1.TabIndex = 5;
             // 
             // btn_block
             // 
+            btn_block.Anchor = AnchorStyles.Top;
             btn_block.FlatStyle = FlatStyle.Flat;
             btn_block.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_block.ForeColor = Color.Black;
@@ -73,6 +74,7 @@
             // 
             // btn_blockChain
             // 
+            btn_blockChain.Anchor = AnchorStyles.Top;
             btn_blockChain.FlatStyle = FlatStyle.Flat;
             btn_blockChain.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_blockChain.ForeColor = Color.Black;
@@ -86,6 +88,7 @@
             // 
             // btn_distributed
             // 
+            btn_distributed.Anchor = AnchorStyles.Top;
             btn_distributed.FlatStyle = FlatStyle.Flat;
             btn_distributed.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_distributed.ForeColor = Color.Black;
@@ -99,6 +102,7 @@
             // 
             // btn_SHA256
             // 
+            btn_SHA256.Anchor = AnchorStyles.Top;
             btn_SHA256.FlatStyle = FlatStyle.Flat;
             btn_SHA256.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_SHA256.ForeColor = Color.Black;
@@ -112,6 +116,7 @@
             // 
             // btn_tokens
             // 
+            btn_tokens.Anchor = AnchorStyles.Top;
             btn_tokens.FlatStyle = FlatStyle.Flat;
             btn_tokens.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_tokens.ForeColor = Color.Black;
@@ -124,6 +129,7 @@
             // 
             // btn_coinBase
             // 
+            btn_coinBase.Anchor = AnchorStyles.Top;
             btn_coinBase.FlatStyle = FlatStyle.Flat;
             btn_coinBase.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_coinBase.ForeColor = Color.Black;
@@ -137,9 +143,11 @@
             // panel2
             // 
             panel2.AutoScroll = true;
+            panel2.AutoSize = true;
             panel2.Controls.Add(flowLayoutPanel1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
+            panel2.MinimumSize = new Size(884, 542);
             panel2.Name = "panel2";
             panel2.Size = new Size(884, 542);
             panel2.TabIndex = 6;
@@ -160,13 +168,15 @@
             Controls.Add(panel1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedDialog;
-            MaximizeBox = false;
+            MinimumSize = new Size(884, 542);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Blockchain Visualizer";
+            WindowState = FormWindowState.Maximized;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

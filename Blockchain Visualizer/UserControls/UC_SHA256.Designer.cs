@@ -37,6 +37,7 @@
             // 
             // lbl_sha256
             // 
+            lbl_sha256.Anchor = AnchorStyles.Top;
             lbl_sha256.AutoSize = true;
             lbl_sha256.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_sha256.Location = new Point(370, 95);
@@ -44,9 +45,11 @@
             lbl_sha256.Size = new Size(145, 25);
             lbl_sha256.TabIndex = 9;
             lbl_sha256.Text = "SHA265 Hash";
+            lbl_sha256.TextAlign = ContentAlignment.TopCenter;
             // 
             // lbl_hash
             // 
+            lbl_hash.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_hash.AutoSize = true;
             lbl_hash.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_hash.Location = new Point(21, 463);
@@ -57,6 +60,7 @@
             // 
             // lbl_data
             // 
+            lbl_data.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lbl_data.AutoSize = true;
             lbl_data.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_data.Location = new Point(23, 141);
@@ -67,6 +71,7 @@
             // 
             // tb_hash
             // 
+            tb_hash.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_hash.BorderStyle = BorderStyle.FixedSingle;
             tb_hash.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_hash.Location = new Point(79, 463);
@@ -78,6 +83,7 @@
             // 
             // tb_data
             // 
+            tb_data.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             tb_data.BorderStyle = BorderStyle.FixedSingle;
             tb_data.Font = new Font("Consolas", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tb_data.Location = new Point(79, 141);
@@ -92,6 +98,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(lbl_sha256);
             Controls.Add(lbl_hash);
             Controls.Add(lbl_data);

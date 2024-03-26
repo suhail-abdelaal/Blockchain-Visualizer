@@ -83,35 +83,10 @@ namespace Blockchain_Visualizer.UserControls
             UpdateBackgroundColor();
         }
 
-        private void tb_block_block_KeyPress(object sender, KeyPressEventArgs e)
+
+        private void UC_Block_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
-
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void tb_nonce_block_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
-
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void UC_Block_Paint(object sender, PaintEventArgs e)
-        {
-
+            Hash.onlyNumbers(sender, e);
         }
     }
 }

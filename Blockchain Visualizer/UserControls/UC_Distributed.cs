@@ -304,17 +304,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_a1_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_a1.Text == "")
+                Ablocks[0].nonce = 0;
+            else
+                Ablocks[0].nonce = BigInteger.Parse(tb_nonce_a1.Text);
 
+
+            Hash.UpdateChain(Ablocks, 0);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_data_a1_TextChanged(object sender, EventArgs e)
         {
+            Ablocks[0].data.Clear();
+            Ablocks[0].data.Append(tb_data_a1.Text);
 
+            Hash.UpdateChain(Ablocks, 0);
+            UpdateChain_A_TextBoxes();
         }
 
         private void btn_mine_a1_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Ablocks[0]);
+            tb_nonce_a1.Text = Ablocks[0].nonce.ToString();
+            tb_hash_a1.Text = Ablocks[0].hash.ToString();
+            Hash.UpdateChain(Ablocks, 0);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_block_a2_TextChanged(object sender, EventArgs e)
@@ -331,17 +346,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_a2_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_a2.Text == "")
+                Ablocks[1].nonce = 0;
+            else
+                Ablocks[1].nonce = BigInteger.Parse(tb_nonce_a2.Text);
 
+
+            Hash.UpdateChain(Ablocks, 1);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_data_a2_TextChanged(object sender, EventArgs e)
         {
+            Ablocks[1].data.Clear();
+            Ablocks[1].data.Append(tb_data_a2.Text);
 
+            Hash.UpdateChain(Ablocks, 1);
+            UpdateChain_A_TextBoxes();
         }
 
         private void btn_mine_a2_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Ablocks[1]);
+            tb_nonce_a2.Text = Ablocks[1].nonce.ToString();
+            tb_hash_a2.Text = Ablocks[1].hash.ToString();
+            Hash.UpdateChain(Ablocks, 1);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_block_a3_TextChanged(object sender, EventArgs e)
@@ -358,17 +388,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_a3_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_a3.Text == "")
+                Ablocks[2].nonce = 0;
+            else
+                Ablocks[2].nonce = BigInteger.Parse(tb_nonce_a3.Text);
 
+
+            Hash.UpdateChain(Ablocks, 2);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_data_a3_TextChanged(object sender, EventArgs e)
         {
+            Ablocks[2].data.Clear();
+            Ablocks[2].data.Append(tb_data_a3.Text);
 
+            Hash.UpdateChain(Ablocks, 2);
+            UpdateChain_A_TextBoxes();
         }
 
         private void btn_mine_a3_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Ablocks[2]);
+            tb_nonce_a3.Text = Ablocks[2].nonce.ToString();
+            tb_hash_a3.Text = Ablocks[2].hash.ToString();
+            Hash.UpdateChain(Ablocks, 2);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_block_a4_TextChanged(object sender, EventArgs e)
@@ -385,17 +430,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_a4_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_a4.Text == "")
+                Ablocks[3].nonce = 0;
+            else
+                Ablocks[3].nonce = BigInteger.Parse(tb_nonce_a4.Text);
 
+
+            Hash.UpdateChain(Ablocks, 3);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_data_a4_TextChanged(object sender, EventArgs e)
         {
+            Ablocks[3].data.Clear();
+            Ablocks[3].data.Append(tb_data_a4.Text);
 
+            Hash.UpdateChain(Ablocks, 3);
+            UpdateChain_A_TextBoxes();
         }
 
         private void btn_mine_a4_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Ablocks[3]);
+            tb_nonce_a4.Text = Ablocks[3].nonce.ToString();
+            tb_hash_a4.Text = Ablocks[3].hash.ToString();
+            Hash.UpdateChain(Ablocks, 3);
+            UpdateChain_A_TextBoxes();
         }
 
         private void tb_block_b1_TextChanged(object sender, EventArgs e)
@@ -412,17 +472,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_b1_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_b1.Text == "")
+                Bblocks[0].nonce = 0;
+            else
+                Bblocks[0].nonce = BigInteger.Parse(tb_nonce_b1.Text);
 
+
+            Hash.UpdateChain(Bblocks, 0);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_data_b1_TextChanged(object sender, EventArgs e)
         {
+            Bblocks[0].data.Clear();
+            Bblocks[0].data.Append(tb_data_b1.Text);
 
+            Hash.UpdateChain(Bblocks, 0);
+            UpdateChain_B_TextBoxes();
         }
 
         private void btn_mine_b1_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Bblocks[0]);
+            tb_nonce_b1.Text = Bblocks[0].nonce.ToString();
+            tb_hash_b1.Text = Bblocks[0].hash.ToString();
+            Hash.UpdateChain(Bblocks, 0);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_block_b2_TextChanged(object sender, EventArgs e)
@@ -439,17 +514,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_b2_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_b2.Text == "")
+                Bblocks[1].nonce = 0;
+            else
+                Bblocks[1].nonce = BigInteger.Parse(tb_nonce_b2.Text);
 
+
+            Hash.UpdateChain(Bblocks, 1);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_data_b2_TextChanged(object sender, EventArgs e)
         {
+            Bblocks[1].data.Clear();
+            Bblocks[1].data.Append(tb_data_b2.Text);
 
+            Hash.UpdateChain(Bblocks, 1);
+            UpdateChain_B_TextBoxes();
         }
 
         private void btn_mine_b2_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Bblocks[1]);
+            tb_nonce_b2.Text = Bblocks[1].nonce.ToString();
+            tb_hash_b2.Text = Bblocks[1].hash.ToString();
+            Hash.UpdateChain(Bblocks, 1);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_block_b3_TextChanged(object sender, EventArgs e)
@@ -466,17 +556,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_b3_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_b3.Text == "")
+                Bblocks[2].nonce = 0;
+            else
+                Bblocks[2].nonce = BigInteger.Parse(tb_nonce_b3.Text);
 
+
+            Hash.UpdateChain(Bblocks, 2);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_data_b3_TextChanged(object sender, EventArgs e)
         {
+            Bblocks[2].data.Clear();
+            Bblocks[2].data.Append(tb_data_b3.Text);
 
+            Hash.UpdateChain(Bblocks, 2);
+            UpdateChain_B_TextBoxes();
         }
 
         private void btn_mine_b3_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Bblocks[2]);
+            tb_nonce_b3.Text = Bblocks[2].nonce.ToString();
+            tb_hash_b3.Text = Bblocks[2].hash.ToString();
+            Hash.UpdateChain(Bblocks, 2);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_block_b4_TextChanged(object sender, EventArgs e)
@@ -493,17 +598,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_b4_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_b4.Text == "")
+                Bblocks[3].nonce = 0;
+            else
+                Bblocks[3].nonce = BigInteger.Parse(tb_nonce_b4.Text);
 
+
+            Hash.UpdateChain(Bblocks, 3);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_data_b4_TextChanged(object sender, EventArgs e)
         {
+            Bblocks[3].data.Clear();
+            Bblocks[3].data.Append(tb_data_b4.Text);
 
+            Hash.UpdateChain(Bblocks, 3);
+            UpdateChain_B_TextBoxes();
         }
 
         private void btn_mine_b4_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Bblocks[3]);
+            tb_nonce_b4.Text = Bblocks[3].nonce.ToString();
+            tb_hash_b4.Text = Bblocks[3].hash.ToString();
+            Hash.UpdateChain(Bblocks, 3);
+            UpdateChain_B_TextBoxes();
         }
 
         private void tb_block_c1_TextChanged(object sender, EventArgs e)
@@ -520,17 +640,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_c1_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_c1.Text == "")
+                Cblocks[0].nonce = 0;
+            else
+                Cblocks[0].nonce = BigInteger.Parse(tb_nonce_c1.Text);
 
+
+            Hash.UpdateChain(Cblocks, 0);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_data_c1_TextChanged(object sender, EventArgs e)
         {
+            Cblocks[0].data.Clear();
+            Cblocks[0].data.Append(tb_data_c1.Text);
 
+            Hash.UpdateChain(Cblocks, 0);
+            UpdateChain_C_TextBoxes();
         }
 
         private void btn_mine_c1_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Cblocks[0]);
+            tb_nonce_c1.Text = Cblocks[0].nonce.ToString();
+            tb_hash_c1.Text = Cblocks[0].hash.ToString();
+            Hash.UpdateChain(Cblocks, 0);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_block_c2_TextChanged(object sender, EventArgs e)
@@ -547,17 +682,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_c2_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_c2.Text == "")
+                Cblocks[1].nonce = 0;
+            else
+                Cblocks[1].nonce = BigInteger.Parse(tb_nonce_c2.Text);
 
+
+            Hash.UpdateChain(Cblocks, 1);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_data_c2_TextChanged(object sender, EventArgs e)
         {
+            Cblocks[1].data.Clear();
+            Cblocks[1].data.Append(tb_data_c2.Text);
 
+            Hash.UpdateChain(Cblocks, 1);
+            UpdateChain_C_TextBoxes();
         }
 
         private void btn_mine_c2_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Cblocks[1]);
+            tb_nonce_c2.Text = Cblocks[1].nonce.ToString();
+            tb_hash_c2.Text = Cblocks[1].hash.ToString();
+            Hash.UpdateChain(Cblocks, 1);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_block_c3_TextChanged(object sender, EventArgs e)
@@ -574,17 +724,32 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_c3_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_c3.Text == "")
+                Cblocks[2].nonce = 0;
+            else
+                Cblocks[2].nonce = BigInteger.Parse(tb_nonce_c3.Text);
 
+
+            Hash.UpdateChain(Cblocks, 2);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_data_c3_TextChanged(object sender, EventArgs e)
         {
+            Cblocks[2].data.Clear();
+            Cblocks[2].data.Append(tb_data_c3.Text);
 
+            Hash.UpdateChain(Cblocks, 2);
+            UpdateChain_C_TextBoxes();
         }
 
         private void btn_mine_c3_Click(object sender, EventArgs e)
         {
-
+            Hash.Mine(Cblocks[2]);
+            tb_nonce_c3.Text = Cblocks[2].nonce.ToString();
+            tb_hash_c3.Text = Cblocks[2].hash.ToString();
+            Hash.UpdateChain(Cblocks, 2);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_block_c4_TextChanged(object sender, EventArgs e)
@@ -601,17 +766,42 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_nonce_c4_TextChanged(object sender, EventArgs e)
         {
+            if (tb_nonce_c4.Text == "")
+                Cblocks[3].nonce = 0;
+            else
+                Cblocks[3].nonce = BigInteger.Parse(tb_nonce_c4.Text);
 
+
+            Hash.UpdateChain(Cblocks, 3);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_data_c4_TextChanged(object sender, EventArgs e)
         {
-
+            Hash.Mine(Cblocks[3]);
+            tb_nonce_c4.Text = Cblocks[3].nonce.ToString();
+            tb_hash_c4.Text = Cblocks[3].hash.ToString();
+            Hash.UpdateChain(Cblocks, 3);
+            UpdateChain_C_TextBoxes();
         }
 
         private void btn_mine_c4_Click(object sender, EventArgs e)
         {
+            Cblocks[3].data.Clear();
+            Cblocks[3].data.Append(tb_data_c4.Text);
 
+            Hash.UpdateChain(Cblocks, 3);
+            UpdateChain_C_TextBoxes();
+        }
+
+        private void tb_block_a1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Hash.onlyNumbers(sender, e);
+        }
+
+        private void tb_block_a1_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            Hash.onlyNumbers(sender, e);
         }
     }
 }
