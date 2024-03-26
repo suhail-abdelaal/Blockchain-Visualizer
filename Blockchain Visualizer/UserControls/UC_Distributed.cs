@@ -33,14 +33,16 @@ namespace Blockchain_Visualizer.UserControls
 
             for (int i = 1; i < Ablocks.Length; i++)
             {
-                Ablocks[i] = new Block(i + 1, i, Ablocks[i - 1].hash.ToString());
+                string previousHash = Ablocks[i - 1].hash.ToString();
+
+                Ablocks[i] = new Block(i + 1, 0, previousHash);
                 Hash.Mine(Ablocks[i]);
 
-                Bblocks[i] = new Block(i + 1, i, Bblocks[i - 1].hash.ToString());
+                Bblocks[i] = new Block(i + 1, 0, previousHash);
                 Bblocks[i].hash = Ablocks[i].hash;
                 Bblocks[i].nonce = Ablocks[i].nonce;
 
-                Cblocks[i] = new Block(i + 1, i, Cblocks[i - 1].hash.ToString());
+                Cblocks[i] = new Block(i + 1, 0, previousHash);
                 Cblocks[i].hash = Ablocks[i].hash;
                 Cblocks[i].nonce = Ablocks[i].nonce;
             }
