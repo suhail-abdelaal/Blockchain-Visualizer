@@ -12,7 +12,7 @@ namespace Blockchain_Visualizer
     internal class Hash
     {
 
-        public static string target = "00000";
+        public static string target = "0000";
         public static string CalculateSHA256(string input)
         {
             SHA256 sha256 = SHA256.Create();
@@ -26,12 +26,12 @@ namespace Blockchain_Visualizer
                 return;
 
             string data = CombineData(block);
-            string hash = block.hash.ToString();
-            data = data.Replace(block.nonce.ToString(), "");
+            data = data.Replace("-" + block.nonce.ToString(), "-");
 
             int nonce = -1;
             StringBuilder new_data = new StringBuilder();
 
+            string hash = block.hash.ToString();
             while (!hash.StartsWith(target))
             {
                 new_data.Clear();
@@ -50,9 +50,18 @@ namespace Blockchain_Visualizer
             data_combined.Append(block.number.ToString());
             data_combined.Append(block.data.ToString());
             data_combined.Append(block.prev_hash.ToString());
-            data_combined.Append(block.nonce.ToString());
+            data_combined.Append("-" + block.nonce.ToString());
             return data_combined.ToString();
         }
 
+        public static void UpdateChain(Block[] blocks, int idx)
+        {
+            blocks[idx].UpdateHash(Hash.CalculateSHA256(Hash.CombineData(blocks[idx])));
+            for (int i = idx + 1; i < blocks.Length; i++)
+            {
+                blocks[i].prev_hash = blocks[i - 1].hash;
+                blocks[i].UpdateHash(Hash.CalculateSHA256(Hash.CombineData(blocks[i])));
+            }
+        }
     }
 }

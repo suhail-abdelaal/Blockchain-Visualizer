@@ -83,6 +83,7 @@
             tb_data.Location = new Point(79, 141);
             tb_data.Multiline = true;
             tb_data.Name = "tb_data";
+            tb_data.ScrollBars = ScrollBars.Vertical;
             tb_data.Size = new Size(785, 301);
             tb_data.TabIndex = 5;
             tb_data.TextChanged += tb_data_TextChanged;

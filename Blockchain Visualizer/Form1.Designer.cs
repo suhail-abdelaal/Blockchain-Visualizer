@@ -82,6 +82,7 @@
             btn_blockChain.TabIndex = 7;
             btn_blockChain.Text = "Blockchain";
             btn_blockChain.UseVisualStyleBackColor = true;
+            btn_blockChain.Click += btn_blockChain_Click;
             // 
             // btn_distributed
             // 
@@ -134,12 +135,14 @@
             // 
             // panel2
             // 
+            panel2.AutoScroll = true;
             panel2.Controls.Add(flowLayoutPanel1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(884, 542);
             panel2.TabIndex = 6;
+            panel2.Paint += panel2_Paint;
             // 
             // flowLayoutPanel1
             // 
