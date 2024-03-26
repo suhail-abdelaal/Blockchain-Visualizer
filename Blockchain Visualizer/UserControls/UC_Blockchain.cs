@@ -34,9 +34,9 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce2.TextChanged += tb_nonce2_TextChanged;
             tb_data2.TextChanged += tb_data2_TextChanged;
 
-            tb_block4.TextChanged += tb_block3_TextChanged;
-            tb_nonce4.TextChanged += tb_nonce3_TextChanged;
-            tb_data4.TextChanged += tb_data3_TextChanged;
+            tb_block3.TextChanged += tb_block3_TextChanged;
+            tb_nonce3.TextChanged += tb_nonce3_TextChanged;
+            tb_data3.TextChanged += tb_data3_TextChanged;
 
             tb_block4.TextChanged += tb_block4_TextChanged;
             tb_nonce4.TextChanged += tb_nonce4_TextChanged;
