@@ -105,7 +105,7 @@
             btn_SHA256.Name = "btn_SHA256";
             btn_SHA256.Size = new Size(126, 50);
             btn_SHA256.TabIndex = 0;
-            btn_SHA256.Text = "SHA256";
+            btn_SHA256.Text = "Hash";
             btn_SHA256.UseVisualStyleBackColor = true;
             btn_SHA256.Click += btn_SHA256_Click;
             // 

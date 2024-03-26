@@ -632,7 +632,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            BackColor = Color.MediumAquamarine;
+            BackColor = SystemColors.Control;
             Controls.Add(btn_mine4);
             Controls.Add(label9);
             Controls.Add(tb_block4);
