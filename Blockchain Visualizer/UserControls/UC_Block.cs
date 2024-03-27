@@ -16,7 +16,7 @@ namespace Blockchain_Visualizer.UserControls
         Block block;
         public UC_Block()
         {
-            block = new Block(1, 605748, "0000000000000000000000000000000000000000000000000000000000000000");
+            block = new Block(1, 605748, "");
             Hash.Mine(block);
 
             InitializeComponent();
