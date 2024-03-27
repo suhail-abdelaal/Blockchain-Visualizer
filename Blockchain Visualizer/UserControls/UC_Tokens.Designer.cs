@@ -632,73 +632,82 @@
             // textBox73
             // 
             textBox73.BorderStyle = BorderStyle.FixedSingle;
+            textBox73.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox73.Location = new Point(76, 186);
             textBox73.Name = "textBox73";
-            textBox73.Size = new Size(114, 23);
+            textBox73.Size = new Size(114, 26);
             textBox73.TabIndex = 216;
             // 
             // textBox74
             // 
             textBox74.BorderStyle = BorderStyle.FixedSingle;
+            textBox74.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox74.Location = new Point(290, 187);
             textBox74.Name = "textBox74";
-            textBox74.Size = new Size(148, 23);
+            textBox74.Size = new Size(148, 27);
             textBox74.TabIndex = 215;
             // 
             // textBox75
             // 
             textBox75.BorderStyle = BorderStyle.FixedSingle;
+            textBox75.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox75.Location = new Point(530, 188);
             textBox75.Name = "textBox75";
-            textBox75.Size = new Size(198, 23);
+            textBox75.Size = new Size(198, 27);
             textBox75.TabIndex = 214;
             // 
             // textBox76
             // 
             textBox76.BorderStyle = BorderStyle.FixedSingle;
+            textBox76.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox76.Location = new Point(76, 146);
             textBox76.Name = "textBox76";
-            textBox76.Size = new Size(114, 23);
+            textBox76.Size = new Size(114, 26);
             textBox76.TabIndex = 213;
             // 
             // textBox77
             // 
             textBox77.BorderStyle = BorderStyle.FixedSingle;
+            textBox77.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox77.Location = new Point(290, 146);
             textBox77.Name = "textBox77";
-            textBox77.Size = new Size(148, 23);
+            textBox77.Size = new Size(148, 27);
             textBox77.TabIndex = 212;
             // 
             // textBox78
             // 
             textBox78.BorderStyle = BorderStyle.FixedSingle;
+            textBox78.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox78.Location = new Point(530, 145);
             textBox78.Name = "textBox78";
-            textBox78.Size = new Size(198, 23);
+            textBox78.Size = new Size(198, 27);
             textBox78.TabIndex = 211;
             // 
             // textBox79
             // 
             textBox79.BorderStyle = BorderStyle.FixedSingle;
+            textBox79.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox79.Location = new Point(290, 102);
             textBox79.Name = "textBox79";
-            textBox79.Size = new Size(148, 23);
+            textBox79.Size = new Size(148, 27);
             textBox79.TabIndex = 210;
             // 
             // textBox80
             // 
             textBox80.BorderStyle = BorderStyle.FixedSingle;
+            textBox80.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox80.Location = new Point(530, 102);
             textBox80.Name = "textBox80";
-            textBox80.Size = new Size(198, 23);
+            textBox80.Size = new Size(198, 27);
             textBox80.TabIndex = 209;
             // 
             // textBox81
             // 
             textBox81.BorderStyle = BorderStyle.FixedSingle;
+            textBox81.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox81.Location = new Point(76, 102);
             textBox81.Name = "textBox81";
-            textBox81.Size = new Size(114, 23);
+            textBox81.Size = new Size(114, 26);
             textBox81.TabIndex = 208;
             // 
             // label110
@@ -979,9 +988,10 @@
             // textBox106
             // 
             textBox106.BorderStyle = BorderStyle.FixedSingle;
+            textBox106.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox106.Location = new Point(75, 225);
             textBox106.Name = "textBox106";
-            textBox106.Size = new Size(114, 27);
+            textBox106.Size = new Size(114, 26);
             textBox106.TabIndex = 198;
             textBox106.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -1004,9 +1014,10 @@
             // textBox109
             // 
             textBox109.BorderStyle = BorderStyle.FixedSingle;
+            textBox109.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox109.Location = new Point(75, 181);
             textBox109.Name = "textBox109";
-            textBox109.Size = new Size(114, 27);
+            textBox109.Size = new Size(114, 26);
             textBox109.TabIndex = 195;
             textBox109.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -1029,9 +1040,10 @@
             // textBox112
             // 
             textBox112.BorderStyle = BorderStyle.FixedSingle;
+            textBox112.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox112.Location = new Point(75, 141);
             textBox112.Name = "textBox112";
-            textBox112.Size = new Size(114, 27);
+            textBox112.Size = new Size(114, 26);
             textBox112.TabIndex = 192;
             textBox112.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -1070,9 +1082,10 @@
             // textBox117
             // 
             textBox117.BorderStyle = BorderStyle.FixedSingle;
+            textBox117.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox117.Location = new Point(75, 97);
             textBox117.Name = "textBox117";
-            textBox117.Size = new Size(114, 27);
+            textBox117.Size = new Size(114, 26);
             textBox117.TabIndex = 187;
             textBox117.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -1249,50 +1262,56 @@
             // textBox88
             // 
             textBox88.BorderStyle = BorderStyle.FixedSingle;
+            textBox88.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox88.Location = new Point(75, 146);
             textBox88.Name = "textBox88";
-            textBox88.Size = new Size(114, 23);
+            textBox88.Size = new Size(114, 26);
             textBox88.TabIndex = 213;
             textBox88.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox89
             // 
             textBox89.BorderStyle = BorderStyle.FixedSingle;
+            textBox89.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox89.Location = new Point(289, 146);
             textBox89.Name = "textBox89";
-            textBox89.Size = new Size(148, 23);
+            textBox89.Size = new Size(148, 27);
             textBox89.TabIndex = 212;
             // 
             // textBox90
             // 
             textBox90.BorderStyle = BorderStyle.FixedSingle;
+            textBox90.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox90.Location = new Point(529, 145);
             textBox90.Name = "textBox90";
-            textBox90.Size = new Size(141, 23);
+            textBox90.Size = new Size(141, 27);
             textBox90.TabIndex = 211;
             // 
             // textBox91
             // 
             textBox91.BorderStyle = BorderStyle.FixedSingle;
+            textBox91.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox91.Location = new Point(289, 102);
             textBox91.Name = "textBox91";
-            textBox91.Size = new Size(148, 23);
+            textBox91.Size = new Size(148, 27);
             textBox91.TabIndex = 210;
             // 
             // textBox92
             // 
             textBox92.BorderStyle = BorderStyle.FixedSingle;
+            textBox92.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox92.Location = new Point(529, 102);
             textBox92.Name = "textBox92";
-            textBox92.Size = new Size(141, 23);
+            textBox92.Size = new Size(141, 27);
             textBox92.TabIndex = 209;
             // 
             // textBox93
             // 
             textBox93.BorderStyle = BorderStyle.FixedSingle;
+            textBox93.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox93.Location = new Point(75, 102);
             textBox93.Name = "textBox93";
-            textBox93.Size = new Size(114, 23);
+            textBox93.Size = new Size(114, 26);
             textBox93.TabIndex = 208;
             textBox93.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -1481,73 +1500,82 @@
             // textBox64
             // 
             textBox64.BorderStyle = BorderStyle.FixedSingle;
-            textBox64.Location = new Point(76, 190);
+            textBox64.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox64.Location = new Point(76, 192);
             textBox64.Name = "textBox64";
-            textBox64.Size = new Size(114, 23);
+            textBox64.Size = new Size(114, 26);
             textBox64.TabIndex = 216;
             // 
             // textBox65
             // 
             textBox65.BorderStyle = BorderStyle.FixedSingle;
+            textBox65.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox65.Location = new Point(290, 191);
             textBox65.Name = "textBox65";
-            textBox65.Size = new Size(148, 23);
+            textBox65.Size = new Size(148, 27);
             textBox65.TabIndex = 215;
             // 
             // textBox66
             // 
             textBox66.BorderStyle = BorderStyle.FixedSingle;
+            textBox66.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox66.Location = new Point(530, 192);
             textBox66.Name = "textBox66";
-            textBox66.Size = new Size(198, 23);
+            textBox66.Size = new Size(198, 27);
             textBox66.TabIndex = 214;
             // 
             // textBox67
             // 
             textBox67.BorderStyle = BorderStyle.FixedSingle;
+            textBox67.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox67.Location = new Point(76, 150);
             textBox67.Name = "textBox67";
-            textBox67.Size = new Size(114, 23);
+            textBox67.Size = new Size(114, 26);
             textBox67.TabIndex = 213;
             // 
             // textBox68
             // 
             textBox68.BorderStyle = BorderStyle.FixedSingle;
+            textBox68.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox68.Location = new Point(290, 150);
             textBox68.Name = "textBox68";
-            textBox68.Size = new Size(148, 23);
+            textBox68.Size = new Size(148, 27);
             textBox68.TabIndex = 212;
             // 
             // textBox69
             // 
             textBox69.BorderStyle = BorderStyle.FixedSingle;
+            textBox69.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox69.Location = new Point(530, 149);
             textBox69.Name = "textBox69";
-            textBox69.Size = new Size(198, 23);
+            textBox69.Size = new Size(198, 27);
             textBox69.TabIndex = 211;
             // 
             // textBox70
             // 
             textBox70.BorderStyle = BorderStyle.FixedSingle;
+            textBox70.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox70.Location = new Point(290, 106);
             textBox70.Name = "textBox70";
-            textBox70.Size = new Size(148, 23);
+            textBox70.Size = new Size(148, 27);
             textBox70.TabIndex = 210;
             // 
             // textBox71
             // 
             textBox71.BorderStyle = BorderStyle.FixedSingle;
+            textBox71.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox71.Location = new Point(530, 106);
             textBox71.Name = "textBox71";
-            textBox71.Size = new Size(198, 23);
+            textBox71.Size = new Size(198, 27);
             textBox71.TabIndex = 209;
             // 
             // textBox72
             // 
             textBox72.BorderStyle = BorderStyle.FixedSingle;
+            textBox72.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox72.Location = new Point(76, 106);
             textBox72.Name = "textBox72";
-            textBox72.Size = new Size(114, 23);
+            textBox72.Size = new Size(114, 26);
             textBox72.TabIndex = 208;
             // 
             // label103
@@ -1872,100 +1900,112 @@
             // textBox13
             // 
             textBox13.BorderStyle = BorderStyle.FixedSingle;
+            textBox13.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox13.Location = new Point(75, 227);
             textBox13.Name = "textBox13";
-            textBox13.Size = new Size(116, 23);
+            textBox13.Size = new Size(116, 26);
             textBox13.TabIndex = 198;
             textBox13.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox14
             // 
             textBox14.BorderStyle = BorderStyle.FixedSingle;
+            textBox14.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox14.Location = new Point(289, 230);
             textBox14.Name = "textBox14";
-            textBox14.Size = new Size(150, 23);
+            textBox14.Size = new Size(150, 27);
             textBox14.TabIndex = 197;
             // 
             // textBox15
             // 
             textBox15.BorderStyle = BorderStyle.FixedSingle;
+            textBox15.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox15.Location = new Point(529, 228);
             textBox15.Name = "textBox15";
-            textBox15.Size = new Size(164, 23);
+            textBox15.Size = new Size(164, 27);
             textBox15.TabIndex = 196;
             // 
             // textBox16
             // 
             textBox16.BorderStyle = BorderStyle.FixedSingle;
+            textBox16.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox16.Location = new Point(75, 183);
             textBox16.Name = "textBox16";
-            textBox16.Size = new Size(116, 23);
+            textBox16.Size = new Size(116, 26);
             textBox16.TabIndex = 195;
             textBox16.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox17
             // 
             textBox17.BorderStyle = BorderStyle.FixedSingle;
+            textBox17.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox17.Location = new Point(289, 184);
             textBox17.Name = "textBox17";
-            textBox17.Size = new Size(150, 23);
+            textBox17.Size = new Size(150, 27);
             textBox17.TabIndex = 194;
             // 
             // textBox18
             // 
             textBox18.BorderStyle = BorderStyle.FixedSingle;
+            textBox18.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox18.Location = new Point(529, 185);
             textBox18.Name = "textBox18";
-            textBox18.Size = new Size(164, 23);
+            textBox18.Size = new Size(164, 27);
             textBox18.TabIndex = 193;
             // 
             // textBox25
             // 
             textBox25.BorderStyle = BorderStyle.FixedSingle;
+            textBox25.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox25.Location = new Point(75, 143);
             textBox25.Name = "textBox25";
-            textBox25.Size = new Size(116, 23);
+            textBox25.Size = new Size(116, 26);
             textBox25.TabIndex = 192;
             textBox25.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox26
             // 
             textBox26.BorderStyle = BorderStyle.FixedSingle;
+            textBox26.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox26.Location = new Point(289, 143);
             textBox26.Name = "textBox26";
-            textBox26.Size = new Size(150, 23);
+            textBox26.Size = new Size(150, 27);
             textBox26.TabIndex = 191;
             // 
             // textBox27
             // 
             textBox27.BorderStyle = BorderStyle.FixedSingle;
+            textBox27.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox27.Location = new Point(529, 142);
             textBox27.Name = "textBox27";
-            textBox27.Size = new Size(164, 23);
+            textBox27.Size = new Size(164, 27);
             textBox27.TabIndex = 190;
             // 
             // textBox28
             // 
             textBox28.BorderStyle = BorderStyle.FixedSingle;
+            textBox28.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox28.Location = new Point(289, 99);
             textBox28.Name = "textBox28";
-            textBox28.Size = new Size(150, 23);
+            textBox28.Size = new Size(150, 27);
             textBox28.TabIndex = 189;
             // 
             // textBox29
             // 
             textBox29.BorderStyle = BorderStyle.FixedSingle;
+            textBox29.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox29.Location = new Point(529, 99);
             textBox29.Name = "textBox29";
-            textBox29.Size = new Size(164, 23);
+            textBox29.Size = new Size(164, 27);
             textBox29.TabIndex = 188;
             // 
             // textBox30
             // 
             textBox30.BorderStyle = BorderStyle.FixedSingle;
+            textBox30.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox30.Location = new Point(75, 99);
             textBox30.Name = "textBox30";
-            textBox30.Size = new Size(116, 23);
+            textBox30.Size = new Size(116, 26);
             textBox30.TabIndex = 187;
             textBox30.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2187,73 +2227,82 @@
             // textBox34
             // 
             textBox34.BorderStyle = BorderStyle.FixedSingle;
-            textBox34.Location = new Point(76, 185);
+            textBox34.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox34.Location = new Point(76, 186);
             textBox34.Name = "textBox34";
-            textBox34.Size = new Size(114, 23);
+            textBox34.Size = new Size(114, 26);
             textBox34.TabIndex = 195;
             // 
             // textBox35
             // 
             textBox35.BorderStyle = BorderStyle.FixedSingle;
+            textBox35.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox35.Location = new Point(290, 186);
             textBox35.Name = "textBox35";
-            textBox35.Size = new Size(148, 23);
+            textBox35.Size = new Size(148, 27);
             textBox35.TabIndex = 194;
             // 
             // textBox36
             // 
             textBox36.BorderStyle = BorderStyle.FixedSingle;
+            textBox36.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox36.Location = new Point(530, 187);
             textBox36.Name = "textBox36";
-            textBox36.Size = new Size(198, 23);
+            textBox36.Size = new Size(198, 27);
             textBox36.TabIndex = 193;
             // 
             // textBox37
             // 
             textBox37.BorderStyle = BorderStyle.FixedSingle;
+            textBox37.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox37.Location = new Point(76, 145);
             textBox37.Name = "textBox37";
-            textBox37.Size = new Size(114, 23);
+            textBox37.Size = new Size(114, 26);
             textBox37.TabIndex = 192;
             // 
             // textBox38
             // 
             textBox38.BorderStyle = BorderStyle.FixedSingle;
+            textBox38.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox38.Location = new Point(290, 145);
             textBox38.Name = "textBox38";
-            textBox38.Size = new Size(148, 23);
+            textBox38.Size = new Size(148, 27);
             textBox38.TabIndex = 191;
             // 
             // textBox39
             // 
             textBox39.BorderStyle = BorderStyle.FixedSingle;
+            textBox39.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox39.Location = new Point(530, 144);
             textBox39.Name = "textBox39";
-            textBox39.Size = new Size(198, 23);
+            textBox39.Size = new Size(198, 27);
             textBox39.TabIndex = 190;
             // 
             // textBox40
             // 
             textBox40.BorderStyle = BorderStyle.FixedSingle;
+            textBox40.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox40.Location = new Point(290, 101);
             textBox40.Name = "textBox40";
-            textBox40.Size = new Size(148, 23);
+            textBox40.Size = new Size(148, 27);
             textBox40.TabIndex = 189;
             // 
             // textBox41
             // 
             textBox41.BorderStyle = BorderStyle.FixedSingle;
+            textBox41.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox41.Location = new Point(530, 101);
             textBox41.Name = "textBox41";
-            textBox41.Size = new Size(198, 23);
+            textBox41.Size = new Size(198, 27);
             textBox41.TabIndex = 188;
             // 
             // textBox42
             // 
             textBox42.BorderStyle = BorderStyle.FixedSingle;
+            textBox42.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox42.Location = new Point(76, 101);
             textBox42.Name = "textBox42";
-            textBox42.Size = new Size(114, 23);
+            textBox42.Size = new Size(114, 26);
             textBox42.TabIndex = 187;
             // 
             // label82
@@ -2469,9 +2518,10 @@
             // textBox10
             // 
             textBox10.BorderStyle = BorderStyle.FixedSingle;
+            textBox10.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox10.Location = new Point(75, 231);
             textBox10.Name = "textBox10";
-            textBox10.Size = new Size(114, 27);
+            textBox10.Size = new Size(114, 26);
             textBox10.TabIndex = 75;
             textBox10.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2494,9 +2544,10 @@
             // textBox7
             // 
             textBox7.BorderStyle = BorderStyle.FixedSingle;
+            textBox7.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox7.Location = new Point(75, 187);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(114, 27);
+            textBox7.Size = new Size(114, 26);
             textBox7.TabIndex = 72;
             textBox7.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2519,9 +2570,10 @@
             // textBox4
             // 
             textBox4.BorderStyle = BorderStyle.FixedSingle;
+            textBox4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(75, 147);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(114, 27);
+            textBox4.Size = new Size(114, 26);
             textBox4.TabIndex = 69;
             textBox4.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2560,9 +2612,10 @@
             // textBox1
             // 
             textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(75, 103);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(114, 27);
+            textBox1.Size = new Size(114, 26);
             textBox1.TabIndex = 63;
             textBox1.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2823,9 +2876,10 @@
             // textBox94
             // 
             textBox94.BorderStyle = BorderStyle.FixedSingle;
+            textBox94.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox94.Location = new Point(75, 229);
             textBox94.Name = "textBox94";
-            textBox94.Size = new Size(114, 27);
+            textBox94.Size = new Size(114, 26);
             textBox94.TabIndex = 198;
             textBox94.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2848,9 +2902,10 @@
             // textBox97
             // 
             textBox97.BorderStyle = BorderStyle.FixedSingle;
+            textBox97.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox97.Location = new Point(75, 185);
             textBox97.Name = "textBox97";
-            textBox97.Size = new Size(114, 27);
+            textBox97.Size = new Size(114, 26);
             textBox97.TabIndex = 195;
             textBox97.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2873,9 +2928,10 @@
             // textBox100
             // 
             textBox100.BorderStyle = BorderStyle.FixedSingle;
+            textBox100.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox100.Location = new Point(75, 145);
             textBox100.Name = "textBox100";
-            textBox100.Size = new Size(114, 27);
+            textBox100.Size = new Size(114, 26);
             textBox100.TabIndex = 192;
             textBox100.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -2914,9 +2970,10 @@
             // textBox105
             // 
             textBox105.BorderStyle = BorderStyle.FixedSingle;
+            textBox105.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox105.Location = new Point(75, 101);
             textBox105.Name = "textBox105";
-            textBox105.Size = new Size(114, 27);
+            textBox105.Size = new Size(114, 26);
             textBox105.TabIndex = 187;
             textBox105.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -3082,50 +3139,56 @@
             // textBox82
             // 
             textBox82.BorderStyle = BorderStyle.FixedSingle;
+            textBox82.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox82.Location = new Point(75, 146);
             textBox82.Name = "textBox82";
-            textBox82.Size = new Size(114, 23);
+            textBox82.Size = new Size(114, 26);
             textBox82.TabIndex = 213;
             textBox82.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox83
             // 
             textBox83.BorderStyle = BorderStyle.FixedSingle;
+            textBox83.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox83.Location = new Point(289, 146);
             textBox83.Name = "textBox83";
-            textBox83.Size = new Size(148, 23);
+            textBox83.Size = new Size(148, 27);
             textBox83.TabIndex = 212;
             // 
             // textBox84
             // 
             textBox84.BorderStyle = BorderStyle.FixedSingle;
+            textBox84.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox84.Location = new Point(529, 145);
             textBox84.Name = "textBox84";
-            textBox84.Size = new Size(141, 23);
+            textBox84.Size = new Size(141, 27);
             textBox84.TabIndex = 211;
             // 
             // textBox85
             // 
             textBox85.BorderStyle = BorderStyle.FixedSingle;
+            textBox85.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox85.Location = new Point(289, 102);
             textBox85.Name = "textBox85";
-            textBox85.Size = new Size(148, 23);
+            textBox85.Size = new Size(148, 27);
             textBox85.TabIndex = 210;
             // 
             // textBox86
             // 
             textBox86.BorderStyle = BorderStyle.FixedSingle;
+            textBox86.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox86.Location = new Point(529, 102);
             textBox86.Name = "textBox86";
-            textBox86.Size = new Size(141, 23);
+            textBox86.Size = new Size(141, 27);
             textBox86.TabIndex = 209;
             // 
             // textBox87
             // 
             textBox87.BorderStyle = BorderStyle.FixedSingle;
+            textBox87.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox87.Location = new Point(75, 102);
             textBox87.Name = "textBox87";
-            textBox87.Size = new Size(114, 23);
+            textBox87.Size = new Size(114, 26);
             textBox87.TabIndex = 208;
             textBox87.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -3280,50 +3343,56 @@
             // textBox19
             // 
             textBox19.BorderStyle = BorderStyle.FixedSingle;
+            textBox19.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox19.Location = new Point(74, 147);
             textBox19.Name = "textBox19";
-            textBox19.Size = new Size(114, 23);
+            textBox19.Size = new Size(114, 26);
             textBox19.TabIndex = 192;
             textBox19.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox20
             // 
             textBox20.BorderStyle = BorderStyle.FixedSingle;
+            textBox20.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox20.Location = new Point(288, 147);
             textBox20.Name = "textBox20";
-            textBox20.Size = new Size(148, 23);
+            textBox20.Size = new Size(148, 27);
             textBox20.TabIndex = 191;
             // 
             // textBox21
             // 
             textBox21.BorderStyle = BorderStyle.FixedSingle;
+            textBox21.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox21.Location = new Point(528, 146);
             textBox21.Name = "textBox21";
-            textBox21.Size = new Size(141, 23);
+            textBox21.Size = new Size(141, 27);
             textBox21.TabIndex = 190;
             // 
             // textBox22
             // 
             textBox22.BorderStyle = BorderStyle.FixedSingle;
+            textBox22.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox22.Location = new Point(288, 103);
             textBox22.Name = "textBox22";
-            textBox22.Size = new Size(148, 23);
+            textBox22.Size = new Size(148, 27);
             textBox22.TabIndex = 189;
             // 
             // textBox23
             // 
             textBox23.BorderStyle = BorderStyle.FixedSingle;
+            textBox23.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox23.Location = new Point(528, 103);
             textBox23.Name = "textBox23";
-            textBox23.Size = new Size(141, 23);
+            textBox23.Size = new Size(141, 27);
             textBox23.TabIndex = 188;
             // 
             // textBox24
             // 
             textBox24.BorderStyle = BorderStyle.FixedSingle;
+            textBox24.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox24.Location = new Point(74, 103);
             textBox24.Name = "textBox24";
-            textBox24.Size = new Size(114, 23);
+            textBox24.Size = new Size(114, 26);
             textBox24.TabIndex = 187;
             textBox24.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -3453,100 +3522,112 @@
             // textBox31
             // 
             textBox31.BorderStyle = BorderStyle.FixedSingle;
+            textBox31.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox31.Location = new Point(75, 230);
             textBox31.Name = "textBox31";
-            textBox31.Size = new Size(116, 23);
+            textBox31.Size = new Size(116, 26);
             textBox31.TabIndex = 219;
             textBox31.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox32
             // 
             textBox32.BorderStyle = BorderStyle.FixedSingle;
+            textBox32.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox32.Location = new Point(289, 233);
             textBox32.Name = "textBox32";
-            textBox32.Size = new Size(150, 23);
+            textBox32.Size = new Size(150, 27);
             textBox32.TabIndex = 218;
             // 
             // textBox33
             // 
             textBox33.BorderStyle = BorderStyle.FixedSingle;
+            textBox33.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox33.Location = new Point(529, 231);
             textBox33.Name = "textBox33";
-            textBox33.Size = new Size(164, 23);
+            textBox33.Size = new Size(164, 27);
             textBox33.TabIndex = 217;
             // 
             // textBox43
             // 
             textBox43.BorderStyle = BorderStyle.FixedSingle;
+            textBox43.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox43.Location = new Point(75, 186);
             textBox43.Name = "textBox43";
-            textBox43.Size = new Size(116, 23);
+            textBox43.Size = new Size(116, 26);
             textBox43.TabIndex = 216;
             textBox43.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox44
             // 
             textBox44.BorderStyle = BorderStyle.FixedSingle;
+            textBox44.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox44.Location = new Point(289, 187);
             textBox44.Name = "textBox44";
-            textBox44.Size = new Size(150, 23);
+            textBox44.Size = new Size(150, 27);
             textBox44.TabIndex = 215;
             // 
             // textBox45
             // 
             textBox45.BorderStyle = BorderStyle.FixedSingle;
+            textBox45.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox45.Location = new Point(529, 188);
             textBox45.Name = "textBox45";
-            textBox45.Size = new Size(164, 23);
+            textBox45.Size = new Size(164, 27);
             textBox45.TabIndex = 214;
             // 
             // textBox46
             // 
             textBox46.BorderStyle = BorderStyle.FixedSingle;
+            textBox46.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox46.Location = new Point(75, 146);
             textBox46.Name = "textBox46";
-            textBox46.Size = new Size(116, 23);
+            textBox46.Size = new Size(116, 26);
             textBox46.TabIndex = 213;
             textBox46.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox47
             // 
             textBox47.BorderStyle = BorderStyle.FixedSingle;
+            textBox47.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox47.Location = new Point(289, 146);
             textBox47.Name = "textBox47";
-            textBox47.Size = new Size(150, 23);
+            textBox47.Size = new Size(150, 27);
             textBox47.TabIndex = 212;
             // 
             // textBox48
             // 
             textBox48.BorderStyle = BorderStyle.FixedSingle;
+            textBox48.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox48.Location = new Point(529, 145);
             textBox48.Name = "textBox48";
-            textBox48.Size = new Size(164, 23);
+            textBox48.Size = new Size(164, 27);
             textBox48.TabIndex = 211;
             // 
             // textBox49
             // 
             textBox49.BorderStyle = BorderStyle.FixedSingle;
+            textBox49.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox49.Location = new Point(289, 102);
             textBox49.Name = "textBox49";
-            textBox49.Size = new Size(150, 23);
+            textBox49.Size = new Size(150, 27);
             textBox49.TabIndex = 210;
             // 
             // textBox50
             // 
             textBox50.BorderStyle = BorderStyle.FixedSingle;
+            textBox50.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox50.Location = new Point(529, 102);
             textBox50.Name = "textBox50";
-            textBox50.Size = new Size(164, 23);
+            textBox50.Size = new Size(164, 27);
             textBox50.TabIndex = 209;
             // 
             // textBox51
             // 
             textBox51.BorderStyle = BorderStyle.FixedSingle;
+            textBox51.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox51.Location = new Point(75, 102);
             textBox51.Name = "textBox51";
-            textBox51.Size = new Size(116, 23);
+            textBox51.Size = new Size(116, 26);
             textBox51.TabIndex = 208;
             textBox51.KeyPress += UC_Tokens_KeyPress;
             // 
@@ -3676,100 +3757,112 @@
             // textBox52
             // 
             textBox52.BorderStyle = BorderStyle.FixedSingle;
+            textBox52.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox52.Location = new Point(75, 230);
             textBox52.Name = "textBox52";
-            textBox52.Size = new Size(116, 23);
+            textBox52.Size = new Size(116, 26);
             textBox52.TabIndex = 219;
             textBox52.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox53
             // 
             textBox53.BorderStyle = BorderStyle.FixedSingle;
+            textBox53.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox53.Location = new Point(289, 233);
             textBox53.Name = "textBox53";
-            textBox53.Size = new Size(150, 23);
+            textBox53.Size = new Size(150, 27);
             textBox53.TabIndex = 218;
             // 
             // textBox54
             // 
             textBox54.BorderStyle = BorderStyle.FixedSingle;
+            textBox54.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox54.Location = new Point(529, 231);
             textBox54.Name = "textBox54";
-            textBox54.Size = new Size(164, 23);
+            textBox54.Size = new Size(164, 27);
             textBox54.TabIndex = 217;
             // 
             // textBox55
             // 
             textBox55.BorderStyle = BorderStyle.FixedSingle;
+            textBox55.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox55.Location = new Point(75, 186);
             textBox55.Name = "textBox55";
-            textBox55.Size = new Size(116, 23);
+            textBox55.Size = new Size(116, 26);
             textBox55.TabIndex = 216;
             textBox55.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox56
             // 
             textBox56.BorderStyle = BorderStyle.FixedSingle;
+            textBox56.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox56.Location = new Point(289, 187);
             textBox56.Name = "textBox56";
-            textBox56.Size = new Size(150, 23);
+            textBox56.Size = new Size(150, 27);
             textBox56.TabIndex = 215;
             // 
             // textBox57
             // 
             textBox57.BorderStyle = BorderStyle.FixedSingle;
+            textBox57.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox57.Location = new Point(529, 188);
             textBox57.Name = "textBox57";
-            textBox57.Size = new Size(164, 23);
+            textBox57.Size = new Size(164, 27);
             textBox57.TabIndex = 214;
             // 
             // textBox58
             // 
             textBox58.BorderStyle = BorderStyle.FixedSingle;
+            textBox58.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox58.Location = new Point(75, 146);
             textBox58.Name = "textBox58";
-            textBox58.Size = new Size(116, 23);
+            textBox58.Size = new Size(116, 26);
             textBox58.TabIndex = 213;
             textBox58.KeyPress += UC_Tokens_KeyPress;
             // 
             // textBox59
             // 
             textBox59.BorderStyle = BorderStyle.FixedSingle;
+            textBox59.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox59.Location = new Point(289, 146);
             textBox59.Name = "textBox59";
-            textBox59.Size = new Size(150, 23);
+            textBox59.Size = new Size(150, 27);
             textBox59.TabIndex = 212;
             // 
             // textBox60
             // 
             textBox60.BorderStyle = BorderStyle.FixedSingle;
+            textBox60.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox60.Location = new Point(529, 145);
             textBox60.Name = "textBox60";
-            textBox60.Size = new Size(164, 23);
+            textBox60.Size = new Size(164, 27);
             textBox60.TabIndex = 211;
             // 
             // textBox61
             // 
             textBox61.BorderStyle = BorderStyle.FixedSingle;
+            textBox61.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox61.Location = new Point(289, 102);
             textBox61.Name = "textBox61";
-            textBox61.Size = new Size(150, 23);
+            textBox61.Size = new Size(150, 27);
             textBox61.TabIndex = 210;
             // 
             // textBox62
             // 
             textBox62.BorderStyle = BorderStyle.FixedSingle;
+            textBox62.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox62.Location = new Point(529, 102);
             textBox62.Name = "textBox62";
-            textBox62.Size = new Size(164, 23);
+            textBox62.Size = new Size(164, 27);
             textBox62.TabIndex = 209;
             // 
             // textBox63
             // 
             textBox63.BorderStyle = BorderStyle.FixedSingle;
+            textBox63.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox63.Location = new Point(75, 102);
             textBox63.Name = "textBox63";
-            textBox63.Size = new Size(116, 23);
+            textBox63.Size = new Size(116, 26);
             textBox63.TabIndex = 208;
             textBox63.KeyPress += UC_Tokens_KeyPress;
             // 
