@@ -44,5 +44,11 @@ namespace Blockchain_Visualizer
         {
 
         }
+
+        private void btn_tokens_Click(object sender, EventArgs e)
+        {
+            addUserControl(new UC_Tokens());
+
+        }
     }
 }

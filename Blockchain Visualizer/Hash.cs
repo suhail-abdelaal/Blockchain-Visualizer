@@ -51,6 +51,7 @@ namespace Blockchain_Visualizer
             data_combined.Append(block.number.ToString());
             data_combined.Append(block.data.ToString());
             data_combined.Append(block.prev_hash.ToString());
+            data_combined.Append(block.merkle_root.ToString());
             data_combined.Append("-" + block.nonce.ToString());
             return data_combined.ToString();
         }

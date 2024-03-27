@@ -126,6 +126,7 @@
             btn_tokens.TabIndex = 9;
             btn_tokens.Text = "Tokens";
             btn_tokens.UseVisualStyleBackColor = true;
+            btn_tokens.Click += btn_tokens_Click;
             // 
             // btn_coinBase
             // 
