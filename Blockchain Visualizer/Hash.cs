@@ -12,7 +12,6 @@ namespace Blockchain_Visualizer
 {
     internal class Hash
     {
-
         public static string target = "0000";
         public static string CalculateSHA256(string input)
         {
@@ -65,7 +64,6 @@ namespace Blockchain_Visualizer
                 blocks[i].UpdateHash(Hash.CalculateSHA256(Hash.CombineData(blocks[i])));
             }
         }
-
         public static void onlyNumbers(object sender, KeyPressEventArgs e)
         {
 
