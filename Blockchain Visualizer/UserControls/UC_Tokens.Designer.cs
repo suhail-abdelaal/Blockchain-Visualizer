@@ -51,15 +51,15 @@
             label107 = new Label();
             label108 = new Label();
             label109 = new Label();
-            textBox73 = new TextBox();
-            textBox74 = new TextBox();
-            textBox75 = new TextBox();
-            textBox76 = new TextBox();
-            textBox77 = new TextBox();
-            textBox78 = new TextBox();
-            textBox79 = new TextBox();
-            textBox80 = new TextBox();
-            textBox81 = new TextBox();
+            tx_amt3_c4 = new TextBox();
+            tx_send3_c4 = new TextBox();
+            tx_receive3_c4 = new TextBox();
+            tx_amt2_c4 = new TextBox();
+            tx_send2_c4 = new TextBox();
+            tx_receive2_c4 = new TextBox();
+            tx_send1_c4 = new TextBox();
+            tx_receive1_c4 = new TextBox();
+            tx_amt1_c4 = new TextBox();
             label110 = new Label();
             label48 = new Label();
             tb_prev_c4 = new TextBox();
@@ -84,18 +84,18 @@
             label133 = new Label();
             label134 = new Label();
             label135 = new Label();
-            textBox106 = new TextBox();
-            textBox107 = new TextBox();
-            textBox108 = new TextBox();
-            textBox109 = new TextBox();
-            textBox110 = new TextBox();
-            textBox111 = new TextBox();
-            textBox112 = new TextBox();
-            textBox113 = new TextBox();
-            textBox114 = new TextBox();
-            textBox115 = new TextBox();
-            textBox116 = new TextBox();
-            textBox117 = new TextBox();
+            tx_amt4_c1 = new TextBox();
+            tx_send4_c1 = new TextBox();
+            tx_receive4_c1 = new TextBox();
+            tx_amt3_c1 = new TextBox();
+            tx_send3_c1 = new TextBox();
+            tx_receive3_c1 = new TextBox();
+            tx_amt2_c1 = new TextBox();
+            tx_send2_c1 = new TextBox();
+            tx_receive2_c1 = new TextBox();
+            tx_send1_c1 = new TextBox();
+            tx_receive1_c1 = new TextBox();
+            tx_amt1_c1 = new TextBox();
             label136 = new Label();
             label54 = new Label();
             tb_prev_c1 = new TextBox();
@@ -111,12 +111,12 @@
             label115 = new Label();
             label116 = new Label();
             label117 = new Label();
-            textBox88 = new TextBox();
-            textBox89 = new TextBox();
-            textBox90 = new TextBox();
-            textBox91 = new TextBox();
-            textBox92 = new TextBox();
-            textBox93 = new TextBox();
+            tx_amt2_c2 = new TextBox();
+            tx_send2_c2 = new TextBox();
+            tx_receive2_c2 = new TextBox();
+            tx_send1_c2 = new TextBox();
+            tx_receive1_c2 = new TextBox();
+            tx_amt1_c2 = new TextBox();
             label118 = new Label();
             tb_prev_c2 = new TextBox();
             btn_mine_b4 = new Button();
@@ -133,15 +133,15 @@
             label100 = new Label();
             label101 = new Label();
             label102 = new Label();
-            textBox64 = new TextBox();
-            textBox65 = new TextBox();
-            textBox66 = new TextBox();
-            textBox67 = new TextBox();
-            textBox68 = new TextBox();
-            textBox69 = new TextBox();
-            textBox70 = new TextBox();
-            textBox71 = new TextBox();
-            textBox72 = new TextBox();
+            tx_amt3_b4 = new TextBox();
+            tx_send3_b4 = new TextBox();
+            tx_receive3_b4 = new TextBox();
+            tx_amt2_b4 = new TextBox();
+            tx_send2_b4 = new TextBox();
+            tx_receive2_b4 = new TextBox();
+            tx_send1_b4 = new TextBox();
+            tx_receive1_b4 = new TextBox();
+            tx_amt1_b4 = new TextBox();
             label103 = new Label();
             label27 = new Label();
             label43 = new Label();
@@ -170,18 +170,18 @@
             label70 = new Label();
             label71 = new Label();
             label72 = new Label();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            textBox17 = new TextBox();
-            textBox18 = new TextBox();
-            textBox25 = new TextBox();
-            textBox26 = new TextBox();
-            textBox27 = new TextBox();
-            textBox28 = new TextBox();
-            textBox29 = new TextBox();
-            textBox30 = new TextBox();
+            tx_amt4_a3 = new TextBox();
+            tx_send4_a3 = new TextBox();
+            tx_receive4_a3 = new TextBox();
+            tx_amt3_a3 = new TextBox();
+            tx_send3_a3 = new TextBox();
+            tx_receive3_a3 = new TextBox();
+            tx_amt2_a3 = new TextBox();
+            tx_send2_a3 = new TextBox();
+            tx_receive2_a3 = new TextBox();
+            tx_send1_a3 = new TextBox();
+            tx_receive1_a3 = new TextBox();
+            tx_amt1_a3 = new TextBox();
             label73 = new Label();
             label15 = new Label();
             tb_prev_a3 = new TextBox();
@@ -201,15 +201,15 @@
             label79 = new Label();
             label80 = new Label();
             label81 = new Label();
-            textBox34 = new TextBox();
-            textBox35 = new TextBox();
-            textBox36 = new TextBox();
-            textBox37 = new TextBox();
-            textBox38 = new TextBox();
-            textBox39 = new TextBox();
-            textBox40 = new TextBox();
-            textBox41 = new TextBox();
-            textBox42 = new TextBox();
+            tx_amt3_a4 = new TextBox();
+            tx_send3_a4 = new TextBox();
+            tx_receive3_a4 = new TextBox();
+            tx_amt2_a4 = new TextBox();
+            tx_send2_a4 = new TextBox();
+            tx_receive2_a4 = new TextBox();
+            tx_send1_a4 = new TextBox();
+            tx_receive1_a4 = new TextBox();
+            tx_amt1_a4 = new TextBox();
             label82 = new Label();
             btn_mine_a1 = new Button();
             lbl_block1 = new Label();
@@ -228,18 +228,18 @@
             label61 = new Label();
             label60 = new Label();
             label59 = new Label();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox1 = new TextBox();
+            tx_amt4_a1 = new TextBox();
+            tx_send4_a1 = new TextBox();
+            tx_receive4_a1 = new TextBox();
+            tx_amt3_a1 = new TextBox();
+            tx_send3_a1 = new TextBox();
+            tx_receive3_a1 = new TextBox();
+            tx_amt2_a1 = new TextBox();
+            tx_send2_a1 = new TextBox();
+            tx_receive2_a1 = new TextBox();
+            tx_send1_a1 = new TextBox();
+            tx_receive1_a1 = new TextBox();
+            tx_amt1_a1 = new TextBox();
             label13 = new Label();
             tb_prev_a1 = new TextBox();
             lbl_nonce1 = new Label();
@@ -262,18 +262,18 @@
             label124 = new Label();
             label125 = new Label();
             label126 = new Label();
-            textBox94 = new TextBox();
-            textBox95 = new TextBox();
-            textBox96 = new TextBox();
-            textBox97 = new TextBox();
-            textBox98 = new TextBox();
-            textBox99 = new TextBox();
-            textBox100 = new TextBox();
-            textBox101 = new TextBox();
-            textBox102 = new TextBox();
-            textBox103 = new TextBox();
-            textBox104 = new TextBox();
-            textBox105 = new TextBox();
+            tx_amt4_b1 = new TextBox();
+            tx_send4_b1 = new TextBox();
+            tx_receive4_b1 = new TextBox();
+            tx_amt3_b1 = new TextBox();
+            tx_send3_b1 = new TextBox();
+            tx_receive3_b1 = new TextBox();
+            tx_amt2_b1 = new TextBox();
+            tx_send2_b1 = new TextBox();
+            tx_receive2_b1 = new TextBox();
+            tx_send1_b1 = new TextBox();
+            tx_receive1_b1 = new TextBox();
+            tx_amt1_b1 = new TextBox();
             label127 = new Label();
             label17 = new Label();
             btn_mine_b2 = new Button();
@@ -288,12 +288,12 @@
             label58 = new Label();
             label111 = new Label();
             label112 = new Label();
-            textBox82 = new TextBox();
-            textBox83 = new TextBox();
-            textBox84 = new TextBox();
-            textBox85 = new TextBox();
-            textBox86 = new TextBox();
-            textBox87 = new TextBox();
+            tx_amt2_b2 = new TextBox();
+            tx_send2_b2 = new TextBox();
+            tx_receive2_b2 = new TextBox();
+            tx_send1_b2 = new TextBox();
+            tx_receive1_b2 = new TextBox();
+            tx_amt1_b2 = new TextBox();
             label113 = new Label();
             btn_mine_a2 = new Button();
             label1 = new Label();
@@ -307,12 +307,12 @@
             label21 = new Label();
             label37 = new Label();
             label67 = new Label();
-            textBox19 = new TextBox();
-            textBox20 = new TextBox();
-            textBox21 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox24 = new TextBox();
+            tx_amt2_a2 = new TextBox();
+            tx_send2_a2 = new TextBox();
+            tx_receive2_a2 = new TextBox();
+            tx_send1_a2 = new TextBox();
+            tx_receive1_a2 = new TextBox();
+            tx_amt1_a2 = new TextBox();
             label68 = new Label();
             panel7 = new Panel();
             label74 = new Label();
@@ -323,18 +323,18 @@
             label86 = new Label();
             label87 = new Label();
             label88 = new Label();
-            textBox31 = new TextBox();
-            textBox32 = new TextBox();
-            textBox33 = new TextBox();
-            textBox43 = new TextBox();
-            textBox44 = new TextBox();
-            textBox45 = new TextBox();
-            textBox46 = new TextBox();
-            textBox47 = new TextBox();
-            textBox48 = new TextBox();
-            textBox49 = new TextBox();
-            textBox50 = new TextBox();
-            textBox51 = new TextBox();
+            tx_amt4_b3 = new TextBox();
+            tx_send4_b3 = new TextBox();
+            tx_receive4_b3 = new TextBox();
+            tx_amt3_b3 = new TextBox();
+            tx_send3_b3 = new TextBox();
+            tx_receive3_b3 = new TextBox();
+            tx_amt2_b3 = new TextBox();
+            tx_send2_b3 = new TextBox();
+            tx_receive2_b3 = new TextBox();
+            tx_send1_b3 = new TextBox();
+            tx_receive1_b3 = new TextBox();
+            tx_amt1_b3 = new TextBox();
             label89 = new Label();
             panel11 = new Panel();
             label42 = new Label();
@@ -345,18 +345,18 @@
             label93 = new Label();
             label94 = new Label();
             label95 = new Label();
-            textBox52 = new TextBox();
-            textBox53 = new TextBox();
-            textBox54 = new TextBox();
-            textBox55 = new TextBox();
-            textBox56 = new TextBox();
-            textBox57 = new TextBox();
-            textBox58 = new TextBox();
-            textBox59 = new TextBox();
-            textBox60 = new TextBox();
-            textBox61 = new TextBox();
-            textBox62 = new TextBox();
-            textBox63 = new TextBox();
+            tx_amt4_c3 = new TextBox();
+            tx_send4_c3 = new TextBox();
+            tx_receive4_c3 = new TextBox();
+            tx_amt3_c3 = new TextBox();
+            tx_send3_c3 = new TextBox();
+            tx_receive3_c3 = new TextBox();
+            tx_amt2_c3 = new TextBox();
+            tx_send2_c3 = new TextBox();
+            tx_receive2_c3 = new TextBox();
+            tx_send1_c3 = new TextBox();
+            tx_receive1_c3 = new TextBox();
+            tx_amt1_c3 = new TextBox();
             label96 = new Label();
             panel12.SuspendLayout();
             panel9.SuspendLayout();
@@ -371,6 +371,8 @@
             panel7.SuspendLayout();
             panel11.SuspendLayout();
             SuspendLayout();
+            Load += UC_Tokens_Load;
+
             // 
             // btn_mine_a3
             // 
@@ -380,6 +382,7 @@
             btn_mine_a3.TabIndex = 213;
             btn_mine_a3.Text = "Mine";
             btn_mine_a3.UseVisualStyleBackColor = true;
+            btn_mine_a3.Click += btn_mine_a3_Click;
             // 
             // label40
             // 
@@ -488,6 +491,7 @@
             btn_mine_c4.TabIndex = 305;
             btn_mine_c4.Text = "Mine";
             btn_mine_c4.UseVisualStyleBackColor = true;
+            btn_mine_c4.Click += btn_mine_c4_Click;
             // 
             // tb_block_c4
             // 
@@ -498,6 +502,7 @@
             tb_block_c4.Name = "tb_block_c4";
             tb_block_c4.Size = new Size(653, 28);
             tb_block_c4.TabIndex = 303;
+            tb_block_c4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label45
             // 
@@ -519,6 +524,7 @@
             tb_nonce_c4.Name = "tb_nonce_c4";
             tb_nonce_c4.Size = new Size(653, 28);
             tb_nonce_c4.TabIndex = 301;
+            tb_nonce_c4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label46
             // 
@@ -551,15 +557,15 @@
             panel12.Controls.Add(label107);
             panel12.Controls.Add(label108);
             panel12.Controls.Add(label109);
-            panel12.Controls.Add(textBox73);
-            panel12.Controls.Add(textBox74);
-            panel12.Controls.Add(textBox75);
-            panel12.Controls.Add(textBox76);
-            panel12.Controls.Add(textBox77);
-            panel12.Controls.Add(textBox78);
-            panel12.Controls.Add(textBox79);
-            panel12.Controls.Add(textBox80);
-            panel12.Controls.Add(textBox81);
+            panel12.Controls.Add(tx_amt3_c4);
+            panel12.Controls.Add(tx_send3_c4);
+            panel12.Controls.Add(tx_receive3_c4);
+            panel12.Controls.Add(tx_amt2_c4);
+            panel12.Controls.Add(tx_send2_c4);
+            panel12.Controls.Add(tx_receive2_c4);
+            panel12.Controls.Add(tx_send1_c4);
+            panel12.Controls.Add(tx_receive1_c4);
+            panel12.Controls.Add(tx_amt1_c4);
             panel12.Controls.Add(label110);
             panel12.Controls.Add(label48);
             panel12.Controls.Add(tb_prev_c4);
@@ -629,86 +635,89 @@
             label109.TabIndex = 217;
             label109.Text = "From:";
             // 
-            // textBox73
+            // tx_amt3_c4
             // 
-            textBox73.BorderStyle = BorderStyle.FixedSingle;
-            textBox73.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox73.Location = new Point(76, 186);
-            textBox73.Name = "textBox73";
-            textBox73.Size = new Size(114, 26);
-            textBox73.TabIndex = 216;
+            tx_amt3_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_c4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_c4.Location = new Point(76, 186);
+            tx_amt3_c4.Name = "tx_amt3_c4";
+            tx_amt3_c4.Size = new Size(114, 26);
+            tx_amt3_c4.TabIndex = 216;
+            tx_amt3_c4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox74
+            // tx_send3_c4
             // 
-            textBox74.BorderStyle = BorderStyle.FixedSingle;
-            textBox74.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox74.Location = new Point(290, 187);
-            textBox74.Name = "textBox74";
-            textBox74.Size = new Size(148, 27);
-            textBox74.TabIndex = 215;
+            tx_send3_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_c4.Location = new Point(290, 187);
+            tx_send3_c4.Name = "tx_send3_c4";
+            tx_send3_c4.Size = new Size(148, 27);
+            tx_send3_c4.TabIndex = 215;
             // 
-            // textBox75
+            // tx_receive3_c4
             // 
-            textBox75.BorderStyle = BorderStyle.FixedSingle;
-            textBox75.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox75.Location = new Point(530, 188);
-            textBox75.Name = "textBox75";
-            textBox75.Size = new Size(198, 27);
-            textBox75.TabIndex = 214;
+            tx_receive3_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_c4.Location = new Point(530, 188);
+            tx_receive3_c4.Name = "tx_receive3_c4";
+            tx_receive3_c4.Size = new Size(198, 27);
+            tx_receive3_c4.TabIndex = 214;
             // 
-            // textBox76
+            // tx_amt2_c4
             // 
-            textBox76.BorderStyle = BorderStyle.FixedSingle;
-            textBox76.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox76.Location = new Point(76, 146);
-            textBox76.Name = "textBox76";
-            textBox76.Size = new Size(114, 26);
-            textBox76.TabIndex = 213;
+            tx_amt2_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_c4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_c4.Location = new Point(76, 146);
+            tx_amt2_c4.Name = "tx_amt2_c4";
+            tx_amt2_c4.Size = new Size(114, 26);
+            tx_amt2_c4.TabIndex = 213;
+            tx_amt2_c4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox77
+            // tx_send2_c4
             // 
-            textBox77.BorderStyle = BorderStyle.FixedSingle;
-            textBox77.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox77.Location = new Point(290, 146);
-            textBox77.Name = "textBox77";
-            textBox77.Size = new Size(148, 27);
-            textBox77.TabIndex = 212;
+            tx_send2_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_c4.Location = new Point(290, 146);
+            tx_send2_c4.Name = "tx_send2_c4";
+            tx_send2_c4.Size = new Size(148, 27);
+            tx_send2_c4.TabIndex = 212;
             // 
-            // textBox78
+            // tx_receive2_c4
             // 
-            textBox78.BorderStyle = BorderStyle.FixedSingle;
-            textBox78.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox78.Location = new Point(530, 145);
-            textBox78.Name = "textBox78";
-            textBox78.Size = new Size(198, 27);
-            textBox78.TabIndex = 211;
+            tx_receive2_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_c4.Location = new Point(530, 145);
+            tx_receive2_c4.Name = "tx_receive2_c4";
+            tx_receive2_c4.Size = new Size(198, 27);
+            tx_receive2_c4.TabIndex = 211;
             // 
-            // textBox79
+            // tx_send1_c4
             // 
-            textBox79.BorderStyle = BorderStyle.FixedSingle;
-            textBox79.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox79.Location = new Point(290, 102);
-            textBox79.Name = "textBox79";
-            textBox79.Size = new Size(148, 27);
-            textBox79.TabIndex = 210;
+            tx_send1_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_c4.Location = new Point(290, 102);
+            tx_send1_c4.Name = "tx_send1_c4";
+            tx_send1_c4.Size = new Size(148, 27);
+            tx_send1_c4.TabIndex = 210;
             // 
-            // textBox80
+            // tx_receive1_c4
             // 
-            textBox80.BorderStyle = BorderStyle.FixedSingle;
-            textBox80.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox80.Location = new Point(530, 102);
-            textBox80.Name = "textBox80";
-            textBox80.Size = new Size(198, 27);
-            textBox80.TabIndex = 209;
+            tx_receive1_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_c4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_c4.Location = new Point(530, 102);
+            tx_receive1_c4.Name = "tx_receive1_c4";
+            tx_receive1_c4.Size = new Size(198, 27);
+            tx_receive1_c4.TabIndex = 209;
             // 
-            // textBox81
+            // tx_amt1_c4
             // 
-            textBox81.BorderStyle = BorderStyle.FixedSingle;
-            textBox81.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox81.Location = new Point(76, 102);
-            textBox81.Name = "textBox81";
-            textBox81.Size = new Size(114, 26);
-            textBox81.TabIndex = 208;
+            tx_amt1_c4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_c4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_c4.Location = new Point(76, 102);
+            tx_amt1_c4.Name = "tx_amt1_c4";
+            tx_amt1_c4.Size = new Size(114, 26);
+            tx_amt1_c4.TabIndex = 208;
+            tx_amt1_c4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label110
             // 
@@ -751,6 +760,7 @@
             btn_mine_c3.TabIndex = 295;
             btn_mine_c3.Text = "Mine";
             btn_mine_c3.UseVisualStyleBackColor = true;
+            btn_mine_c3.Click += btn_mine_c3_Click;
             // 
             // tb_prev_b2
             // 
@@ -772,6 +782,7 @@
             btn_mine_c1.TabIndex = 275;
             btn_mine_c1.Text = "Mine";
             btn_mine_c1.UseVisualStyleBackColor = false;
+            btn_mine_c1.Click += btn_mine_c1_Click;
             // 
             // tb_prev_b4
             // 
@@ -882,19 +893,19 @@
             panel9.Controls.Add(label133);
             panel9.Controls.Add(label134);
             panel9.Controls.Add(label135);
-            panel9.Controls.Add(textBox106);
-            panel9.Controls.Add(textBox107);
-            panel9.Controls.Add(textBox108);
-            panel9.Controls.Add(textBox109);
-            panel9.Controls.Add(textBox110);
-            panel9.Controls.Add(textBox111);
+            panel9.Controls.Add(tx_amt4_c1);
+            panel9.Controls.Add(tx_send4_c1);
+            panel9.Controls.Add(tx_receive4_c1);
+            panel9.Controls.Add(tx_amt3_c1);
+            panel9.Controls.Add(tx_send3_c1);
+            panel9.Controls.Add(tx_receive3_c1);
             panel9.Controls.Add(btn_mine_c1);
-            panel9.Controls.Add(textBox112);
-            panel9.Controls.Add(textBox113);
-            panel9.Controls.Add(textBox114);
-            panel9.Controls.Add(textBox115);
-            panel9.Controls.Add(textBox116);
-            panel9.Controls.Add(textBox117);
+            panel9.Controls.Add(tx_amt2_c1);
+            panel9.Controls.Add(tx_send2_c1);
+            panel9.Controls.Add(tx_receive2_c1);
+            panel9.Controls.Add(tx_send1_c1);
+            panel9.Controls.Add(tx_receive1_c1);
+            panel9.Controls.Add(tx_amt1_c1);
             panel9.Controls.Add(label136);
             panel9.Controls.Add(label54);
             panel9.Controls.Add(tb_prev_c1);
@@ -985,109 +996,109 @@
             label135.TabIndex = 199;
             label135.Text = "From:";
             // 
-            // textBox106
+            // tx_amt4_c1
             // 
-            textBox106.BorderStyle = BorderStyle.FixedSingle;
-            textBox106.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox106.Location = new Point(75, 225);
-            textBox106.Name = "textBox106";
-            textBox106.Size = new Size(114, 26);
-            textBox106.TabIndex = 198;
-            textBox106.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_c1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_c1.Location = new Point(75, 225);
+            tx_amt4_c1.Name = "tx_amt4_c1";
+            tx_amt4_c1.Size = new Size(114, 26);
+            tx_amt4_c1.TabIndex = 198;
+            tx_amt4_c1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox107
+            // tx_send4_c1
             // 
-            textBox107.BorderStyle = BorderStyle.FixedSingle;
-            textBox107.Location = new Point(289, 228);
-            textBox107.Name = "textBox107";
-            textBox107.Size = new Size(148, 27);
-            textBox107.TabIndex = 197;
+            tx_send4_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_c1.Location = new Point(289, 228);
+            tx_send4_c1.Name = "tx_send4_c1";
+            tx_send4_c1.Size = new Size(148, 27);
+            tx_send4_c1.TabIndex = 197;
             // 
-            // textBox108
+            // tx_receive4_c1
             // 
-            textBox108.BorderStyle = BorderStyle.FixedSingle;
-            textBox108.Location = new Point(529, 226);
-            textBox108.Name = "textBox108";
-            textBox108.Size = new Size(148, 27);
-            textBox108.TabIndex = 196;
+            tx_receive4_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_c1.Location = new Point(529, 226);
+            tx_receive4_c1.Name = "tx_receive4_c1";
+            tx_receive4_c1.Size = new Size(148, 27);
+            tx_receive4_c1.TabIndex = 196;
             // 
-            // textBox109
+            // tx_amt3_c1
             // 
-            textBox109.BorderStyle = BorderStyle.FixedSingle;
-            textBox109.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox109.Location = new Point(75, 181);
-            textBox109.Name = "textBox109";
-            textBox109.Size = new Size(114, 26);
-            textBox109.TabIndex = 195;
-            textBox109.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_c1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_c1.Location = new Point(75, 181);
+            tx_amt3_c1.Name = "tx_amt3_c1";
+            tx_amt3_c1.Size = new Size(114, 26);
+            tx_amt3_c1.TabIndex = 195;
+            tx_amt3_c1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox110
+            // tx_send3_c1
             // 
-            textBox110.BorderStyle = BorderStyle.FixedSingle;
-            textBox110.Location = new Point(289, 182);
-            textBox110.Name = "textBox110";
-            textBox110.Size = new Size(148, 27);
-            textBox110.TabIndex = 194;
+            tx_send3_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_c1.Location = new Point(289, 182);
+            tx_send3_c1.Name = "tx_send3_c1";
+            tx_send3_c1.Size = new Size(148, 27);
+            tx_send3_c1.TabIndex = 194;
             // 
-            // textBox111
+            // tx_receive3_c1
             // 
-            textBox111.BorderStyle = BorderStyle.FixedSingle;
-            textBox111.Location = new Point(529, 183);
-            textBox111.Name = "textBox111";
-            textBox111.Size = new Size(148, 27);
-            textBox111.TabIndex = 193;
+            tx_receive3_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_c1.Location = new Point(529, 183);
+            tx_receive3_c1.Name = "tx_receive3_c1";
+            tx_receive3_c1.Size = new Size(148, 27);
+            tx_receive3_c1.TabIndex = 193;
             // 
-            // textBox112
+            // tx_amt2_c1
             // 
-            textBox112.BorderStyle = BorderStyle.FixedSingle;
-            textBox112.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox112.Location = new Point(75, 141);
-            textBox112.Name = "textBox112";
-            textBox112.Size = new Size(114, 26);
-            textBox112.TabIndex = 192;
-            textBox112.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_c1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_c1.Location = new Point(75, 141);
+            tx_amt2_c1.Name = "tx_amt2_c1";
+            tx_amt2_c1.Size = new Size(114, 26);
+            tx_amt2_c1.TabIndex = 192;
+            tx_amt2_c1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox113
+            // tx_send2_c1
             // 
-            textBox113.BorderStyle = BorderStyle.FixedSingle;
-            textBox113.Location = new Point(289, 141);
-            textBox113.Name = "textBox113";
-            textBox113.Size = new Size(148, 27);
-            textBox113.TabIndex = 191;
+            tx_send2_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_c1.Location = new Point(289, 141);
+            tx_send2_c1.Name = "tx_send2_c1";
+            tx_send2_c1.Size = new Size(148, 27);
+            tx_send2_c1.TabIndex = 191;
             // 
-            // textBox114
+            // tx_receive2_c1
             // 
-            textBox114.BorderStyle = BorderStyle.FixedSingle;
-            textBox114.Location = new Point(529, 140);
-            textBox114.Name = "textBox114";
-            textBox114.Size = new Size(148, 27);
-            textBox114.TabIndex = 190;
+            tx_receive2_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_c1.Location = new Point(529, 140);
+            tx_receive2_c1.Name = "tx_receive2_c1";
+            tx_receive2_c1.Size = new Size(148, 27);
+            tx_receive2_c1.TabIndex = 190;
             // 
-            // textBox115
+            // tx_send1_c1
             // 
-            textBox115.BorderStyle = BorderStyle.FixedSingle;
-            textBox115.Location = new Point(289, 97);
-            textBox115.Name = "textBox115";
-            textBox115.Size = new Size(148, 27);
-            textBox115.TabIndex = 189;
+            tx_send1_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_c1.Location = new Point(289, 97);
+            tx_send1_c1.Name = "tx_send1_c1";
+            tx_send1_c1.Size = new Size(148, 27);
+            tx_send1_c1.TabIndex = 189;
             // 
-            // textBox116
+            // tx_receive1_c1
             // 
-            textBox116.BorderStyle = BorderStyle.FixedSingle;
-            textBox116.Location = new Point(529, 97);
-            textBox116.Name = "textBox116";
-            textBox116.Size = new Size(148, 27);
-            textBox116.TabIndex = 188;
+            tx_receive1_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_c1.Location = new Point(529, 97);
+            tx_receive1_c1.Name = "tx_receive1_c1";
+            tx_receive1_c1.Size = new Size(148, 27);
+            tx_receive1_c1.TabIndex = 188;
             // 
-            // textBox117
+            // tx_amt1_c1
             // 
-            textBox117.BorderStyle = BorderStyle.FixedSingle;
-            textBox117.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox117.Location = new Point(75, 97);
-            textBox117.Name = "textBox117";
-            textBox117.Size = new Size(114, 26);
-            textBox117.TabIndex = 187;
-            textBox117.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_c1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_c1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_c1.Location = new Point(75, 97);
+            tx_amt1_c1.Name = "tx_amt1_c1";
+            tx_amt1_c1.Size = new Size(114, 26);
+            tx_amt1_c1.TabIndex = 187;
+            tx_amt1_c1.KeyPress += UC_Tokens_KeyPress;
             // 
             // label136
             // 
@@ -1130,6 +1141,7 @@
             btn_mine_c2.TabIndex = 285;
             btn_mine_c2.Text = "Mine";
             btn_mine_c2.UseVisualStyleBackColor = true;
+            btn_mine_c2.Click += btn_mine_c2_Click;
             // 
             // label55
             // 
@@ -1204,12 +1216,12 @@
             panel10.Controls.Add(label115);
             panel10.Controls.Add(label116);
             panel10.Controls.Add(label117);
-            panel10.Controls.Add(textBox88);
-            panel10.Controls.Add(textBox89);
-            panel10.Controls.Add(textBox90);
-            panel10.Controls.Add(textBox91);
-            panel10.Controls.Add(textBox92);
-            panel10.Controls.Add(textBox93);
+            panel10.Controls.Add(tx_amt2_c2);
+            panel10.Controls.Add(tx_send2_c2);
+            panel10.Controls.Add(tx_receive2_c2);
+            panel10.Controls.Add(tx_send1_c2);
+            panel10.Controls.Add(tx_receive1_c2);
+            panel10.Controls.Add(tx_amt1_c2);
             panel10.Controls.Add(label118);
             panel10.Controls.Add(label38);
             panel10.Controls.Add(tb_prev_c2);
@@ -1259,61 +1271,61 @@
             label117.TabIndex = 214;
             label117.Text = "From:";
             // 
-            // textBox88
+            // tx_amt2_c2
             // 
-            textBox88.BorderStyle = BorderStyle.FixedSingle;
-            textBox88.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox88.Location = new Point(75, 146);
-            textBox88.Name = "textBox88";
-            textBox88.Size = new Size(114, 26);
-            textBox88.TabIndex = 213;
-            textBox88.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_c2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_c2.Location = new Point(75, 146);
+            tx_amt2_c2.Name = "tx_amt2_c2";
+            tx_amt2_c2.Size = new Size(114, 26);
+            tx_amt2_c2.TabIndex = 213;
+            tx_amt2_c2.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox89
+            // tx_send2_c2
             // 
-            textBox89.BorderStyle = BorderStyle.FixedSingle;
-            textBox89.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox89.Location = new Point(289, 146);
-            textBox89.Name = "textBox89";
-            textBox89.Size = new Size(148, 27);
-            textBox89.TabIndex = 212;
+            tx_send2_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_c2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_c2.Location = new Point(289, 146);
+            tx_send2_c2.Name = "tx_send2_c2";
+            tx_send2_c2.Size = new Size(148, 27);
+            tx_send2_c2.TabIndex = 212;
             // 
-            // textBox90
+            // tx_receive2_c2
             // 
-            textBox90.BorderStyle = BorderStyle.FixedSingle;
-            textBox90.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox90.Location = new Point(529, 145);
-            textBox90.Name = "textBox90";
-            textBox90.Size = new Size(141, 27);
-            textBox90.TabIndex = 211;
+            tx_receive2_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_c2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_c2.Location = new Point(529, 145);
+            tx_receive2_c2.Name = "tx_receive2_c2";
+            tx_receive2_c2.Size = new Size(141, 27);
+            tx_receive2_c2.TabIndex = 211;
             // 
-            // textBox91
+            // tx_send1_c2
             // 
-            textBox91.BorderStyle = BorderStyle.FixedSingle;
-            textBox91.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox91.Location = new Point(289, 102);
-            textBox91.Name = "textBox91";
-            textBox91.Size = new Size(148, 27);
-            textBox91.TabIndex = 210;
+            tx_send1_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_c2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_c2.Location = new Point(289, 102);
+            tx_send1_c2.Name = "tx_send1_c2";
+            tx_send1_c2.Size = new Size(148, 27);
+            tx_send1_c2.TabIndex = 210;
             // 
-            // textBox92
+            // tx_receive1_c2
             // 
-            textBox92.BorderStyle = BorderStyle.FixedSingle;
-            textBox92.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox92.Location = new Point(529, 102);
-            textBox92.Name = "textBox92";
-            textBox92.Size = new Size(141, 27);
-            textBox92.TabIndex = 209;
+            tx_receive1_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_c2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_c2.Location = new Point(529, 102);
+            tx_receive1_c2.Name = "tx_receive1_c2";
+            tx_receive1_c2.Size = new Size(141, 27);
+            tx_receive1_c2.TabIndex = 209;
             // 
-            // textBox93
+            // tx_amt1_c2
             // 
-            textBox93.BorderStyle = BorderStyle.FixedSingle;
-            textBox93.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox93.Location = new Point(75, 102);
-            textBox93.Name = "textBox93";
-            textBox93.Size = new Size(114, 26);
-            textBox93.TabIndex = 208;
-            textBox93.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_c2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_c2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_c2.Location = new Point(75, 102);
+            tx_amt1_c2.Name = "tx_amt1_c2";
+            tx_amt1_c2.Size = new Size(114, 26);
+            tx_amt1_c2.TabIndex = 208;
+            tx_amt1_c2.KeyPress += UC_Tokens_KeyPress;
             // 
             // label118
             // 
@@ -1345,6 +1357,7 @@
             btn_mine_b4.TabIndex = 264;
             btn_mine_b4.Text = "Mine";
             btn_mine_b4.UseVisualStyleBackColor = true;
+            btn_mine_b4.Click += btn_mine_b4_Click;
             // 
             // label23
             // 
@@ -1366,6 +1379,7 @@
             tb_block_b4.Name = "tb_block_b4";
             tb_block_b4.Size = new Size(653, 28);
             tb_block_b4.TabIndex = 262;
+            tb_block_b4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label24
             // 
@@ -1387,6 +1401,7 @@
             tb_nonce_b4.Name = "tb_nonce_b4";
             tb_nonce_b4.Size = new Size(653, 28);
             tb_nonce_b4.TabIndex = 260;
+            tb_nonce_b4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label25
             // 
@@ -1419,15 +1434,15 @@
             panel8.Controls.Add(label100);
             panel8.Controls.Add(label101);
             panel8.Controls.Add(label102);
-            panel8.Controls.Add(textBox64);
-            panel8.Controls.Add(textBox65);
-            panel8.Controls.Add(textBox66);
-            panel8.Controls.Add(textBox67);
-            panel8.Controls.Add(textBox68);
-            panel8.Controls.Add(textBox69);
-            panel8.Controls.Add(textBox70);
-            panel8.Controls.Add(textBox71);
-            panel8.Controls.Add(textBox72);
+            panel8.Controls.Add(tx_amt3_b4);
+            panel8.Controls.Add(tx_send3_b4);
+            panel8.Controls.Add(tx_receive3_b4);
+            panel8.Controls.Add(tx_amt2_b4);
+            panel8.Controls.Add(tx_send2_b4);
+            panel8.Controls.Add(tx_receive2_b4);
+            panel8.Controls.Add(tx_send1_b4);
+            panel8.Controls.Add(tx_receive1_b4);
+            panel8.Controls.Add(tx_amt1_b4);
             panel8.Controls.Add(label103);
             panel8.Controls.Add(label27);
             panel8.Controls.Add(tb_prev_b4);
@@ -1497,86 +1512,89 @@
             label102.TabIndex = 217;
             label102.Text = "From:";
             // 
-            // textBox64
+            // tx_amt3_b4
             // 
-            textBox64.BorderStyle = BorderStyle.FixedSingle;
-            textBox64.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox64.Location = new Point(76, 192);
-            textBox64.Name = "textBox64";
-            textBox64.Size = new Size(114, 26);
-            textBox64.TabIndex = 216;
+            tx_amt3_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_b4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_b4.Location = new Point(76, 192);
+            tx_amt3_b4.Name = "tx_amt3_b4";
+            tx_amt3_b4.Size = new Size(114, 26);
+            tx_amt3_b4.TabIndex = 216;
+            tx_amt3_b4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox65
+            // tx_send3_b4
             // 
-            textBox65.BorderStyle = BorderStyle.FixedSingle;
-            textBox65.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox65.Location = new Point(290, 191);
-            textBox65.Name = "textBox65";
-            textBox65.Size = new Size(148, 27);
-            textBox65.TabIndex = 215;
+            tx_send3_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_b4.Location = new Point(290, 191);
+            tx_send3_b4.Name = "tx_send3_b4";
+            tx_send3_b4.Size = new Size(148, 27);
+            tx_send3_b4.TabIndex = 215;
             // 
-            // textBox66
+            // tx_receive3_b4
             // 
-            textBox66.BorderStyle = BorderStyle.FixedSingle;
-            textBox66.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox66.Location = new Point(530, 192);
-            textBox66.Name = "textBox66";
-            textBox66.Size = new Size(198, 27);
-            textBox66.TabIndex = 214;
+            tx_receive3_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_b4.Location = new Point(529, 192);
+            tx_receive3_b4.Name = "tx_receive3_b4";
+            tx_receive3_b4.Size = new Size(198, 27);
+            tx_receive3_b4.TabIndex = 214;
             // 
-            // textBox67
+            // tx_amt2_b4
             // 
-            textBox67.BorderStyle = BorderStyle.FixedSingle;
-            textBox67.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox67.Location = new Point(76, 150);
-            textBox67.Name = "textBox67";
-            textBox67.Size = new Size(114, 26);
-            textBox67.TabIndex = 213;
+            tx_amt2_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_b4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_b4.Location = new Point(76, 150);
+            tx_amt2_b4.Name = "tx_amt2_b4";
+            tx_amt2_b4.Size = new Size(114, 26);
+            tx_amt2_b4.TabIndex = 213;
+            tx_amt2_b4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox68
+            // tx_send2_b4
             // 
-            textBox68.BorderStyle = BorderStyle.FixedSingle;
-            textBox68.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox68.Location = new Point(290, 150);
-            textBox68.Name = "textBox68";
-            textBox68.Size = new Size(148, 27);
-            textBox68.TabIndex = 212;
+            tx_send2_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_b4.Location = new Point(290, 150);
+            tx_send2_b4.Name = "tx_send2_b4";
+            tx_send2_b4.Size = new Size(148, 27);
+            tx_send2_b4.TabIndex = 212;
             // 
-            // textBox69
+            // tx_receive2_b4
             // 
-            textBox69.BorderStyle = BorderStyle.FixedSingle;
-            textBox69.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox69.Location = new Point(530, 149);
-            textBox69.Name = "textBox69";
-            textBox69.Size = new Size(198, 27);
-            textBox69.TabIndex = 211;
+            tx_receive2_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_b4.Location = new Point(530, 149);
+            tx_receive2_b4.Name = "tx_receive2_b4";
+            tx_receive2_b4.Size = new Size(198, 27);
+            tx_receive2_b4.TabIndex = 211;
             // 
-            // textBox70
+            // tx_send1_b4
             // 
-            textBox70.BorderStyle = BorderStyle.FixedSingle;
-            textBox70.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox70.Location = new Point(290, 106);
-            textBox70.Name = "textBox70";
-            textBox70.Size = new Size(148, 27);
-            textBox70.TabIndex = 210;
+            tx_send1_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_b4.Location = new Point(290, 106);
+            tx_send1_b4.Name = "tx_send1_b4";
+            tx_send1_b4.Size = new Size(148, 27);
+            tx_send1_b4.TabIndex = 210;
             // 
-            // textBox71
+            // tx_receive1_b4
             // 
-            textBox71.BorderStyle = BorderStyle.FixedSingle;
-            textBox71.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox71.Location = new Point(530, 106);
-            textBox71.Name = "textBox71";
-            textBox71.Size = new Size(198, 27);
-            textBox71.TabIndex = 209;
+            tx_receive1_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_b4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_b4.Location = new Point(530, 106);
+            tx_receive1_b4.Name = "tx_receive1_b4";
+            tx_receive1_b4.Size = new Size(198, 27);
+            tx_receive1_b4.TabIndex = 209;
             // 
-            // textBox72
+            // tx_amt1_b4
             // 
-            textBox72.BorderStyle = BorderStyle.FixedSingle;
-            textBox72.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox72.Location = new Point(76, 106);
-            textBox72.Name = "textBox72";
-            textBox72.Size = new Size(114, 26);
-            textBox72.TabIndex = 208;
+            tx_amt1_b4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_b4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_b4.Location = new Point(76, 106);
+            tx_amt1_b4.Name = "tx_amt1_b4";
+            tx_amt1_b4.Size = new Size(114, 26);
+            tx_amt1_b4.TabIndex = 208;
+            tx_amt1_b4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label103
             // 
@@ -1696,6 +1714,7 @@
             btn_mine_b3.TabIndex = 254;
             btn_mine_b3.Text = "Mine";
             btn_mine_b3.UseVisualStyleBackColor = true;
+            btn_mine_b3.Click += btn_mine_b3_Click;
             // 
             // label16
             // 
@@ -1796,18 +1815,18 @@
             panel3.Controls.Add(label70);
             panel3.Controls.Add(label71);
             panel3.Controls.Add(label72);
-            panel3.Controls.Add(textBox13);
-            panel3.Controls.Add(textBox14);
-            panel3.Controls.Add(textBox15);
-            panel3.Controls.Add(textBox16);
-            panel3.Controls.Add(textBox17);
-            panel3.Controls.Add(textBox18);
-            panel3.Controls.Add(textBox25);
-            panel3.Controls.Add(textBox26);
-            panel3.Controls.Add(textBox27);
-            panel3.Controls.Add(textBox28);
-            panel3.Controls.Add(textBox29);
-            panel3.Controls.Add(textBox30);
+            panel3.Controls.Add(tx_amt4_a3);
+            panel3.Controls.Add(tx_send4_a3);
+            panel3.Controls.Add(tx_receive4_a3);
+            panel3.Controls.Add(tx_amt3_a3);
+            panel3.Controls.Add(tx_send3_a3);
+            panel3.Controls.Add(tx_receive3_a3);
+            panel3.Controls.Add(tx_amt2_a3);
+            panel3.Controls.Add(tx_send2_a3);
+            panel3.Controls.Add(tx_receive2_a3);
+            panel3.Controls.Add(tx_send1_a3);
+            panel3.Controls.Add(tx_receive1_a3);
+            panel3.Controls.Add(tx_amt1_a3);
             panel3.Controls.Add(label73);
             panel3.Controls.Add(label15);
             panel3.Controls.Add(tb_prev_a3);
@@ -1897,117 +1916,117 @@
             label72.TabIndex = 199;
             label72.Text = "From:";
             // 
-            // textBox13
+            // tx_amt4_a3
             // 
-            textBox13.BorderStyle = BorderStyle.FixedSingle;
-            textBox13.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox13.Location = new Point(75, 227);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(116, 26);
-            textBox13.TabIndex = 198;
-            textBox13.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_a3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_a3.Location = new Point(75, 227);
+            tx_amt4_a3.Name = "tx_amt4_a3";
+            tx_amt4_a3.Size = new Size(116, 26);
+            tx_amt4_a3.TabIndex = 198;
+            tx_amt4_a3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox14
+            // tx_send4_a3
             // 
-            textBox14.BorderStyle = BorderStyle.FixedSingle;
-            textBox14.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox14.Location = new Point(289, 230);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(150, 27);
-            textBox14.TabIndex = 197;
+            tx_send4_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send4_a3.Location = new Point(289, 230);
+            tx_send4_a3.Name = "tx_send4_a3";
+            tx_send4_a3.Size = new Size(150, 27);
+            tx_send4_a3.TabIndex = 197;
             // 
-            // textBox15
+            // tx_receive4_a3
             // 
-            textBox15.BorderStyle = BorderStyle.FixedSingle;
-            textBox15.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox15.Location = new Point(529, 228);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(164, 27);
-            textBox15.TabIndex = 196;
+            tx_receive4_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive4_a3.Location = new Point(529, 228);
+            tx_receive4_a3.Name = "tx_receive4_a3";
+            tx_receive4_a3.Size = new Size(164, 27);
+            tx_receive4_a3.TabIndex = 196;
             // 
-            // textBox16
+            // tx_amt3_a3
             // 
-            textBox16.BorderStyle = BorderStyle.FixedSingle;
-            textBox16.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox16.Location = new Point(75, 183);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(116, 26);
-            textBox16.TabIndex = 195;
-            textBox16.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_a3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_a3.Location = new Point(75, 183);
+            tx_amt3_a3.Name = "tx_amt3_a3";
+            tx_amt3_a3.Size = new Size(116, 26);
+            tx_amt3_a3.TabIndex = 195;
+            tx_amt3_a3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox17
+            // tx_send3_a3
             // 
-            textBox17.BorderStyle = BorderStyle.FixedSingle;
-            textBox17.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox17.Location = new Point(289, 184);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(150, 27);
-            textBox17.TabIndex = 194;
+            tx_send3_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_a3.Location = new Point(289, 184);
+            tx_send3_a3.Name = "tx_send3_a3";
+            tx_send3_a3.Size = new Size(150, 27);
+            tx_send3_a3.TabIndex = 194;
             // 
-            // textBox18
+            // tx_receive3_a3
             // 
-            textBox18.BorderStyle = BorderStyle.FixedSingle;
-            textBox18.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox18.Location = new Point(529, 185);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(164, 27);
-            textBox18.TabIndex = 193;
+            tx_receive3_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_a3.Location = new Point(529, 185);
+            tx_receive3_a3.Name = "tx_receive3_a3";
+            tx_receive3_a3.Size = new Size(164, 27);
+            tx_receive3_a3.TabIndex = 193;
             // 
-            // textBox25
+            // tx_amt2_a3
             // 
-            textBox25.BorderStyle = BorderStyle.FixedSingle;
-            textBox25.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox25.Location = new Point(75, 143);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(116, 26);
-            textBox25.TabIndex = 192;
-            textBox25.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_a3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_a3.Location = new Point(75, 143);
+            tx_amt2_a3.Name = "tx_amt2_a3";
+            tx_amt2_a3.Size = new Size(116, 26);
+            tx_amt2_a3.TabIndex = 192;
+            tx_amt2_a3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox26
+            // tx_send2_a3
             // 
-            textBox26.BorderStyle = BorderStyle.FixedSingle;
-            textBox26.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox26.Location = new Point(289, 143);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(150, 27);
-            textBox26.TabIndex = 191;
+            tx_send2_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_a3.Location = new Point(289, 143);
+            tx_send2_a3.Name = "tx_send2_a3";
+            tx_send2_a3.Size = new Size(150, 27);
+            tx_send2_a3.TabIndex = 191;
             // 
-            // textBox27
+            // tx_receive2_a3
             // 
-            textBox27.BorderStyle = BorderStyle.FixedSingle;
-            textBox27.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox27.Location = new Point(529, 142);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(164, 27);
-            textBox27.TabIndex = 190;
+            tx_receive2_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_a3.Location = new Point(529, 142);
+            tx_receive2_a3.Name = "tx_receive2_a3";
+            tx_receive2_a3.Size = new Size(164, 27);
+            tx_receive2_a3.TabIndex = 190;
             // 
-            // textBox28
+            // tx_send1_a3
             // 
-            textBox28.BorderStyle = BorderStyle.FixedSingle;
-            textBox28.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox28.Location = new Point(289, 99);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(150, 27);
-            textBox28.TabIndex = 189;
+            tx_send1_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_a3.Location = new Point(289, 99);
+            tx_send1_a3.Name = "tx_send1_a3";
+            tx_send1_a3.Size = new Size(150, 27);
+            tx_send1_a3.TabIndex = 189;
             // 
-            // textBox29
+            // tx_receive1_a3
             // 
-            textBox29.BorderStyle = BorderStyle.FixedSingle;
-            textBox29.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox29.Location = new Point(529, 99);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(164, 27);
-            textBox29.TabIndex = 188;
+            tx_receive1_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_a3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_a3.Location = new Point(529, 99);
+            tx_receive1_a3.Name = "tx_receive1_a3";
+            tx_receive1_a3.Size = new Size(164, 27);
+            tx_receive1_a3.TabIndex = 188;
             // 
-            // textBox30
+            // tx_amt1_a3
             // 
-            textBox30.BorderStyle = BorderStyle.FixedSingle;
-            textBox30.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox30.Location = new Point(75, 99);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(116, 26);
-            textBox30.TabIndex = 187;
-            textBox30.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_a3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_a3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_a3.Location = new Point(75, 99);
+            tx_amt1_a3.Name = "tx_amt1_a3";
+            tx_amt1_a3.Size = new Size(116, 26);
+            tx_amt1_a3.TabIndex = 187;
+            tx_amt1_a3.KeyPress += UC_Tokens_KeyPress;
             // 
             // label73
             // 
@@ -2050,6 +2069,7 @@
             btn_mine_a4.TabIndex = 223;
             btn_mine_a4.Text = "Mine";
             btn_mine_a4.UseVisualStyleBackColor = true;
+            btn_mine_a4.Click += btn_mine_a4_Click;
             // 
             // label9
             // 
@@ -2071,6 +2091,7 @@
             tb_block_a4.Name = "tb_block_a4";
             tb_block_a4.Size = new Size(653, 28);
             tb_block_a4.TabIndex = 221;
+            tb_block_a4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label10
             // 
@@ -2092,6 +2113,7 @@
             tb_nonce_a4.Name = "tb_nonce_a4";
             tb_nonce_a4.Size = new Size(653, 28);
             tb_nonce_a4.TabIndex = 219;
+            tb_nonce_a4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label11
             // 
@@ -2146,15 +2168,15 @@
             panel4.Controls.Add(label79);
             panel4.Controls.Add(label80);
             panel4.Controls.Add(label81);
-            panel4.Controls.Add(textBox34);
-            panel4.Controls.Add(textBox35);
-            panel4.Controls.Add(textBox36);
-            panel4.Controls.Add(textBox37);
-            panel4.Controls.Add(textBox38);
-            panel4.Controls.Add(textBox39);
-            panel4.Controls.Add(textBox40);
-            panel4.Controls.Add(textBox41);
-            panel4.Controls.Add(textBox42);
+            panel4.Controls.Add(tx_amt3_a4);
+            panel4.Controls.Add(tx_send3_a4);
+            panel4.Controls.Add(tx_receive3_a4);
+            panel4.Controls.Add(tx_amt2_a4);
+            panel4.Controls.Add(tx_send2_a4);
+            panel4.Controls.Add(tx_receive2_a4);
+            panel4.Controls.Add(tx_send1_a4);
+            panel4.Controls.Add(tx_receive1_a4);
+            panel4.Controls.Add(tx_amt1_a4);
             panel4.Controls.Add(label82);
             panel4.Controls.Add(label16);
             panel4.Controls.Add(tb_prev_a4);
@@ -2224,86 +2246,89 @@
             label81.TabIndex = 199;
             label81.Text = "From:";
             // 
-            // textBox34
+            // tx_amt3_a4
             // 
-            textBox34.BorderStyle = BorderStyle.FixedSingle;
-            textBox34.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox34.Location = new Point(76, 186);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(114, 26);
-            textBox34.TabIndex = 195;
+            tx_amt3_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_a4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_a4.Location = new Point(76, 186);
+            tx_amt3_a4.Name = "tx_amt3_a4";
+            tx_amt3_a4.Size = new Size(114, 26);
+            tx_amt3_a4.TabIndex = 195;
+            tx_amt3_a4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox35
+            // tx_send3_a4
             // 
-            textBox35.BorderStyle = BorderStyle.FixedSingle;
-            textBox35.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox35.Location = new Point(290, 186);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(148, 27);
-            textBox35.TabIndex = 194;
+            tx_send3_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_a4.Location = new Point(290, 186);
+            tx_send3_a4.Name = "tx_send3_a4";
+            tx_send3_a4.Size = new Size(148, 27);
+            tx_send3_a4.TabIndex = 194;
             // 
-            // textBox36
+            // tx_receive3_a4
             // 
-            textBox36.BorderStyle = BorderStyle.FixedSingle;
-            textBox36.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox36.Location = new Point(530, 187);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(198, 27);
-            textBox36.TabIndex = 193;
+            tx_receive3_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_a4.Location = new Point(530, 187);
+            tx_receive3_a4.Name = "tx_receive3_a4";
+            tx_receive3_a4.Size = new Size(198, 27);
+            tx_receive3_a4.TabIndex = 193;
             // 
-            // textBox37
+            // tx_amt2_a4
             // 
-            textBox37.BorderStyle = BorderStyle.FixedSingle;
-            textBox37.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox37.Location = new Point(76, 145);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(114, 26);
-            textBox37.TabIndex = 192;
+            tx_amt2_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_a4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_a4.Location = new Point(76, 145);
+            tx_amt2_a4.Name = "tx_amt2_a4";
+            tx_amt2_a4.Size = new Size(114, 26);
+            tx_amt2_a4.TabIndex = 192;
+            tx_amt2_a4.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox38
+            // tx_send2_a4
             // 
-            textBox38.BorderStyle = BorderStyle.FixedSingle;
-            textBox38.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox38.Location = new Point(290, 145);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(148, 27);
-            textBox38.TabIndex = 191;
+            tx_send2_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_a4.Location = new Point(290, 145);
+            tx_send2_a4.Name = "tx_send2_a4";
+            tx_send2_a4.Size = new Size(148, 27);
+            tx_send2_a4.TabIndex = 191;
             // 
-            // textBox39
+            // tx_receive2_a4
             // 
-            textBox39.BorderStyle = BorderStyle.FixedSingle;
-            textBox39.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox39.Location = new Point(530, 144);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(198, 27);
-            textBox39.TabIndex = 190;
+            tx_receive2_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_a4.Location = new Point(530, 144);
+            tx_receive2_a4.Name = "tx_receive2_a4";
+            tx_receive2_a4.Size = new Size(198, 27);
+            tx_receive2_a4.TabIndex = 190;
             // 
-            // textBox40
+            // tx_send1_a4
             // 
-            textBox40.BorderStyle = BorderStyle.FixedSingle;
-            textBox40.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox40.Location = new Point(290, 101);
-            textBox40.Name = "textBox40";
-            textBox40.Size = new Size(148, 27);
-            textBox40.TabIndex = 189;
+            tx_send1_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_a4.Location = new Point(290, 101);
+            tx_send1_a4.Name = "tx_send1_a4";
+            tx_send1_a4.Size = new Size(148, 27);
+            tx_send1_a4.TabIndex = 189;
             // 
-            // textBox41
+            // tx_receive1_a4
             // 
-            textBox41.BorderStyle = BorderStyle.FixedSingle;
-            textBox41.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox41.Location = new Point(530, 101);
-            textBox41.Name = "textBox41";
-            textBox41.Size = new Size(198, 27);
-            textBox41.TabIndex = 188;
+            tx_receive1_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_a4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_a4.Location = new Point(530, 101);
+            tx_receive1_a4.Name = "tx_receive1_a4";
+            tx_receive1_a4.Size = new Size(198, 27);
+            tx_receive1_a4.TabIndex = 188;
             // 
-            // textBox42
+            // tx_amt1_a4
             // 
-            textBox42.BorderStyle = BorderStyle.FixedSingle;
-            textBox42.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox42.Location = new Point(76, 101);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(114, 26);
-            textBox42.TabIndex = 187;
+            tx_amt1_a4.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_a4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_a4.Location = new Point(76, 101);
+            tx_amt1_a4.Name = "tx_amt1_a4";
+            tx_amt1_a4.Size = new Size(114, 26);
+            tx_amt1_a4.TabIndex = 187;
+            tx_amt1_a4.KeyPress += UC_Tokens_KeyPress;
             // 
             // label82
             // 
@@ -2325,6 +2350,7 @@
             btn_mine_a1.TabIndex = 193;
             btn_mine_a1.Text = "Mine";
             btn_mine_a1.UseVisualStyleBackColor = false;
+            btn_mine_a1.Click += btn_mine_a1_Click;
             // 
             // lbl_block1
             // 
@@ -2413,18 +2439,18 @@
             panel1.Controls.Add(label61);
             panel1.Controls.Add(label60);
             panel1.Controls.Add(label59);
-            panel1.Controls.Add(textBox10);
-            panel1.Controls.Add(textBox11);
-            panel1.Controls.Add(textBox12);
-            panel1.Controls.Add(textBox7);
-            panel1.Controls.Add(textBox8);
-            panel1.Controls.Add(textBox9);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(textBox6);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(tx_amt4_a1);
+            panel1.Controls.Add(tx_send4_a1);
+            panel1.Controls.Add(tx_receive4_a1);
+            panel1.Controls.Add(tx_amt3_a1);
+            panel1.Controls.Add(tx_send3_a1);
+            panel1.Controls.Add(tx_receive3_a1);
+            panel1.Controls.Add(tx_amt2_a1);
+            panel1.Controls.Add(tx_send2_a1);
+            panel1.Controls.Add(tx_receive2_a1);
+            panel1.Controls.Add(tx_send1_a1);
+            panel1.Controls.Add(tx_receive1_a1);
+            panel1.Controls.Add(tx_amt1_a1);
             panel1.Controls.Add(label13);
             panel1.Controls.Add(tb_prev_a1);
             panel1.Controls.Add(lbl1);
@@ -2515,109 +2541,113 @@
             label59.TabIndex = 76;
             label59.Text = "From:";
             // 
-            // textBox10
+            // tx_amt4_a1
             // 
-            textBox10.BorderStyle = BorderStyle.FixedSingle;
-            textBox10.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox10.Location = new Point(75, 231);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(114, 26);
-            textBox10.TabIndex = 75;
-            textBox10.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_a1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_a1.Location = new Point(75, 231);
+            tx_amt4_a1.MaxLength = 9;
+            tx_amt4_a1.Name = "tx_amt4_a1";
+            tx_amt4_a1.Size = new Size(114, 26);
+            tx_amt4_a1.TabIndex = 75;
+            tx_amt4_a1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox11
+            // tx_send4_a1
             // 
-            textBox11.BorderStyle = BorderStyle.FixedSingle;
-            textBox11.Location = new Point(289, 234);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(148, 27);
-            textBox11.TabIndex = 74;
+            tx_send4_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_a1.Location = new Point(289, 232);
+            tx_send4_a1.Name = "tx_send4_a1";
+            tx_send4_a1.Size = new Size(148, 27);
+            tx_send4_a1.TabIndex = 74;
             // 
-            // textBox12
+            // tx_receive4_a1
             // 
-            textBox12.BorderStyle = BorderStyle.FixedSingle;
-            textBox12.Location = new Point(529, 232);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(148, 27);
-            textBox12.TabIndex = 73;
+            tx_receive4_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_a1.Location = new Point(529, 232);
+            tx_receive4_a1.Name = "tx_receive4_a1";
+            tx_receive4_a1.Size = new Size(148, 27);
+            tx_receive4_a1.TabIndex = 73;
             // 
-            // textBox7
+            // tx_amt3_a1
             // 
-            textBox7.BorderStyle = BorderStyle.FixedSingle;
-            textBox7.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox7.Location = new Point(75, 187);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(114, 26);
-            textBox7.TabIndex = 72;
-            textBox7.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_a1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_a1.Location = new Point(75, 187);
+            tx_amt3_a1.MaxLength = 9;
+            tx_amt3_a1.Name = "tx_amt3_a1";
+            tx_amt3_a1.Size = new Size(114, 26);
+            tx_amt3_a1.TabIndex = 72;
+            tx_amt3_a1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox8
+            // tx_send3_a1
             // 
-            textBox8.BorderStyle = BorderStyle.FixedSingle;
-            textBox8.Location = new Point(289, 188);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(148, 27);
-            textBox8.TabIndex = 71;
+            tx_send3_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_a1.Location = new Point(289, 188);
+            tx_send3_a1.Name = "tx_send3_a1";
+            tx_send3_a1.Size = new Size(148, 27);
+            tx_send3_a1.TabIndex = 71;
             // 
-            // textBox9
+            // tx_receive3_a1
             // 
-            textBox9.BorderStyle = BorderStyle.FixedSingle;
-            textBox9.Location = new Point(529, 189);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(148, 27);
-            textBox9.TabIndex = 70;
+            tx_receive3_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_a1.Location = new Point(529, 189);
+            tx_receive3_a1.Name = "tx_receive3_a1";
+            tx_receive3_a1.Size = new Size(148, 27);
+            tx_receive3_a1.TabIndex = 70;
             // 
-            // textBox4
+            // tx_amt2_a1
             // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(75, 147);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(114, 26);
-            textBox4.TabIndex = 69;
-            textBox4.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_a1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_a1.Location = new Point(75, 147);
+            tx_amt2_a1.MaxLength = 9;
+            tx_amt2_a1.Name = "tx_amt2_a1";
+            tx_amt2_a1.Size = new Size(114, 26);
+            tx_amt2_a1.TabIndex = 69;
+            tx_amt2_a1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox5
+            // tx_send2_a1
             // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(289, 147);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(148, 27);
-            textBox5.TabIndex = 68;
+            tx_send2_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_a1.Location = new Point(289, 147);
+            tx_send2_a1.Name = "tx_send2_a1";
+            tx_send2_a1.Size = new Size(148, 27);
+            tx_send2_a1.TabIndex = 68;
             // 
-            // textBox6
+            // tx_receive2_a1
             // 
-            textBox6.BorderStyle = BorderStyle.FixedSingle;
-            textBox6.Location = new Point(529, 146);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(148, 27);
-            textBox6.TabIndex = 67;
+            tx_receive2_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_a1.Location = new Point(529, 146);
+            tx_receive2_a1.Name = "tx_receive2_a1";
+            tx_receive2_a1.Size = new Size(148, 27);
+            tx_receive2_a1.TabIndex = 67;
             // 
-            // textBox2
+            // tx_send1_a1
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(289, 103);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(148, 27);
-            textBox2.TabIndex = 66;
+            tx_send1_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_a1.Location = new Point(289, 103);
+            tx_send1_a1.Name = "tx_send1_a1";
+            tx_send1_a1.Size = new Size(148, 27);
+            tx_send1_a1.TabIndex = 66;
             // 
-            // textBox3
+            // tx_receive1_a1
             // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(529, 103);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(148, 27);
-            textBox3.TabIndex = 65;
+            tx_receive1_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_a1.Location = new Point(529, 103);
+            tx_receive1_a1.Name = "tx_receive1_a1";
+            tx_receive1_a1.Size = new Size(148, 27);
+            tx_receive1_a1.TabIndex = 65;
             // 
-            // textBox1
+            // tx_amt1_a1
             // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(75, 103);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(114, 26);
-            textBox1.TabIndex = 63;
-            textBox1.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_a1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_a1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_a1.Location = new Point(75, 103);
+            tx_amt1_a1.MaxLength = 9;
+            tx_amt1_a1.Name = "tx_amt1_a1";
+            tx_amt1_a1.Size = new Size(114, 26);
+            tx_amt1_a1.TabIndex = 63;
+            tx_amt1_a1.KeyPress += UC_Tokens_KeyPress;
             // 
             // label13
             // 
@@ -2683,6 +2713,7 @@
             btn_mine_b1.TabIndex = 234;
             btn_mine_b1.Text = "Mine";
             btn_mine_b1.UseVisualStyleBackColor = false;
+            btn_mine_b1.Click += btn_mine_b1_Click;
             // 
             // label28
             // 
@@ -2771,18 +2802,18 @@
             panel5.Controls.Add(label124);
             panel5.Controls.Add(label125);
             panel5.Controls.Add(label126);
-            panel5.Controls.Add(textBox94);
-            panel5.Controls.Add(textBox95);
-            panel5.Controls.Add(textBox96);
-            panel5.Controls.Add(textBox97);
-            panel5.Controls.Add(textBox98);
-            panel5.Controls.Add(textBox99);
-            panel5.Controls.Add(textBox100);
-            panel5.Controls.Add(textBox101);
-            panel5.Controls.Add(textBox102);
-            panel5.Controls.Add(textBox103);
-            panel5.Controls.Add(textBox104);
-            panel5.Controls.Add(textBox105);
+            panel5.Controls.Add(tx_amt4_b1);
+            panel5.Controls.Add(tx_send4_b1);
+            panel5.Controls.Add(tx_receive4_b1);
+            panel5.Controls.Add(tx_amt3_b1);
+            panel5.Controls.Add(tx_send3_b1);
+            panel5.Controls.Add(tx_receive3_b1);
+            panel5.Controls.Add(tx_amt2_b1);
+            panel5.Controls.Add(tx_send2_b1);
+            panel5.Controls.Add(tx_receive2_b1);
+            panel5.Controls.Add(tx_send1_b1);
+            panel5.Controls.Add(tx_receive1_b1);
+            panel5.Controls.Add(tx_amt1_b1);
             panel5.Controls.Add(label127);
             panel5.Controls.Add(label33);
             panel5.Controls.Add(tb_prev_b1);
@@ -2873,109 +2904,109 @@
             label126.TabIndex = 199;
             label126.Text = "From:";
             // 
-            // textBox94
+            // tx_amt4_b1
             // 
-            textBox94.BorderStyle = BorderStyle.FixedSingle;
-            textBox94.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox94.Location = new Point(75, 229);
-            textBox94.Name = "textBox94";
-            textBox94.Size = new Size(114, 26);
-            textBox94.TabIndex = 198;
-            textBox94.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_b1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_b1.Location = new Point(75, 229);
+            tx_amt4_b1.Name = "tx_amt4_b1";
+            tx_amt4_b1.Size = new Size(114, 26);
+            tx_amt4_b1.TabIndex = 198;
+            tx_amt4_b1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox95
+            // tx_send4_b1
             // 
-            textBox95.BorderStyle = BorderStyle.FixedSingle;
-            textBox95.Location = new Point(289, 232);
-            textBox95.Name = "textBox95";
-            textBox95.Size = new Size(148, 27);
-            textBox95.TabIndex = 197;
+            tx_send4_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_b1.Location = new Point(289, 232);
+            tx_send4_b1.Name = "tx_send4_b1";
+            tx_send4_b1.Size = new Size(148, 27);
+            tx_send4_b1.TabIndex = 197;
             // 
-            // textBox96
+            // tx_receive4_b1
             // 
-            textBox96.BorderStyle = BorderStyle.FixedSingle;
-            textBox96.Location = new Point(529, 230);
-            textBox96.Name = "textBox96";
-            textBox96.Size = new Size(148, 27);
-            textBox96.TabIndex = 196;
+            tx_receive4_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_b1.Location = new Point(529, 230);
+            tx_receive4_b1.Name = "tx_receive4_b1";
+            tx_receive4_b1.Size = new Size(148, 27);
+            tx_receive4_b1.TabIndex = 196;
             // 
-            // textBox97
+            // tx_amt3_b1
             // 
-            textBox97.BorderStyle = BorderStyle.FixedSingle;
-            textBox97.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox97.Location = new Point(75, 185);
-            textBox97.Name = "textBox97";
-            textBox97.Size = new Size(114, 26);
-            textBox97.TabIndex = 195;
-            textBox97.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_b1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_b1.Location = new Point(75, 185);
+            tx_amt3_b1.Name = "tx_amt3_b1";
+            tx_amt3_b1.Size = new Size(114, 26);
+            tx_amt3_b1.TabIndex = 195;
+            tx_amt3_b1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox98
+            // tx_send3_b1
             // 
-            textBox98.BorderStyle = BorderStyle.FixedSingle;
-            textBox98.Location = new Point(289, 186);
-            textBox98.Name = "textBox98";
-            textBox98.Size = new Size(148, 27);
-            textBox98.TabIndex = 194;
+            tx_send3_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_b1.Location = new Point(289, 186);
+            tx_send3_b1.Name = "tx_send3_b1";
+            tx_send3_b1.Size = new Size(148, 27);
+            tx_send3_b1.TabIndex = 194;
             // 
-            // textBox99
+            // tx_receive3_b1
             // 
-            textBox99.BorderStyle = BorderStyle.FixedSingle;
-            textBox99.Location = new Point(529, 187);
-            textBox99.Name = "textBox99";
-            textBox99.Size = new Size(148, 27);
-            textBox99.TabIndex = 193;
+            tx_receive3_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_b1.Location = new Point(529, 187);
+            tx_receive3_b1.Name = "tx_receive3_b1";
+            tx_receive3_b1.Size = new Size(148, 27);
+            tx_receive3_b1.TabIndex = 193;
             // 
-            // textBox100
+            // tx_amt2_b1
             // 
-            textBox100.BorderStyle = BorderStyle.FixedSingle;
-            textBox100.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox100.Location = new Point(75, 145);
-            textBox100.Name = "textBox100";
-            textBox100.Size = new Size(114, 26);
-            textBox100.TabIndex = 192;
-            textBox100.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_b1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_b1.Location = new Point(75, 145);
+            tx_amt2_b1.Name = "tx_amt2_b1";
+            tx_amt2_b1.Size = new Size(114, 26);
+            tx_amt2_b1.TabIndex = 192;
+            tx_amt2_b1.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox101
+            // tx_send2_b1
             // 
-            textBox101.BorderStyle = BorderStyle.FixedSingle;
-            textBox101.Location = new Point(289, 145);
-            textBox101.Name = "textBox101";
-            textBox101.Size = new Size(148, 27);
-            textBox101.TabIndex = 191;
+            tx_send2_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_b1.Location = new Point(289, 145);
+            tx_send2_b1.Name = "tx_send2_b1";
+            tx_send2_b1.Size = new Size(148, 27);
+            tx_send2_b1.TabIndex = 191;
             // 
-            // textBox102
+            // tx_receive2_b1
             // 
-            textBox102.BorderStyle = BorderStyle.FixedSingle;
-            textBox102.Location = new Point(529, 144);
-            textBox102.Name = "textBox102";
-            textBox102.Size = new Size(148, 27);
-            textBox102.TabIndex = 190;
+            tx_receive2_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_b1.Location = new Point(529, 144);
+            tx_receive2_b1.Name = "tx_receive2_b1";
+            tx_receive2_b1.Size = new Size(148, 27);
+            tx_receive2_b1.TabIndex = 190;
             // 
-            // textBox103
+            // tx_send1_b1
             // 
-            textBox103.BorderStyle = BorderStyle.FixedSingle;
-            textBox103.Location = new Point(289, 101);
-            textBox103.Name = "textBox103";
-            textBox103.Size = new Size(148, 27);
-            textBox103.TabIndex = 189;
+            tx_send1_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_b1.Location = new Point(289, 101);
+            tx_send1_b1.Name = "tx_send1_b1";
+            tx_send1_b1.Size = new Size(148, 27);
+            tx_send1_b1.TabIndex = 189;
             // 
-            // textBox104
+            // tx_receive1_b1
             // 
-            textBox104.BorderStyle = BorderStyle.FixedSingle;
-            textBox104.Location = new Point(529, 101);
-            textBox104.Name = "textBox104";
-            textBox104.Size = new Size(148, 27);
-            textBox104.TabIndex = 188;
+            tx_receive1_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_b1.Location = new Point(529, 101);
+            tx_receive1_b1.Name = "tx_receive1_b1";
+            tx_receive1_b1.Size = new Size(148, 27);
+            tx_receive1_b1.TabIndex = 188;
             // 
-            // textBox105
+            // tx_amt1_b1
             // 
-            textBox105.BorderStyle = BorderStyle.FixedSingle;
-            textBox105.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox105.Location = new Point(75, 101);
-            textBox105.Name = "textBox105";
-            textBox105.Size = new Size(114, 26);
-            textBox105.TabIndex = 187;
-            textBox105.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_b1.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_b1.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_b1.Location = new Point(75, 101);
+            tx_amt1_b1.Name = "tx_amt1_b1";
+            tx_amt1_b1.Size = new Size(114, 26);
+            tx_amt1_b1.TabIndex = 187;
+            tx_amt1_b1.KeyPress += UC_Tokens_KeyPress;
             // 
             // label127
             // 
@@ -3007,6 +3038,7 @@
             btn_mine_b2.TabIndex = 244;
             btn_mine_b2.Text = "Mine";
             btn_mine_b2.UseVisualStyleBackColor = true;
+            btn_mine_b2.Click += btn_mine_b2_Click;
             // 
             // label34
             // 
@@ -3081,12 +3113,12 @@
             panel6.Controls.Add(label58);
             panel6.Controls.Add(label111);
             panel6.Controls.Add(label112);
-            panel6.Controls.Add(textBox82);
-            panel6.Controls.Add(textBox83);
-            panel6.Controls.Add(textBox84);
-            panel6.Controls.Add(textBox85);
-            panel6.Controls.Add(textBox86);
-            panel6.Controls.Add(textBox87);
+            panel6.Controls.Add(tx_amt2_b2);
+            panel6.Controls.Add(tx_send2_b2);
+            panel6.Controls.Add(tx_receive2_b2);
+            panel6.Controls.Add(tx_send1_b2);
+            panel6.Controls.Add(tx_receive1_b2);
+            panel6.Controls.Add(tx_amt1_b2);
             panel6.Controls.Add(label113);
             panel6.Controls.Add(label17);
             panel6.Controls.Add(tb_prev_b2);
@@ -3136,61 +3168,61 @@
             label112.TabIndex = 214;
             label112.Text = "From:";
             // 
-            // textBox82
+            // tx_amt2_b2
             // 
-            textBox82.BorderStyle = BorderStyle.FixedSingle;
-            textBox82.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox82.Location = new Point(75, 146);
-            textBox82.Name = "textBox82";
-            textBox82.Size = new Size(114, 26);
-            textBox82.TabIndex = 213;
-            textBox82.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_b2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_b2.Location = new Point(75, 146);
+            tx_amt2_b2.Name = "tx_amt2_b2";
+            tx_amt2_b2.Size = new Size(114, 26);
+            tx_amt2_b2.TabIndex = 213;
+            tx_amt2_b2.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox83
+            // tx_send2_b2
             // 
-            textBox83.BorderStyle = BorderStyle.FixedSingle;
-            textBox83.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox83.Location = new Point(289, 146);
-            textBox83.Name = "textBox83";
-            textBox83.Size = new Size(148, 27);
-            textBox83.TabIndex = 212;
+            tx_send2_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_b2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_b2.Location = new Point(289, 146);
+            tx_send2_b2.Name = "tx_send2_b2";
+            tx_send2_b2.Size = new Size(148, 27);
+            tx_send2_b2.TabIndex = 212;
             // 
-            // textBox84
+            // tx_receive2_b2
             // 
-            textBox84.BorderStyle = BorderStyle.FixedSingle;
-            textBox84.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox84.Location = new Point(529, 145);
-            textBox84.Name = "textBox84";
-            textBox84.Size = new Size(141, 27);
-            textBox84.TabIndex = 211;
+            tx_receive2_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_b2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_b2.Location = new Point(529, 145);
+            tx_receive2_b2.Name = "tx_receive2_b2";
+            tx_receive2_b2.Size = new Size(141, 27);
+            tx_receive2_b2.TabIndex = 211;
             // 
-            // textBox85
+            // tx_send1_b2
             // 
-            textBox85.BorderStyle = BorderStyle.FixedSingle;
-            textBox85.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox85.Location = new Point(289, 102);
-            textBox85.Name = "textBox85";
-            textBox85.Size = new Size(148, 27);
-            textBox85.TabIndex = 210;
+            tx_send1_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_b2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_b2.Location = new Point(289, 102);
+            tx_send1_b2.Name = "tx_send1_b2";
+            tx_send1_b2.Size = new Size(148, 27);
+            tx_send1_b2.TabIndex = 210;
             // 
-            // textBox86
+            // tx_receive1_b2
             // 
-            textBox86.BorderStyle = BorderStyle.FixedSingle;
-            textBox86.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox86.Location = new Point(529, 102);
-            textBox86.Name = "textBox86";
-            textBox86.Size = new Size(141, 27);
-            textBox86.TabIndex = 209;
+            tx_receive1_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_b2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_b2.Location = new Point(529, 102);
+            tx_receive1_b2.Name = "tx_receive1_b2";
+            tx_receive1_b2.Size = new Size(141, 27);
+            tx_receive1_b2.TabIndex = 209;
             // 
-            // textBox87
+            // tx_amt1_b2
             // 
-            textBox87.BorderStyle = BorderStyle.FixedSingle;
-            textBox87.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox87.Location = new Point(75, 102);
-            textBox87.Name = "textBox87";
-            textBox87.Size = new Size(114, 26);
-            textBox87.TabIndex = 208;
-            textBox87.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_b2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_b2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_b2.Location = new Point(75, 102);
+            tx_amt1_b2.Name = "tx_amt1_b2";
+            tx_amt1_b2.Size = new Size(114, 26);
+            tx_amt1_b2.TabIndex = 208;
+            tx_amt1_b2.KeyPress += UC_Tokens_KeyPress;
             // 
             // label113
             // 
@@ -3211,6 +3243,7 @@
             btn_mine_a2.TabIndex = 203;
             btn_mine_a2.Text = "Mine";
             btn_mine_a2.UseVisualStyleBackColor = true;
+            btn_mine_a2.Click += btn_mine_a2_Click;
             // 
             // label1
             // 
@@ -3285,12 +3318,12 @@
             panel2.Controls.Add(label21);
             panel2.Controls.Add(label37);
             panel2.Controls.Add(label67);
-            panel2.Controls.Add(textBox19);
-            panel2.Controls.Add(textBox20);
-            panel2.Controls.Add(textBox21);
-            panel2.Controls.Add(textBox22);
-            panel2.Controls.Add(textBox23);
-            panel2.Controls.Add(textBox24);
+            panel2.Controls.Add(tx_amt2_a2);
+            panel2.Controls.Add(tx_send2_a2);
+            panel2.Controls.Add(tx_receive2_a2);
+            panel2.Controls.Add(tx_send1_a2);
+            panel2.Controls.Add(tx_receive1_a2);
+            panel2.Controls.Add(tx_amt1_a2);
             panel2.Controls.Add(label68);
             panel2.Controls.Add(label14);
             panel2.Controls.Add(tb_prev_a2);
@@ -3340,61 +3373,61 @@
             label67.TabIndex = 199;
             label67.Text = "From:";
             // 
-            // textBox19
+            // tx_amt2_a2
             // 
-            textBox19.BorderStyle = BorderStyle.FixedSingle;
-            textBox19.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox19.Location = new Point(74, 147);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(114, 26);
-            textBox19.TabIndex = 192;
-            textBox19.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_a2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_a2.Location = new Point(74, 147);
+            tx_amt2_a2.Name = "tx_amt2_a2";
+            tx_amt2_a2.Size = new Size(114, 26);
+            tx_amt2_a2.TabIndex = 192;
+            tx_amt2_a2.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox20
+            // tx_send2_a2
             // 
-            textBox20.BorderStyle = BorderStyle.FixedSingle;
-            textBox20.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox20.Location = new Point(288, 147);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(148, 27);
-            textBox20.TabIndex = 191;
+            tx_send2_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_a2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_a2.Location = new Point(288, 147);
+            tx_send2_a2.Name = "tx_send2_a2";
+            tx_send2_a2.Size = new Size(148, 27);
+            tx_send2_a2.TabIndex = 191;
             // 
-            // textBox21
+            // tx_receive2_a2
             // 
-            textBox21.BorderStyle = BorderStyle.FixedSingle;
-            textBox21.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox21.Location = new Point(528, 146);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(141, 27);
-            textBox21.TabIndex = 190;
+            tx_receive2_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_a2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_a2.Location = new Point(528, 146);
+            tx_receive2_a2.Name = "tx_receive2_a2";
+            tx_receive2_a2.Size = new Size(141, 27);
+            tx_receive2_a2.TabIndex = 190;
             // 
-            // textBox22
+            // tx_send1_a2
             // 
-            textBox22.BorderStyle = BorderStyle.FixedSingle;
-            textBox22.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox22.Location = new Point(288, 103);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(148, 27);
-            textBox22.TabIndex = 189;
+            tx_send1_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_a2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_a2.Location = new Point(288, 103);
+            tx_send1_a2.Name = "tx_send1_a2";
+            tx_send1_a2.Size = new Size(148, 27);
+            tx_send1_a2.TabIndex = 189;
             // 
-            // textBox23
+            // tx_receive1_a2
             // 
-            textBox23.BorderStyle = BorderStyle.FixedSingle;
-            textBox23.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox23.Location = new Point(528, 103);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(141, 27);
-            textBox23.TabIndex = 188;
+            tx_receive1_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_a2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_a2.Location = new Point(528, 103);
+            tx_receive1_a2.Name = "tx_receive1_a2";
+            tx_receive1_a2.Size = new Size(141, 27);
+            tx_receive1_a2.TabIndex = 188;
             // 
-            // textBox24
+            // tx_amt1_a2
             // 
-            textBox24.BorderStyle = BorderStyle.FixedSingle;
-            textBox24.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox24.Location = new Point(74, 103);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(114, 26);
-            textBox24.TabIndex = 187;
-            textBox24.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_a2.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_a2.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_a2.Location = new Point(74, 103);
+            tx_amt1_a2.Name = "tx_amt1_a2";
+            tx_amt1_a2.Size = new Size(114, 26);
+            tx_amt1_a2.TabIndex = 187;
+            tx_amt1_a2.KeyPress += UC_Tokens_KeyPress;
             // 
             // label68
             // 
@@ -3418,18 +3451,18 @@
             panel7.Controls.Add(label86);
             panel7.Controls.Add(label87);
             panel7.Controls.Add(label88);
-            panel7.Controls.Add(textBox31);
-            panel7.Controls.Add(textBox32);
-            panel7.Controls.Add(textBox33);
-            panel7.Controls.Add(textBox43);
-            panel7.Controls.Add(textBox44);
-            panel7.Controls.Add(textBox45);
-            panel7.Controls.Add(textBox46);
-            panel7.Controls.Add(textBox47);
-            panel7.Controls.Add(textBox48);
-            panel7.Controls.Add(textBox49);
-            panel7.Controls.Add(textBox50);
-            panel7.Controls.Add(textBox51);
+            panel7.Controls.Add(tx_amt4_b3);
+            panel7.Controls.Add(tx_send4_b3);
+            panel7.Controls.Add(tx_receive4_b3);
+            panel7.Controls.Add(tx_amt3_b3);
+            panel7.Controls.Add(tx_send3_b3);
+            panel7.Controls.Add(tx_receive3_b3);
+            panel7.Controls.Add(tx_amt2_b3);
+            panel7.Controls.Add(tx_send2_b3);
+            panel7.Controls.Add(tx_receive2_b3);
+            panel7.Controls.Add(tx_send1_b3);
+            panel7.Controls.Add(tx_receive1_b3);
+            panel7.Controls.Add(tx_amt1_b3);
             panel7.Controls.Add(label89);
             panel7.Controls.Add(label22);
             panel7.Controls.Add(tb_prev_b3);
@@ -3519,117 +3552,117 @@
             label88.TabIndex = 220;
             label88.Text = "From:";
             // 
-            // textBox31
+            // tx_amt4_b3
             // 
-            textBox31.BorderStyle = BorderStyle.FixedSingle;
-            textBox31.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox31.Location = new Point(75, 230);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(116, 26);
-            textBox31.TabIndex = 219;
-            textBox31.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_b3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_b3.Location = new Point(75, 230);
+            tx_amt4_b3.Name = "tx_amt4_b3";
+            tx_amt4_b3.Size = new Size(116, 26);
+            tx_amt4_b3.TabIndex = 219;
+            tx_amt4_b3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox32
+            // tx_send4_b3
             // 
-            textBox32.BorderStyle = BorderStyle.FixedSingle;
-            textBox32.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox32.Location = new Point(289, 233);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(150, 27);
-            textBox32.TabIndex = 218;
+            tx_send4_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send4_b3.Location = new Point(289, 233);
+            tx_send4_b3.Name = "tx_send4_b3";
+            tx_send4_b3.Size = new Size(150, 27);
+            tx_send4_b3.TabIndex = 218;
             // 
-            // textBox33
+            // tx_receive4_b3
             // 
-            textBox33.BorderStyle = BorderStyle.FixedSingle;
-            textBox33.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox33.Location = new Point(529, 231);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(164, 27);
-            textBox33.TabIndex = 217;
+            tx_receive4_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive4_b3.Location = new Point(529, 231);
+            tx_receive4_b3.Name = "tx_receive4_b3";
+            tx_receive4_b3.Size = new Size(164, 27);
+            tx_receive4_b3.TabIndex = 217;
             // 
-            // textBox43
+            // tx_amt3_b3
             // 
-            textBox43.BorderStyle = BorderStyle.FixedSingle;
-            textBox43.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox43.Location = new Point(75, 186);
-            textBox43.Name = "textBox43";
-            textBox43.Size = new Size(116, 26);
-            textBox43.TabIndex = 216;
-            textBox43.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_b3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_b3.Location = new Point(75, 186);
+            tx_amt3_b3.Name = "tx_amt3_b3";
+            tx_amt3_b3.Size = new Size(116, 26);
+            tx_amt3_b3.TabIndex = 216;
+            tx_amt3_b3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox44
+            // tx_send3_b3
             // 
-            textBox44.BorderStyle = BorderStyle.FixedSingle;
-            textBox44.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox44.Location = new Point(289, 187);
-            textBox44.Name = "textBox44";
-            textBox44.Size = new Size(150, 27);
-            textBox44.TabIndex = 215;
+            tx_send3_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_b3.Location = new Point(289, 187);
+            tx_send3_b3.Name = "tx_send3_b3";
+            tx_send3_b3.Size = new Size(150, 27);
+            tx_send3_b3.TabIndex = 215;
             // 
-            // textBox45
+            // tx_receive3_b3
             // 
-            textBox45.BorderStyle = BorderStyle.FixedSingle;
-            textBox45.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox45.Location = new Point(529, 188);
-            textBox45.Name = "textBox45";
-            textBox45.Size = new Size(164, 27);
-            textBox45.TabIndex = 214;
+            tx_receive3_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_b3.Location = new Point(529, 188);
+            tx_receive3_b3.Name = "tx_receive3_b3";
+            tx_receive3_b3.Size = new Size(164, 27);
+            tx_receive3_b3.TabIndex = 214;
             // 
-            // textBox46
+            // tx_amt2_b3
             // 
-            textBox46.BorderStyle = BorderStyle.FixedSingle;
-            textBox46.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox46.Location = new Point(75, 146);
-            textBox46.Name = "textBox46";
-            textBox46.Size = new Size(116, 26);
-            textBox46.TabIndex = 213;
-            textBox46.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_b3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_b3.Location = new Point(75, 146);
+            tx_amt2_b3.Name = "tx_amt2_b3";
+            tx_amt2_b3.Size = new Size(116, 26);
+            tx_amt2_b3.TabIndex = 213;
+            tx_amt2_b3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox47
+            // tx_send2_b3
             // 
-            textBox47.BorderStyle = BorderStyle.FixedSingle;
-            textBox47.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox47.Location = new Point(289, 146);
-            textBox47.Name = "textBox47";
-            textBox47.Size = new Size(150, 27);
-            textBox47.TabIndex = 212;
+            tx_send2_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_b3.Location = new Point(289, 146);
+            tx_send2_b3.Name = "tx_send2_b3";
+            tx_send2_b3.Size = new Size(150, 27);
+            tx_send2_b3.TabIndex = 212;
             // 
-            // textBox48
+            // tx_receive2_b3
             // 
-            textBox48.BorderStyle = BorderStyle.FixedSingle;
-            textBox48.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox48.Location = new Point(529, 145);
-            textBox48.Name = "textBox48";
-            textBox48.Size = new Size(164, 27);
-            textBox48.TabIndex = 211;
+            tx_receive2_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_b3.Location = new Point(529, 145);
+            tx_receive2_b3.Name = "tx_receive2_b3";
+            tx_receive2_b3.Size = new Size(164, 27);
+            tx_receive2_b3.TabIndex = 211;
             // 
-            // textBox49
+            // tx_send1_b3
             // 
-            textBox49.BorderStyle = BorderStyle.FixedSingle;
-            textBox49.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox49.Location = new Point(289, 102);
-            textBox49.Name = "textBox49";
-            textBox49.Size = new Size(150, 27);
-            textBox49.TabIndex = 210;
+            tx_send1_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_b3.Location = new Point(289, 102);
+            tx_send1_b3.Name = "tx_send1_b3";
+            tx_send1_b3.Size = new Size(150, 27);
+            tx_send1_b3.TabIndex = 210;
             // 
-            // textBox50
+            // tx_receive1_b3
             // 
-            textBox50.BorderStyle = BorderStyle.FixedSingle;
-            textBox50.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox50.Location = new Point(529, 102);
-            textBox50.Name = "textBox50";
-            textBox50.Size = new Size(164, 27);
-            textBox50.TabIndex = 209;
+            tx_receive1_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_b3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_b3.Location = new Point(529, 102);
+            tx_receive1_b3.Name = "tx_receive1_b3";
+            tx_receive1_b3.Size = new Size(164, 27);
+            tx_receive1_b3.TabIndex = 209;
             // 
-            // textBox51
+            // tx_amt1_b3
             // 
-            textBox51.BorderStyle = BorderStyle.FixedSingle;
-            textBox51.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox51.Location = new Point(75, 102);
-            textBox51.Name = "textBox51";
-            textBox51.Size = new Size(116, 26);
-            textBox51.TabIndex = 208;
-            textBox51.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_b3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_b3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_b3.Location = new Point(75, 102);
+            tx_amt1_b3.Name = "tx_amt1_b3";
+            tx_amt1_b3.Size = new Size(116, 26);
+            tx_amt1_b3.TabIndex = 208;
+            tx_amt1_b3.KeyPress += UC_Tokens_KeyPress;
             // 
             // label89
             // 
@@ -3653,18 +3686,18 @@
             panel11.Controls.Add(label93);
             panel11.Controls.Add(label94);
             panel11.Controls.Add(label95);
-            panel11.Controls.Add(textBox52);
-            panel11.Controls.Add(textBox53);
-            panel11.Controls.Add(textBox54);
-            panel11.Controls.Add(textBox55);
-            panel11.Controls.Add(textBox56);
-            panel11.Controls.Add(textBox57);
-            panel11.Controls.Add(textBox58);
-            panel11.Controls.Add(textBox59);
-            panel11.Controls.Add(textBox60);
-            panel11.Controls.Add(textBox61);
-            panel11.Controls.Add(textBox62);
-            panel11.Controls.Add(textBox63);
+            panel11.Controls.Add(tx_amt4_c3);
+            panel11.Controls.Add(tx_send4_c3);
+            panel11.Controls.Add(tx_receive4_c3);
+            panel11.Controls.Add(tx_amt3_c3);
+            panel11.Controls.Add(tx_send3_c3);
+            panel11.Controls.Add(tx_receive3_c3);
+            panel11.Controls.Add(tx_amt2_c3);
+            panel11.Controls.Add(tx_send2_c3);
+            panel11.Controls.Add(tx_receive2_c3);
+            panel11.Controls.Add(tx_send1_c3);
+            panel11.Controls.Add(tx_receive1_c3);
+            panel11.Controls.Add(tx_amt1_c3);
             panel11.Controls.Add(label96);
             panel11.Controls.Add(label43);
             panel11.Controls.Add(tb_prev_c3);
@@ -3754,117 +3787,117 @@
             label95.TabIndex = 220;
             label95.Text = "From:";
             // 
-            // textBox52
+            // tx_amt4_c3
             // 
-            textBox52.BorderStyle = BorderStyle.FixedSingle;
-            textBox52.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox52.Location = new Point(75, 230);
-            textBox52.Name = "textBox52";
-            textBox52.Size = new Size(116, 26);
-            textBox52.TabIndex = 219;
-            textBox52.KeyPress += UC_Tokens_KeyPress;
+            tx_amt4_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt4_c3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt4_c3.Location = new Point(75, 230);
+            tx_amt4_c3.Name = "tx_amt4_c3";
+            tx_amt4_c3.Size = new Size(116, 26);
+            tx_amt4_c3.TabIndex = 219;
+            tx_amt4_c3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox53
+            // tx_send4_c3
             // 
-            textBox53.BorderStyle = BorderStyle.FixedSingle;
-            textBox53.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox53.Location = new Point(289, 233);
-            textBox53.Name = "textBox53";
-            textBox53.Size = new Size(150, 27);
-            textBox53.TabIndex = 218;
+            tx_send4_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send4_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send4_c3.Location = new Point(289, 233);
+            tx_send4_c3.Name = "tx_send4_c3";
+            tx_send4_c3.Size = new Size(150, 27);
+            tx_send4_c3.TabIndex = 218;
             // 
-            // textBox54
+            // tx_receive4_c3
             // 
-            textBox54.BorderStyle = BorderStyle.FixedSingle;
-            textBox54.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox54.Location = new Point(529, 231);
-            textBox54.Name = "textBox54";
-            textBox54.Size = new Size(164, 27);
-            textBox54.TabIndex = 217;
+            tx_receive4_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive4_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive4_c3.Location = new Point(529, 231);
+            tx_receive4_c3.Name = "tx_receive4_c3";
+            tx_receive4_c3.Size = new Size(164, 27);
+            tx_receive4_c3.TabIndex = 217;
             // 
-            // textBox55
+            // tx_amt3_c3
             // 
-            textBox55.BorderStyle = BorderStyle.FixedSingle;
-            textBox55.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox55.Location = new Point(75, 186);
-            textBox55.Name = "textBox55";
-            textBox55.Size = new Size(116, 26);
-            textBox55.TabIndex = 216;
-            textBox55.KeyPress += UC_Tokens_KeyPress;
+            tx_amt3_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt3_c3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt3_c3.Location = new Point(75, 186);
+            tx_amt3_c3.Name = "tx_amt3_c3";
+            tx_amt3_c3.Size = new Size(116, 26);
+            tx_amt3_c3.TabIndex = 216;
+            tx_amt3_c3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox56
+            // tx_send3_c3
             // 
-            textBox56.BorderStyle = BorderStyle.FixedSingle;
-            textBox56.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox56.Location = new Point(289, 187);
-            textBox56.Name = "textBox56";
-            textBox56.Size = new Size(150, 27);
-            textBox56.TabIndex = 215;
+            tx_send3_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send3_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send3_c3.Location = new Point(289, 187);
+            tx_send3_c3.Name = "tx_send3_c3";
+            tx_send3_c3.Size = new Size(150, 27);
+            tx_send3_c3.TabIndex = 215;
             // 
-            // textBox57
+            // tx_receive3_c3
             // 
-            textBox57.BorderStyle = BorderStyle.FixedSingle;
-            textBox57.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox57.Location = new Point(529, 188);
-            textBox57.Name = "textBox57";
-            textBox57.Size = new Size(164, 27);
-            textBox57.TabIndex = 214;
+            tx_receive3_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive3_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive3_c3.Location = new Point(529, 188);
+            tx_receive3_c3.Name = "tx_receive3_c3";
+            tx_receive3_c3.Size = new Size(164, 27);
+            tx_receive3_c3.TabIndex = 214;
             // 
-            // textBox58
+            // tx_amt2_c3
             // 
-            textBox58.BorderStyle = BorderStyle.FixedSingle;
-            textBox58.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox58.Location = new Point(75, 146);
-            textBox58.Name = "textBox58";
-            textBox58.Size = new Size(116, 26);
-            textBox58.TabIndex = 213;
-            textBox58.KeyPress += UC_Tokens_KeyPress;
+            tx_amt2_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt2_c3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt2_c3.Location = new Point(75, 146);
+            tx_amt2_c3.Name = "tx_amt2_c3";
+            tx_amt2_c3.Size = new Size(116, 26);
+            tx_amt2_c3.TabIndex = 213;
+            tx_amt2_c3.KeyPress += UC_Tokens_KeyPress;
             // 
-            // textBox59
+            // tx_send2_c3
             // 
-            textBox59.BorderStyle = BorderStyle.FixedSingle;
-            textBox59.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox59.Location = new Point(289, 146);
-            textBox59.Name = "textBox59";
-            textBox59.Size = new Size(150, 27);
-            textBox59.TabIndex = 212;
+            tx_send2_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send2_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send2_c3.Location = new Point(289, 146);
+            tx_send2_c3.Name = "tx_send2_c3";
+            tx_send2_c3.Size = new Size(150, 27);
+            tx_send2_c3.TabIndex = 212;
             // 
-            // textBox60
+            // tx_receive2_c3
             // 
-            textBox60.BorderStyle = BorderStyle.FixedSingle;
-            textBox60.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox60.Location = new Point(529, 145);
-            textBox60.Name = "textBox60";
-            textBox60.Size = new Size(164, 27);
-            textBox60.TabIndex = 211;
+            tx_receive2_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive2_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive2_c3.Location = new Point(529, 145);
+            tx_receive2_c3.Name = "tx_receive2_c3";
+            tx_receive2_c3.Size = new Size(164, 27);
+            tx_receive2_c3.TabIndex = 211;
             // 
-            // textBox61
+            // tx_send1_c3
             // 
-            textBox61.BorderStyle = BorderStyle.FixedSingle;
-            textBox61.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox61.Location = new Point(289, 102);
-            textBox61.Name = "textBox61";
-            textBox61.Size = new Size(150, 27);
-            textBox61.TabIndex = 210;
+            tx_send1_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_send1_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_send1_c3.Location = new Point(289, 102);
+            tx_send1_c3.Name = "tx_send1_c3";
+            tx_send1_c3.Size = new Size(150, 27);
+            tx_send1_c3.TabIndex = 210;
             // 
-            // textBox62
+            // tx_receive1_c3
             // 
-            textBox62.BorderStyle = BorderStyle.FixedSingle;
-            textBox62.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox62.Location = new Point(529, 102);
-            textBox62.Name = "textBox62";
-            textBox62.Size = new Size(164, 27);
-            textBox62.TabIndex = 209;
+            tx_receive1_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_receive1_c3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_receive1_c3.Location = new Point(529, 102);
+            tx_receive1_c3.Name = "tx_receive1_c3";
+            tx_receive1_c3.Size = new Size(164, 27);
+            tx_receive1_c3.TabIndex = 209;
             // 
-            // textBox63
+            // tx_amt1_c3
             // 
-            textBox63.BorderStyle = BorderStyle.FixedSingle;
-            textBox63.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox63.Location = new Point(75, 102);
-            textBox63.Name = "textBox63";
-            textBox63.Size = new Size(116, 26);
-            textBox63.TabIndex = 208;
-            textBox63.KeyPress += UC_Tokens_KeyPress;
+            tx_amt1_c3.BorderStyle = BorderStyle.FixedSingle;
+            tx_amt1_c3.Font = new Font("Consolas", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tx_amt1_c3.Location = new Point(75, 102);
+            tx_amt1_c3.Name = "tx_amt1_c3";
+            tx_amt1_c3.Size = new Size(116, 26);
+            tx_amt1_c3.TabIndex = 208;
+            tx_amt1_c3.KeyPress += UC_Tokens_KeyPress;
             // 
             // label96
             // 
@@ -4146,28 +4179,28 @@
         private Label label61;
         private Label label60;
         private Label label59;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox1;
+        private TextBox tx_amt4_a1;
+        private TextBox tx_send4_a1;
+        private TextBox tx_receive4_a1;
+        private TextBox tx_amt3_a1;
+        private TextBox tx_send3_a1;
+        private TextBox tx_receive3_a1;
+        private TextBox tx_amt2_a1;
+        private TextBox tx_send2_a1;
+        private TextBox tx_receive2_a1;
+        private TextBox tx_send1_a1;
+        private TextBox tx_receive1_a1;
+        private TextBox tx_amt1_a1;
         private Label label12;
         private Label label21;
         private Label label37;
         private Label label67;
-        private TextBox textBox19;
-        private TextBox textBox20;
-        private TextBox textBox21;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private TextBox textBox24;
+        private TextBox tx_amt2_a2;
+        private TextBox tx_send2_a2;
+        private TextBox tx_receive2_a2;
+        private TextBox tx_send1_a2;
+        private TextBox tx_receive1_a2;
+        private TextBox tx_amt1_a2;
         private Label label68;
         private Label label4;
         private Label label8;
@@ -4177,18 +4210,18 @@
         private Label label70;
         private Label label71;
         private Label label72;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
-        private TextBox textBox25;
-        private TextBox textBox26;
-        private TextBox textBox27;
-        private TextBox textBox28;
-        private TextBox textBox29;
-        private TextBox textBox30;
+        private TextBox tx_amt4_a3;
+        private TextBox tx_send4_a3;
+        private TextBox tx_receive4_a3;
+        private TextBox tx_amt3_a3;
+        private TextBox tx_send3_a3;
+        private TextBox tx_receive3_a3;
+        private TextBox tx_amt2_a3;
+        private TextBox tx_send2_a3;
+        private TextBox tx_receive2_a3;
+        private TextBox tx_send1_a3;
+        private TextBox tx_receive1_a3;
+        private TextBox tx_amt1_a3;
         private Label label73;
         private Label label75;
         private Label label76;
@@ -4196,15 +4229,15 @@
         private Label label79;
         private Label label80;
         private Label label81;
-        private TextBox textBox34;
-        private TextBox textBox35;
-        private TextBox textBox36;
-        private TextBox textBox37;
-        private TextBox textBox38;
-        private TextBox textBox39;
-        private TextBox textBox40;
-        private TextBox textBox41;
-        private TextBox textBox42;
+        private TextBox tx_amt3_a4;
+        private TextBox tx_send3_a4;
+        private TextBox tx_receive3_a4;
+        private TextBox tx_amt2_a4;
+        private TextBox tx_send2_a4;
+        private TextBox tx_receive2_a4;
+        private TextBox tx_send1_a4;
+        private TextBox tx_receive1_a4;
+        private TextBox tx_amt1_a4;
         private Label label82;
         private Label label104;
         private Label label105;
@@ -4212,15 +4245,15 @@
         private Label label107;
         private Label label108;
         private Label label109;
-        private TextBox textBox73;
-        private TextBox textBox74;
-        private TextBox textBox75;
-        private TextBox textBox76;
-        private TextBox textBox77;
-        private TextBox textBox78;
-        private TextBox textBox79;
-        private TextBox textBox80;
-        private TextBox textBox81;
+        private TextBox tx_amt3_c4;
+        private TextBox tx_send3_c4;
+        private TextBox tx_receive3_c4;
+        private TextBox tx_amt2_c4;
+        private TextBox tx_send2_c4;
+        private TextBox tx_receive2_c4;
+        private TextBox tx_send1_c4;
+        private TextBox tx_receive1_c4;
+        private TextBox tx_amt1_c4;
         private Label label110;
         private Label label128;
         private Label label129;
@@ -4230,29 +4263,29 @@
         private Label label133;
         private Label label134;
         private Label label135;
-        private TextBox textBox106;
-        private TextBox textBox107;
-        private TextBox textBox108;
-        private TextBox textBox109;
-        private TextBox textBox110;
-        private TextBox textBox111;
-        private TextBox textBox112;
-        private TextBox textBox113;
-        private TextBox textBox114;
-        private TextBox textBox115;
-        private TextBox textBox116;
-        private TextBox textBox117;
+        private TextBox tx_amt4_c1;
+        private TextBox tx_send4_c1;
+        private TextBox tx_receive4_c1;
+        private TextBox tx_amt3_c1;
+        private TextBox tx_send3_c1;
+        private TextBox tx_receive3_c1;
+        private TextBox tx_amt2_c1;
+        private TextBox tx_send2_c1;
+        private TextBox tx_receive2_c1;
+        private TextBox tx_send1_c1;
+        private TextBox tx_receive1_c1;
+        private TextBox tx_amt1_c1;
         private Label label136;
         private Label label114;
         private Label label115;
         private Label label116;
         private Label label117;
-        private TextBox textBox88;
-        private TextBox textBox89;
-        private TextBox textBox90;
-        private TextBox textBox91;
-        private TextBox textBox92;
-        private TextBox textBox93;
+        private TextBox tx_amt2_c2;
+        private TextBox tx_send2_c2;
+        private TextBox tx_receive2_c2;
+        private TextBox tx_send1_c2;
+        private TextBox tx_receive1_c2;
+        private TextBox tx_amt1_c2;
         private Label label118;
         private Label label97;
         private Label label98;
@@ -4260,15 +4293,15 @@
         private Label label100;
         private Label label101;
         private Label label102;
-        private TextBox textBox64;
-        private TextBox textBox65;
-        private TextBox textBox66;
-        private TextBox textBox67;
-        private TextBox textBox68;
-        private TextBox textBox69;
-        private TextBox textBox70;
-        private TextBox textBox71;
-        private TextBox textBox72;
+        private TextBox tx_amt3_b4;
+        private TextBox tx_send3_b4;
+        private TextBox tx_receive3_b4;
+        private TextBox tx_amt2_b4;
+        private TextBox tx_send2_b4;
+        private TextBox tx_receive2_b4;
+        private TextBox tx_send1_b4;
+        private TextBox tx_receive1_b4;
+        private TextBox tx_amt1_b4;
         private Label label103;
         private Label label119;
         private Label label120;
@@ -4278,29 +4311,29 @@
         private Label label124;
         private Label label125;
         private Label label126;
-        private TextBox textBox94;
-        private TextBox textBox95;
-        private TextBox textBox96;
-        private TextBox textBox97;
-        private TextBox textBox98;
-        private TextBox textBox99;
-        private TextBox textBox100;
-        private TextBox textBox101;
-        private TextBox textBox102;
-        private TextBox textBox103;
-        private TextBox textBox104;
-        private TextBox textBox105;
+        private TextBox tx_amt4_b1;
+        private TextBox tx_send4_b1;
+        private TextBox tx_receive4_b1;
+        private TextBox tx_amt3_b1;
+        private TextBox tx_send3_b1;
+        private TextBox tx_receive3_b1;
+        private TextBox tx_amt2_b1;
+        private TextBox tx_send2_b1;
+        private TextBox tx_receive2_b1;
+        private TextBox tx_send1_b1;
+        private TextBox tx_receive1_b1;
+        private TextBox tx_amt1_b1;
         private Label label127;
         private Label label53;
         private Label label58;
         private Label label111;
         private Label label112;
-        private TextBox textBox82;
-        private TextBox textBox83;
-        private TextBox textBox84;
-        private TextBox textBox85;
-        private TextBox textBox86;
-        private TextBox textBox87;
+        private TextBox tx_amt2_b2;
+        private TextBox tx_send2_b2;
+        private TextBox tx_receive2_b2;
+        private TextBox tx_send1_b2;
+        private TextBox tx_receive1_b2;
+        private TextBox tx_amt1_b2;
         private Label label113;
         private Label label74;
         private Label label78;
@@ -4310,18 +4343,18 @@
         private Label label86;
         private Label label87;
         private Label label88;
-        private TextBox textBox31;
-        private TextBox textBox32;
-        private TextBox textBox33;
-        private TextBox textBox43;
-        private TextBox textBox44;
-        private TextBox textBox45;
-        private TextBox textBox46;
-        private TextBox textBox47;
-        private TextBox textBox48;
-        private TextBox textBox49;
-        private TextBox textBox50;
-        private TextBox textBox51;
+        private TextBox tx_amt4_b3;
+        private TextBox tx_send4_b3;
+        private TextBox tx_receive4_b3;
+        private TextBox tx_amt3_b3;
+        private TextBox tx_send3_b3;
+        private TextBox tx_receive3_b3;
+        private TextBox tx_amt2_b3;
+        private TextBox tx_send2_b3;
+        private TextBox tx_receive2_b3;
+        private TextBox tx_send1_b3;
+        private TextBox tx_receive1_b3;
+        private TextBox tx_amt1_b3;
         private Label label89;
         private Label label42;
         private Label label47;
@@ -4331,18 +4364,18 @@
         private Label label93;
         private Label label94;
         private Label label95;
-        private TextBox textBox52;
-        private TextBox textBox53;
-        private TextBox textBox54;
-        private TextBox textBox55;
-        private TextBox textBox56;
-        private TextBox textBox57;
-        private TextBox textBox58;
-        private TextBox textBox59;
-        private TextBox textBox60;
-        private TextBox textBox61;
-        private TextBox textBox62;
-        private TextBox textBox63;
+        private TextBox tx_amt4_c3;
+        private TextBox tx_send4_c3;
+        private TextBox tx_receive4_c3;
+        private TextBox tx_amt3_c3;
+        private TextBox tx_send3_c3;
+        private TextBox tx_receive3_c3;
+        private TextBox tx_amt2_c3;
+        private TextBox tx_send2_c3;
+        private TextBox tx_receive2_c3;
+        private TextBox tx_send1_c3;
+        private TextBox tx_receive1_c3;
+        private TextBox tx_amt1_c3;
         private Label label96;
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Blockchain_Visualizer
 {
-    internal class Block
+    public class Block
     {
         public BigInteger number {  get; set; }
         public BigInteger nonce { get; set; }
@@ -40,21 +40,18 @@ namespace Blockchain_Visualizer
             merkle_root = new StringBuilder();
         }
 
-        public void AddTransaction(Transaction transaction, int idx)
-        {
-            transactions[idx] = transaction; 
-        }
-
         public void CopyTransactions(Transaction[] txs)
         {
             Array.Copy(txs, transactions, txs.Length);
         }
+
         public void CalculateMerkleRoot()
         {
             StringBuilder txs_combined = new StringBuilder();
             for (int i = 0; i < transactions.Length; ++i)
                 txs_combined.Append(transactions[i].hash);
 
+            merkle_root.Clear();
             merkle_root.Append(Hash.CalculateSHA256(txs_combined.ToString()));
         }
 

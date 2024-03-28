@@ -49,12 +49,12 @@ namespace Blockchain_Visualizer.UserControls
 
             InitializeComponent();
 
-            chain_A_onChanging();
-            chain_B_onChanging();
+            chain_A_eventHandler();
+            chain_B_eventHandler();
             chain_C_onChanging();
         }
 
-        private void chain_A_onChanging()
+        private void chain_A_eventHandler()
         {
             tb_block_a1.TextChanged += tb_block_a1_TextChanged;
             tb_nonce_a1.TextChanged += tb_nonce_a1_TextChanged;
@@ -73,7 +73,7 @@ namespace Blockchain_Visualizer.UserControls
             tb_data_a4.TextChanged += tb_data_a4_TextChanged;
         }
 
-        private void chain_B_onChanging()
+        private void chain_B_eventHandler()
         {
             tb_block_b1.TextChanged += tb_block_b1_TextChanged;
             tb_nonce_b1.TextChanged += tb_nonce_b1_TextChanged;
@@ -780,15 +780,6 @@ namespace Blockchain_Visualizer.UserControls
 
         private void tb_data_c4_TextChanged(object sender, EventArgs e)
         {
-            Hash.Mine(Cblocks[3]);
-            tb_nonce_c4.Text = Cblocks[3].nonce.ToString();
-            tb_hash_c4.Text = Cblocks[3].hash.ToString();
-            Hash.UpdateChain(Cblocks, 3);
-            UpdateChain_C_TextBoxes();
-        }
-
-        private void btn_mine_c4_Click(object sender, EventArgs e)
-        {
             Cblocks[3].data.Clear();
             Cblocks[3].data.Append(tb_data_c4.Text);
 
@@ -796,9 +787,13 @@ namespace Blockchain_Visualizer.UserControls
             UpdateChain_C_TextBoxes();
         }
 
-        private void tb_block_a1_KeyPress(object sender, KeyPressEventArgs e)
+        private void btn_mine_c4_Click(object sender, EventArgs e)
         {
-            Hash.onlyNumbers(sender, e);
+            Hash.Mine(Cblocks[3]);
+            tb_nonce_c4.Text = Cblocks[3].nonce.ToString();
+            tb_hash_c4.Text = Cblocks[3].hash.ToString();
+            Hash.UpdateChain(Cblocks, 3);
+            UpdateChain_C_TextBoxes();
         }
 
         private void tb_block_a1_KeyPress_1(object sender, KeyPressEventArgs e)
