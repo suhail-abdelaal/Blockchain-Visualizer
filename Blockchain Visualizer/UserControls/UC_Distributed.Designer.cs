@@ -175,6 +175,7 @@
             tb_hash_c2 = new TextBox();
             tb_data_c2 = new TextBox();
             panel10 = new Panel();
+            Load += UC_Distributed_Load;
             panel3.SuspendLayout();
             panel4.SuspendLayout();
             panel1.SuspendLayout();
@@ -220,7 +221,6 @@
             tb_block_a3.Name = "tb_block_a3";
             tb_block_a3.Size = new Size(618, 28);
             tb_block_a3.TabIndex = 88;
-            tb_block_a3.TextChanged += tb_block_a3_TextChanged;
             tb_block_a3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label6
@@ -243,7 +243,6 @@
             tb_nonce_a3.Name = "tb_nonce_a3";
             tb_nonce_a3.Size = new Size(618, 28);
             tb_nonce_a3.TabIndex = 86;
-            tb_nonce_a3.TextChanged += tb_nonce_a3_TextChanged;
             tb_nonce_a3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label7
@@ -289,7 +288,6 @@
             tb_data_a3.ScrollBars = ScrollBars.Vertical;
             tb_data_a3.Size = new Size(618, 176);
             tb_data_a3.TabIndex = 82;
-            tb_data_a3.TextChanged += tb_data_a3_TextChanged;
             // 
             // panel3
             // 
@@ -331,7 +329,7 @@
             btn_mine_a4.TabIndex = 100;
             btn_mine_a4.Text = "Mine";
             btn_mine_a4.UseVisualStyleBackColor = true;
-            btn_mine_a4.Click += btn_mine_a4_Click;
+            btn_mine_a4.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 3);
             // 
             // label9
             // 
@@ -353,7 +351,6 @@
             tb_block_a4.Name = "tb_block_a4";
             tb_block_a4.Size = new Size(653, 28);
             tb_block_a4.TabIndex = 98;
-            tb_block_a4.TextChanged += tb_block_a4_TextChanged;
             tb_block_a4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label10
@@ -376,7 +373,6 @@
             tb_nonce_a4.Name = "tb_nonce_a4";
             tb_nonce_a4.Size = new Size(653, 28);
             tb_nonce_a4.TabIndex = 96;
-            tb_nonce_a4.TextChanged += tb_nonce_a4_TextChanged;
             tb_nonce_a4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label11
@@ -422,7 +418,6 @@
             tb_data_a4.ScrollBars = ScrollBars.Vertical;
             tb_data_a4.Size = new Size(653, 176);
             tb_data_a4.TabIndex = 92;
-            tb_data_a4.TextChanged += tb_data_a4_TextChanged;
             // 
             // panel4
             // 
@@ -464,7 +459,7 @@
             btn_mine_a3.TabIndex = 90;
             btn_mine_a3.Text = "Mine";
             btn_mine_a3.UseVisualStyleBackColor = true;
-            btn_mine_a3.Click += btn_mine_a3_Click;
+            btn_mine_a3.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 2);
             // 
             // tb_prev_a2
             // 
@@ -486,7 +481,7 @@
             btn_mine_a1.TabIndex = 70;
             btn_mine_a1.Text = "Mine";
             btn_mine_a1.UseVisualStyleBackColor = false;
-            btn_mine_a1.Click += btn_mine_a1_Click;
+            btn_mine_a1.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 0);
             // 
             // lbl_block1
             // 
@@ -508,7 +503,6 @@
             tb_block_a1.Name = "tb_block_a1";
             tb_block_a1.Size = new Size(602, 28);
             tb_block_a1.TabIndex = 68;
-            tb_block_a1.TextChanged += tb_block_a1_TextChanged;
             tb_block_a1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // lbl_nonce1
@@ -531,7 +525,6 @@
             tb_nonce_a1.Name = "tb_nonce_a1";
             tb_nonce_a1.Size = new Size(602, 28);
             tb_nonce_a1.TabIndex = 66;
-            tb_nonce_a1.TextChanged += tb_nonce_a1_TextChanged;
             tb_nonce_a1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // lbl_block
@@ -588,7 +581,6 @@
             tb_data_a1.ScrollBars = ScrollBars.Vertical;
             tb_data_a1.Size = new Size(602, 176);
             tb_data_a1.TabIndex = 61;
-            tb_data_a1.TextChanged += tb_data_a1_TextChanged;
             // 
             // panel1
             // 
@@ -631,7 +623,7 @@
             btn_mine_a2.TabIndex = 80;
             btn_mine_a2.Text = "Mine";
             btn_mine_a2.UseVisualStyleBackColor = true;
-            btn_mine_a2.Click += btn_mine_a2_Click;
+            btn_mine_a2.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 1);
             // 
             // label1
             // 
@@ -653,7 +645,6 @@
             tb_block_a2.Name = "tb_block_a2";
             tb_block_a2.Size = new Size(594, 28);
             tb_block_a2.TabIndex = 78;
-            tb_block_a2.TextChanged += tb_block_a2_TextChanged;
             tb_block_a2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label2
@@ -676,7 +667,6 @@
             tb_nonce_a2.Name = "tb_nonce_a2";
             tb_nonce_a2.Size = new Size(594, 28);
             tb_nonce_a2.TabIndex = 76;
-            tb_nonce_a2.TextChanged += tb_nonce_a2_TextChanged;
             tb_nonce_a2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label3
@@ -722,7 +712,6 @@
             tb_data_a2.ScrollBars = ScrollBars.Vertical;
             tb_data_a2.Size = new Size(594, 176);
             tb_data_a2.TabIndex = 72;
-            tb_data_a2.TextChanged += tb_data_a2_TextChanged;
             // 
             // panel2
             // 
@@ -765,7 +754,6 @@
             tb_block_b3.Name = "tb_block_b3";
             tb_block_b3.Size = new Size(618, 28);
             tb_block_b3.TabIndex = 129;
-            tb_block_b3.TextChanged += tb_block_b3_TextChanged;
             tb_block_b3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label19
@@ -788,7 +776,6 @@
             tb_nonce_b3.Name = "tb_nonce_b3";
             tb_nonce_b3.Size = new Size(618, 28);
             tb_nonce_b3.TabIndex = 127;
-            tb_nonce_b3.TextChanged += tb_nonce_b3_TextChanged;
             tb_nonce_b3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label20
@@ -834,7 +821,6 @@
             tb_data_b3.ScrollBars = ScrollBars.Vertical;
             tb_data_b3.Size = new Size(618, 176);
             tb_data_b3.TabIndex = 123;
-            tb_data_b3.TextChanged += tb_data_b3_TextChanged;
             // 
             // panel7
             // 
@@ -876,7 +862,7 @@
             btn_mine_b4.TabIndex = 141;
             btn_mine_b4.Text = "Mine";
             btn_mine_b4.UseVisualStyleBackColor = true;
-            btn_mine_b4.Click += btn_mine_b4_Click;
+            btn_mine_b4.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 3);
             // 
             // label23
             // 
@@ -898,7 +884,6 @@
             tb_block_b4.Name = "tb_block_b4";
             tb_block_b4.Size = new Size(653, 28);
             tb_block_b4.TabIndex = 139;
-            tb_block_b4.TextChanged += tb_block_b4_TextChanged;
             tb_block_b4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label24
@@ -921,7 +906,6 @@
             tb_nonce_b4.Name = "tb_nonce_b4";
             tb_nonce_b4.Size = new Size(653, 28);
             tb_nonce_b4.TabIndex = 137;
-            tb_nonce_b4.TextChanged += tb_nonce_b4_TextChanged;
             tb_nonce_b4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label25
@@ -967,7 +951,6 @@
             tb_data_b4.ScrollBars = ScrollBars.Vertical;
             tb_data_b4.Size = new Size(653, 176);
             tb_data_b4.TabIndex = 133;
-            tb_data_b4.TextChanged += tb_data_b4_TextChanged;
             // 
             // panel8
             // 
@@ -1009,7 +992,7 @@
             btn_mine_b3.TabIndex = 131;
             btn_mine_b3.Text = "Mine";
             btn_mine_b3.UseVisualStyleBackColor = true;
-            btn_mine_b3.Click += btn_mine_b3_Click;
+            btn_mine_b3.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 2);
             // 
             // tb_prev_b2
             // 
@@ -1031,7 +1014,7 @@
             btn_mine_b1.TabIndex = 111;
             btn_mine_b1.Text = "Mine";
             btn_mine_b1.UseVisualStyleBackColor = false;
-            btn_mine_b1.Click += btn_mine_b1_Click;
+            btn_mine_b1.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 0);
             // 
             // label28
             // 
@@ -1053,7 +1036,6 @@
             tb_block_b1.Name = "tb_block_b1";
             tb_block_b1.Size = new Size(602, 28);
             tb_block_b1.TabIndex = 109;
-            tb_block_b1.TextChanged += tb_block_b1_TextChanged;
             tb_block_b1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label29
@@ -1076,7 +1058,6 @@
             tb_nonce_b1.Name = "tb_nonce_b1";
             tb_nonce_b1.Size = new Size(602, 28);
             tb_nonce_b1.TabIndex = 107;
-            tb_nonce_b1.TextChanged += tb_nonce_b1_TextChanged;
             tb_nonce_b1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label30
@@ -1132,7 +1113,6 @@
             tb_data_b1.ScrollBars = ScrollBars.Vertical;
             tb_data_b1.Size = new Size(602, 176);
             tb_data_b1.TabIndex = 102;
-            tb_data_b1.TextChanged += tb_data_b1_TextChanged;
             // 
             // panel5
             // 
@@ -1175,7 +1155,7 @@
             btn_mine_b2.TabIndex = 121;
             btn_mine_b2.Text = "Mine";
             btn_mine_b2.UseVisualStyleBackColor = true;
-            btn_mine_b2.Click += btn_mine_b2_Click;
+            btn_mine_b2.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 1);
             // 
             // label34
             // 
@@ -1197,7 +1177,6 @@
             tb_block_b2.Name = "tb_block_b2";
             tb_block_b2.Size = new Size(594, 28);
             tb_block_b2.TabIndex = 119;
-            tb_block_b2.TextChanged += tb_block_b2_TextChanged;
             tb_block_b2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label35
@@ -1220,7 +1199,6 @@
             tb_nonce_b2.Name = "tb_nonce_b2";
             tb_nonce_b2.Size = new Size(594, 28);
             tb_nonce_b2.TabIndex = 117;
-            tb_nonce_b2.TextChanged += tb_nonce_b2_TextChanged;
             tb_nonce_b2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label36
@@ -1266,7 +1244,6 @@
             tb_data_b2.ScrollBars = ScrollBars.Vertical;
             tb_data_b2.Size = new Size(594, 176);
             tb_data_b2.TabIndex = 113;
-            tb_data_b2.TextChanged += tb_data_b2_TextChanged;
             // 
             // panel6
             // 
@@ -1309,7 +1286,6 @@
             tb_block_c3.Name = "tb_block_c3";
             tb_block_c3.Size = new Size(618, 28);
             tb_block_c3.TabIndex = 170;
-            tb_block_c3.TextChanged += tb_block_c3_TextChanged;
             tb_block_c3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label40
@@ -1332,7 +1308,6 @@
             tb_nonce_c3.Name = "tb_nonce_c3";
             tb_nonce_c3.Size = new Size(618, 28);
             tb_nonce_c3.TabIndex = 168;
-            tb_nonce_c3.TextChanged += tb_nonce_c3_TextChanged;
             tb_nonce_c3.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label41
@@ -1378,7 +1353,6 @@
             tb_data_c3.ScrollBars = ScrollBars.Vertical;
             tb_data_c3.Size = new Size(618, 176);
             tb_data_c3.TabIndex = 164;
-            tb_data_c3.TextChanged += tb_data_c3_TextChanged;
             // 
             // panel11
             // 
@@ -1420,7 +1394,7 @@
             btn_mine_c4.TabIndex = 182;
             btn_mine_c4.Text = "Mine";
             btn_mine_c4.UseVisualStyleBackColor = true;
-            btn_mine_c4.Click += btn_mine_c4_Click;
+            btn_mine_c4.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 3);
             // 
             // label44
             // 
@@ -1442,7 +1416,6 @@
             tb_block_c4.Name = "tb_block_c4";
             tb_block_c4.Size = new Size(653, 28);
             tb_block_c4.TabIndex = 180;
-            tb_block_c4.TextChanged += tb_block_c4_TextChanged;
             tb_block_c4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label45
@@ -1465,7 +1438,6 @@
             tb_nonce_c4.Name = "tb_nonce_c4";
             tb_nonce_c4.Size = new Size(653, 28);
             tb_nonce_c4.TabIndex = 178;
-            tb_nonce_c4.TextChanged += tb_nonce_c4_TextChanged;
             tb_nonce_c4.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label46
@@ -1511,7 +1483,6 @@
             tb_data_c4.ScrollBars = ScrollBars.Vertical;
             tb_data_c4.Size = new Size(653, 176);
             tb_data_c4.TabIndex = 174;
-            tb_data_c4.TextChanged += tb_data_c4_TextChanged;
             // 
             // panel12
             // 
@@ -1553,7 +1524,7 @@
             btn_mine_c3.TabIndex = 172;
             btn_mine_c3.Text = "Mine";
             btn_mine_c3.UseVisualStyleBackColor = true;
-            btn_mine_c3.Click += btn_mine_c3_Click;
+            btn_mine_c3.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 2);
             // 
             // tb_prev_c2
             // 
@@ -1575,7 +1546,7 @@
             btn_mine_c1.TabIndex = 152;
             btn_mine_c1.Text = "Mine";
             btn_mine_c1.UseVisualStyleBackColor = false;
-            btn_mine_c1.Click += btn_mine_c1_Click;
+            btn_mine_c1.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 0);
             // 
             // label49
             // 
@@ -1597,7 +1568,6 @@
             tb_block_c1.Name = "tb_block_c1";
             tb_block_c1.Size = new Size(602, 28);
             tb_block_c1.TabIndex = 150;
-            tb_block_c1.TextChanged += tb_block_c1_TextChanged;
             tb_block_c1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label50
@@ -1620,7 +1590,6 @@
             tb_nonce_c1.Name = "tb_nonce_c1";
             tb_nonce_c1.Size = new Size(602, 28);
             tb_nonce_c1.TabIndex = 148;
-            tb_nonce_c1.TextChanged += tb_nonce_c1_TextChanged;
             tb_nonce_c1.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label51
@@ -1676,7 +1645,6 @@
             tb_data_c1.ScrollBars = ScrollBars.Vertical;
             tb_data_c1.Size = new Size(602, 176);
             tb_data_c1.TabIndex = 143;
-            tb_data_c1.TextChanged += tb_data_c1_TextChanged;
             // 
             // panel9
             // 
@@ -1719,7 +1687,7 @@
             btn_mine_c2.TabIndex = 162;
             btn_mine_c2.Text = "Mine";
             btn_mine_c2.UseVisualStyleBackColor = true;
-            btn_mine_c2.Click += btn_mine_c2_Click;
+            btn_mine_c2.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 1);
             // 
             // label55
             // 
@@ -1741,7 +1709,6 @@
             tb_block_c2.Name = "tb_block_c2";
             tb_block_c2.Size = new Size(594, 28);
             tb_block_c2.TabIndex = 160;
-            tb_block_c2.TextChanged += tb_block_c2_TextChanged;
             tb_block_c2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label56
@@ -1764,7 +1731,6 @@
             tb_nonce_c2.Name = "tb_nonce_c2";
             tb_nonce_c2.Size = new Size(594, 28);
             tb_nonce_c2.TabIndex = 158;
-            tb_nonce_c2.TextChanged += tb_nonce_c2_TextChanged;
             tb_nonce_c2.KeyPress += tb_block_a1_KeyPress_1;
             // 
             // label57
@@ -1810,7 +1776,6 @@
             tb_data_c2.ScrollBars = ScrollBars.Vertical;
             tb_data_c2.Size = new Size(594, 176);
             tb_data_c2.TabIndex = 154;
-            tb_data_c2.TextChanged += tb_data_c2_TextChanged;
             // 
             // panel10
             // 
@@ -1953,7 +1918,6 @@
             Controls.Add(panel11);
             Name = "UC_Distributed";
             Size = new Size(2909, 1521);
-            Load += UC_Distributed_Load;
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
