@@ -351,13 +351,6 @@ namespace Blockchain_Visualizer.UserControls
             }
         }
 
-        // Event handler for block click (currently not implemented)
-        private void lbl_block_Click(object sender, EventArgs e)
-        {
-            // Handle block click event
-        }
-
-        // Event handler for key press in block number textbox
         private void tb_block_a1_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             BlockHashUtility.OnlyNumbers(sender, e);
