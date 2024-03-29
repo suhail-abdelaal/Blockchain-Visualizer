@@ -18,6 +18,11 @@ Here's what's coming up next:
 
 - **Coinbase Implementation:** Coming soon to a blockchain near you! Keep your eyes peeled for updates! 👀
 
+
+## Optional Configuration 🛠️
+
+Feeling adventurous? Dive into the heart of mining and tweak the `Difficulty` variable in the `BlockHashUtility.cs` class. But beware! Increasing the difficulty might turn your computer into a reluctant marathon runner 🏃‍♂️. So, if you like challenges (and your PC's peace of mind), go ahead and tweak away!
+
 ## Contributing 🎉
 
 Yay, you're interested in contributing! That's awesome! If you've got some brilliant ideas bubbling up in your brain or just want to fix a typo, please follow the standard GitHub flow: fork the repository, make changes, and submit a pull request. Remember, teamwork makes the dream work, and I'm more than open to your contributions!
