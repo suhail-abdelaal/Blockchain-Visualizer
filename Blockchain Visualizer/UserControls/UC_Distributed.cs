@@ -337,11 +337,6 @@ namespace Blockchain_Visualizer.UserControls
             }
         }
 
-        private void lbl_block_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void tb_block_a1_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             Hash.onlyNumbers(sender, e);

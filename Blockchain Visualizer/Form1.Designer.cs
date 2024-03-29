@@ -140,6 +140,7 @@
             btn_coinBase.TabIndex = 10;
             btn_coinBase.Text = "Coinbase";
             btn_coinBase.UseVisualStyleBackColor = true;
+            btn_coinBase.Click += btn_coinBase_Click;
             // 
             // panel2
             // 
@@ -152,7 +153,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(884, 542);
             panel2.TabIndex = 6;
-            panel2.Paint += panel2_Paint;
             // 
             // flowLayoutPanel1
             // 

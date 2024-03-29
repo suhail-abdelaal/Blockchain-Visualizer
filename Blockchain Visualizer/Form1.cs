@@ -40,15 +40,16 @@ namespace Blockchain_Visualizer
         {
             addUserControl(new UC_Distributed());
         }
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void btn_tokens_Click(object sender, EventArgs e)
         {
             addUserControl(new UC_Tokens());
 
+        }
+
+        private void btn_coinBase_Click(object sender, EventArgs e)
+        {
+            addUserControl(new UC_Coinbase());
         }
     }
 }
