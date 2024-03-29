@@ -7,8 +7,11 @@ namespace Blockchain_Visualizer
 {
     internal class BlockHashUtility
     {
+        // Difficculty of the mining process (Larger numbers: Harder mining)
+        private static int Difficulty = 4;
+
         // Target value for hash (leading zeros)
-        public static string Target = "0000";
+        public static string Target = new string('0', Difficulty);
 
         // Method to calculate SHA-256 hash of a string input
         public static string CalculateSHA256(string input)
