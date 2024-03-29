@@ -96,7 +96,6 @@
             tb_data.ScrollBars = ScrollBars.Vertical;
             tb_data.Size = new Size(785, 209);
             tb_data.TabIndex = 10;
-            tb_data.TextChanged += tb_data_TextChanged;
             // 
             // lbl_nonce_block
             // 
@@ -119,7 +118,6 @@
             tb_nonce.Name = "tb_nonce";
             tb_nonce.Size = new Size(785, 28);
             tb_nonce.TabIndex = 15;
-            tb_nonce.TextChanged += tb_nonce_block_TextChanged;
             tb_nonce.KeyPress += UC_Block_KeyPress;
             // 
             // lbl_block_block
@@ -143,7 +141,6 @@
             tb_block.Name = "tb_block";
             tb_block.Size = new Size(785, 28);
             tb_block.TabIndex = 17;
-            tb_block.TextChanged += tb_block_block_TextChanged;
             tb_block.KeyPress += UC_Block_KeyPress;
             // 
             // btn_mine_block

@@ -95,7 +95,7 @@
             btn_mine1.TabIndex = 29;
             btn_mine1.Text = "Mine";
             btn_mine1.UseVisualStyleBackColor = false;
-            btn_mine1.Click += btn_mine1_Click;
+            btn_mine1.Click += (sender, e) => Mine_Click(sender, e, 0);
             // 
             // lbl_block1
             // 
@@ -117,7 +117,6 @@
             tb_block1.Name = "tb_block1";
             tb_block1.Size = new Size(602, 28);
             tb_block1.TabIndex = 27;
-            tb_block1.TextChanged += tb_block1_TextChanged;
             tb_block1.KeyPress += tb_block1_KeyPress;
             // 
             // lbl_nonce1
@@ -140,7 +139,6 @@
             tb_nonce1.Name = "tb_nonce1";
             tb_nonce1.Size = new Size(602, 28);
             tb_nonce1.TabIndex = 25;
-            tb_nonce1.TextChanged += tb_nonce1_TextChanged;
             tb_nonce1.KeyPress += tb_block1_KeyPress;
             // 
             // lbl_block
@@ -185,7 +183,6 @@
             tb_hash1.ReadOnly = true;
             tb_hash1.Size = new Size(602, 31);
             tb_hash1.TabIndex = 21;
-            tb_hash1.TextChanged += tb_hash1_TextChanged;
             // 
             // tb_data1
             // 
@@ -197,7 +194,6 @@
             tb_data1.ScrollBars = ScrollBars.Vertical;
             tb_data1.Size = new Size(602, 176);
             tb_data1.TabIndex = 20;
-            tb_data1.TextChanged += tb_data1_TextChanged;
             // 
             // panel1
             // 
@@ -220,7 +216,6 @@
             label13.Size = new Size(46, 19);
             label13.TabIndex = 62;
             label13.Text = "Prev:";
-            label13.Click += label13_Click;
             // 
             // tb_prev1
             // 
@@ -232,7 +227,6 @@
             tb_prev1.ReadOnly = true;
             tb_prev1.Size = new Size(602, 31);
             tb_prev1.TabIndex = 61;
-            tb_prev1.TextChanged += tb_prev1_TextChanged;
             // 
             // btn_mine2
             // 
@@ -242,7 +236,7 @@
             btn_mine2.TabIndex = 39;
             btn_mine2.Text = "Mine";
             btn_mine2.UseVisualStyleBackColor = true;
-            btn_mine2.Click += button1_Click;
+            btn_mine2.Click += (sender, e) => Mine_Click(sender, e, 1);
             // 
             // label1
             // 
@@ -264,7 +258,6 @@
             tb_block2.Name = "tb_block2";
             tb_block2.Size = new Size(594, 28);
             tb_block2.TabIndex = 37;
-            tb_block2.TextChanged += tb_block2_TextChanged;
             tb_block2.KeyPress += tb_block1_KeyPress;
             // 
             // label2
@@ -287,7 +280,6 @@
             tb_nonce2.Name = "tb_nonce2";
             tb_nonce2.Size = new Size(594, 28);
             tb_nonce2.TabIndex = 35;
-            tb_nonce2.TextChanged += tb_nonce2_TextChanged;
             tb_nonce2.KeyPress += tb_block1_KeyPress;
             // 
             // label3
@@ -333,7 +325,6 @@
             tb_data2.ScrollBars = ScrollBars.Vertical;
             tb_data2.Size = new Size(594, 176);
             tb_data2.TabIndex = 31;
-            tb_data2.TextChanged += tb_data2_TextChanged;
             // 
             // panel2
             // 
@@ -375,7 +366,7 @@
             btn_mine3.TabIndex = 49;
             btn_mine3.Text = "Mine";
             btn_mine3.UseVisualStyleBackColor = true;
-            btn_mine3.Click += button2_Click;
+            btn_mine3.Click += (sender, e) => Mine_Click(sender, e, 2);
             // 
             // label5
             // 
@@ -397,7 +388,6 @@
             tb_block3.Name = "tb_block3";
             tb_block3.Size = new Size(618, 28);
             tb_block3.TabIndex = 47;
-            tb_block3.TextChanged += tb_block3_TextChanged;
             tb_block3.KeyPress += tb_block1_KeyPress;
             // 
             // label6
@@ -420,7 +410,6 @@
             tb_nonce3.Name = "tb_nonce3";
             tb_nonce3.Size = new Size(618, 28);
             tb_nonce3.TabIndex = 45;
-            tb_nonce3.TextChanged += tb_nonce3_TextChanged;
             tb_nonce3.KeyPress += tb_block1_KeyPress;
             // 
             // label7
@@ -466,7 +455,6 @@
             tb_data3.ScrollBars = ScrollBars.Vertical;
             tb_data3.Size = new Size(618, 176);
             tb_data3.TabIndex = 41;
-            tb_data3.TextChanged += tb_data3_TextChanged;
             // 
             // panel3
             // 
@@ -508,7 +496,7 @@
             btn_mine4.TabIndex = 59;
             btn_mine4.Text = "Mine";
             btn_mine4.UseVisualStyleBackColor = true;
-            btn_mine4.Click += button3_Click;
+            btn_mine4.Click += (sender, e) => Mine_Click(sender, e, 3);
             // 
             // label9
             // 
@@ -530,7 +518,6 @@
             tb_block4.Name = "tb_block4";
             tb_block4.Size = new Size(653, 28);
             tb_block4.TabIndex = 57;
-            tb_block4.TextChanged += tb_block4_TextChanged;
             tb_block4.KeyPress += tb_block1_KeyPress;
             // 
             // label10
@@ -543,7 +530,6 @@
             label10.Size = new Size(65, 19);
             label10.TabIndex = 56;
             label10.Text = "Nonce:";
-            label10.Click += label10_Click;
             // 
             // tb_nonce4
             // 
@@ -554,7 +540,6 @@
             tb_nonce4.Name = "tb_nonce4";
             tb_nonce4.Size = new Size(653, 28);
             tb_nonce4.TabIndex = 55;
-            tb_nonce4.TextChanged += tb_nonce4_TextChanged;
             tb_nonce4.KeyPress += tb_block1_KeyPress;
             // 
             // label11
@@ -567,7 +552,6 @@
             label11.Size = new Size(51, 19);
             label11.TabIndex = 54;
             label11.Text = "Hash:";
-            label11.Click += label11_Click;
             // 
             // label12
             // 
@@ -579,7 +563,6 @@
             label12.Size = new Size(50, 19);
             label12.TabIndex = 53;
             label12.Text = "Data:";
-            label12.Click += label12_Click;
             // 
             // tb_hash4
             // 
@@ -591,7 +574,6 @@
             tb_hash4.ReadOnly = true;
             tb_hash4.Size = new Size(653, 31);
             tb_hash4.TabIndex = 52;
-            tb_hash4.TextChanged += tb_hash4_TextChanged;
             // 
             // tb_data4
             // 
@@ -603,7 +585,6 @@
             tb_data4.ScrollBars = ScrollBars.Vertical;
             tb_data4.Size = new Size(653, 176);
             tb_data4.TabIndex = 51;
-            tb_data4.TextChanged += tb_data4_TextChanged;
             // 
             // panel4
             // 
@@ -614,7 +595,6 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(743, 426);
             panel4.TabIndex = 60;
-            panel4.Paint += panel4_Paint;
             // 
             // label16
             // 
@@ -626,7 +606,6 @@
             label16.Size = new Size(46, 19);
             label16.TabIndex = 64;
             label16.Text = "Prev:";
-            label16.Click += label16_Click;
             // 
             // tb_prev4
             // 

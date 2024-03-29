@@ -26,7 +26,7 @@ namespace Blockchain_Visualizer
                 return;
 
             string data = CombineData(block);
-            data = data.Replace("-" + block.nonce.ToString(), "-");
+            data = data.Replace("-" + block.nonce, "-");
 
             BigInteger nonce = new BigInteger(-1);
             StringBuilder new_data = new StringBuilder();
@@ -41,7 +41,7 @@ namespace Blockchain_Visualizer
             }
 
             block.UpdateHash(hash);
-            block.nonce = nonce;
+            block.nonce = nonce.ToString();
         }
 
         public static string CombineData(Block block)

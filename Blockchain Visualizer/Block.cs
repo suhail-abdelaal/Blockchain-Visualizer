@@ -10,8 +10,8 @@ namespace Blockchain_Visualizer
 {
     public class Block
     {
-        public BigInteger number {  get; set; }
-        public BigInteger nonce { get; set; }
+        public string number {  get; set; }
+        public string nonce { get; set; }
         public StringBuilder data {  get; set; }
         public StringBuilder hash { get; set; }
         public StringBuilder prev_hash { get; set; }
@@ -19,7 +19,7 @@ namespace Blockchain_Visualizer
         public Transaction[] transactions { get; set; }
         public bool isValid {  get; set; }
 
-        public Block(BigInteger number, BigInteger nonce, string prev_hash) {
+        public Block(string number, string nonce, string prev_hash) {
             this.number = number;
             this.nonce = nonce; 
             this.prev_hash = new StringBuilder(prev_hash);

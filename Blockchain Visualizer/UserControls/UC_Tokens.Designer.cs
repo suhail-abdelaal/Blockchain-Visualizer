@@ -382,7 +382,7 @@
             btn_mine_a3.TabIndex = 213;
             btn_mine_a3.Text = "Mine";
             btn_mine_a3.UseVisualStyleBackColor = true;
-            btn_mine_a3.Click += btn_mine_a3_Click;
+            btn_mine_a3.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 2);
             // 
             // label40
             // 
@@ -491,7 +491,7 @@
             btn_mine_c4.TabIndex = 305;
             btn_mine_c4.Text = "Mine";
             btn_mine_c4.UseVisualStyleBackColor = true;
-            btn_mine_c4.Click += btn_mine_c4_Click;
+            btn_mine_c4.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 3);
             // 
             // tb_block_c4
             // 
@@ -760,7 +760,7 @@
             btn_mine_c3.TabIndex = 295;
             btn_mine_c3.Text = "Mine";
             btn_mine_c3.UseVisualStyleBackColor = true;
-            btn_mine_c3.Click += btn_mine_c3_Click;
+            btn_mine_c3.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 2);
             // 
             // tb_prev_b2
             // 
@@ -782,7 +782,7 @@
             btn_mine_c1.TabIndex = 275;
             btn_mine_c1.Text = "Mine";
             btn_mine_c1.UseVisualStyleBackColor = false;
-            btn_mine_c1.Click += btn_mine_c1_Click;
+            btn_mine_c1.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 0);
             // 
             // tb_prev_b4
             // 
@@ -1141,7 +1141,7 @@
             btn_mine_c2.TabIndex = 285;
             btn_mine_c2.Text = "Mine";
             btn_mine_c2.UseVisualStyleBackColor = true;
-            btn_mine_c2.Click += btn_mine_c2_Click;
+            btn_mine_c2.Click += (sender, e) => Mine_Click(sender, e, Cblocks, 1);
             // 
             // label55
             // 
@@ -1357,7 +1357,7 @@
             btn_mine_b4.TabIndex = 264;
             btn_mine_b4.Text = "Mine";
             btn_mine_b4.UseVisualStyleBackColor = true;
-            btn_mine_b4.Click += btn_mine_b4_Click;
+            btn_mine_b4.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 3);
             // 
             // label23
             // 
@@ -1714,7 +1714,7 @@
             btn_mine_b3.TabIndex = 254;
             btn_mine_b3.Text = "Mine";
             btn_mine_b3.UseVisualStyleBackColor = true;
-            btn_mine_b3.Click += btn_mine_b3_Click;
+            btn_mine_b3.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 2);
             // 
             // label16
             // 
@@ -2069,7 +2069,7 @@
             btn_mine_a4.TabIndex = 223;
             btn_mine_a4.Text = "Mine";
             btn_mine_a4.UseVisualStyleBackColor = true;
-            btn_mine_a4.Click += btn_mine_a4_Click;
+            btn_mine_a4.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 3);
             // 
             // label9
             // 
@@ -2350,7 +2350,7 @@
             btn_mine_a1.TabIndex = 193;
             btn_mine_a1.Text = "Mine";
             btn_mine_a1.UseVisualStyleBackColor = false;
-            btn_mine_a1.Click += btn_mine_a1_Click;
+            btn_mine_a1.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 0);
             // 
             // lbl_block1
             // 
@@ -2713,7 +2713,7 @@
             btn_mine_b1.TabIndex = 234;
             btn_mine_b1.Text = "Mine";
             btn_mine_b1.UseVisualStyleBackColor = false;
-            btn_mine_b1.Click += btn_mine_b1_Click;
+            btn_mine_b1.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 0);
             // 
             // label28
             // 
@@ -3038,7 +3038,7 @@
             btn_mine_b2.TabIndex = 244;
             btn_mine_b2.Text = "Mine";
             btn_mine_b2.UseVisualStyleBackColor = true;
-            btn_mine_b2.Click += btn_mine_b2_Click;
+            btn_mine_b2.Click += (sender, e) => Mine_Click(sender, e, Bblocks, 1);
             // 
             // label34
             // 
@@ -3243,7 +3243,7 @@
             btn_mine_a2.TabIndex = 203;
             btn_mine_a2.Text = "Mine";
             btn_mine_a2.UseVisualStyleBackColor = true;
-            btn_mine_a2.Click += btn_mine_a2_Click;
+            btn_mine_a2.Click += (sender, e) => Mine_Click(sender, e, Ablocks, 1);
             // 
             // label1
             // 

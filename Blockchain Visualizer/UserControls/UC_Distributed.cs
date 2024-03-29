@@ -23,9 +23,9 @@ namespace Blockchain_Visualizer.UserControls
             Bblocks = new Block[4];
             Cblocks = new Block[4];
 
-            Ablocks[0] = new Block(1, 0, "0000000000000000000000000000000000000000000000000000000000000000");
-            Bblocks[0] = new Block(1, 0, "0000000000000000000000000000000000000000000000000000000000000000");
-            Cblocks[0] = new Block(1, 0, "0000000000000000000000000000000000000000000000000000000000000000");
+            Ablocks[0] = new Block("1", "0", "0000000000000000000000000000000000000000000000000000000000000000");
+            Bblocks[0] = new Block("1", "0", "0000000000000000000000000000000000000000000000000000000000000000");
+            Cblocks[0] = new Block("1", "0", "0000000000000000000000000000000000000000000000000000000000000000");
 
             Hash.Mine(Ablocks[0]);
             Hash.Mine(Bblocks[0]);
@@ -35,23 +35,23 @@ namespace Blockchain_Visualizer.UserControls
             {
                 string previousHash = Ablocks[i - 1].hash.ToString();
 
-                Ablocks[i] = new Block(i + 1, 0, previousHash);
+                Ablocks[i] = new Block((i + 1).ToString(), "0", previousHash);
                 Hash.Mine(Ablocks[i]);
 
-                Bblocks[i] = new Block(i + 1, 0, previousHash);
+                Bblocks[i] = new Block(Ablocks[i].number, "0", previousHash);
                 Bblocks[i].nonce = Ablocks[i].nonce;
                 Bblocks[i].hash = Ablocks[i].hash;
 
-                Cblocks[i] = new Block(i + 1, 0, previousHash);
+                Cblocks[i] = new Block(Ablocks[i].number, "0", previousHash);
                 Cblocks[i].nonce = Ablocks[i].nonce;
                 Cblocks[i].hash = Ablocks[i].hash;
             }
 
             InitializeComponent();
 
-            chain_A_eventHandler();
-            chain_B_eventHandler();
-            chain_C_onChanging();
+            Chain_A_EventHandler();
+            Chain_B_EventHandler();
+            Chain_C_EventHandler();
         }
 
         private void UC_Distributed_Load(object sender, EventArgs e)
@@ -63,76 +63,77 @@ namespace Blockchain_Visualizer.UserControls
 
         private void UC_Distributed_Load_Chain_A()
         {
-            tb_block_a1.Text = Ablocks[0].number.ToString();
-            tb_nonce_a1.Text = Ablocks[0].nonce.ToString();
+            tb_block_a1.Text = Ablocks[0].number;
+            tb_nonce_a1.Text = Ablocks[0].nonce;
             tb_prev_a1.Text = Ablocks[0].prev_hash.ToString();
             tb_hash_a1.Text = Ablocks[0].hash.ToString();
 
-            tb_block_a2.Text = Ablocks[1].number.ToString();
-            tb_nonce_a2.Text = Ablocks[1].nonce.ToString();
+            tb_block_a2.Text = Ablocks[1].number;
+            tb_nonce_a2.Text = Ablocks[1].nonce;
             tb_prev_a2.Text = Ablocks[1].prev_hash.ToString();
             tb_hash_a2.Text = Ablocks[1].hash.ToString();
 
-            tb_block_a3.Text = Ablocks[2].number.ToString();
-            tb_nonce_a3.Text = Ablocks[2].nonce.ToString();
+            tb_block_a3.Text = Ablocks[2].number;
+            tb_nonce_a3.Text = Ablocks[2].nonce;
             tb_prev_a3.Text = Ablocks[2].prev_hash.ToString();
             tb_hash_a3.Text = Ablocks[2].hash.ToString();
 
 
-            tb_block_a4.Text = Ablocks[3].number.ToString();
-            tb_nonce_a4.Text = Ablocks[3].nonce.ToString();
+            tb_block_a4.Text = Ablocks[3].number;
+            tb_nonce_a4.Text = Ablocks[3].nonce;
             tb_prev_a4.Text = Ablocks[3].prev_hash.ToString();
             tb_hash_a4.Text = Ablocks[3].hash.ToString();
         }
 
         private void UC_Distributed_Load_Chain_B()
         {
-            tb_block_b1.Text = Bblocks[0].number.ToString();
-            tb_nonce_b1.Text = Bblocks[0].nonce.ToString();
+            tb_block_b1.Text = Bblocks[0].number;
+            tb_nonce_b1.Text = Bblocks[0].nonce;
             tb_prev_b1.Text = Bblocks[0].prev_hash.ToString();
             tb_hash_b1.Text = Bblocks[0].hash.ToString();
 
-            tb_block_b2.Text = Bblocks[1].number.ToString();
-            tb_nonce_b2.Text = Bblocks[1].nonce.ToString();
+            tb_block_b2.Text = Bblocks[1].number;
+            tb_nonce_b2.Text = Bblocks[1].nonce;
             tb_prev_b2.Text = Bblocks[1].prev_hash.ToString();
             tb_hash_b2.Text = Bblocks[1].hash.ToString();
 
-            tb_block_b3.Text = Bblocks[2].number.ToString();
-            tb_nonce_b3.Text = Bblocks[2].nonce.ToString();
+            tb_block_b3.Text = Bblocks[2].number;
+            tb_nonce_b3.Text = Bblocks[2].nonce;
             tb_prev_b3.Text = Bblocks[2].prev_hash.ToString();
             tb_hash_b3.Text = Bblocks[2].hash.ToString();
 
 
-            tb_block_b4.Text = Bblocks[3].number.ToString();
-            tb_nonce_b4.Text = Bblocks[3].nonce.ToString();
+            tb_block_b4.Text = Bblocks[3].number;
+            tb_nonce_b4.Text = Bblocks[3].nonce;
             tb_prev_b4.Text = Bblocks[3].prev_hash.ToString();
             tb_hash_b4.Text = Bblocks[3].hash.ToString();
         }
 
         private void UC_Distributed_Load_Chain_C()
         {
-            tb_block_c1.Text = Cblocks[0].number.ToString();
-            tb_nonce_c1.Text = Cblocks[0].nonce.ToString();
+            tb_block_c1.Text = Cblocks[0].number;
+            tb_nonce_c1.Text = Cblocks[0].nonce;
             tb_prev_c1.Text = Cblocks[0].prev_hash.ToString();
             tb_hash_c1.Text = Cblocks[0].hash.ToString();
 
-            tb_block_c2.Text = Cblocks[1].number.ToString();
-            tb_nonce_c2.Text = Cblocks[1].nonce.ToString();
+            tb_block_c2.Text = Cblocks[1].number;
+            tb_nonce_c2.Text = Cblocks[1].nonce;
             tb_prev_c2.Text = Cblocks[1].prev_hash.ToString();
             tb_hash_c2.Text = Cblocks[1].hash.ToString();
 
-            tb_block_c3.Text = Cblocks[2].number.ToString();
-            tb_nonce_c3.Text = Cblocks[2].nonce.ToString();
+            tb_block_c3.Text = Cblocks[2].number;
+            tb_nonce_c3.Text = Cblocks[2].nonce;
             tb_prev_c3.Text = Cblocks[2].prev_hash.ToString();
             tb_hash_c3.Text = Cblocks[2].hash.ToString();
 
 
-            tb_block_c4.Text = Cblocks[3].number.ToString();
-            tb_nonce_c4.Text = Cblocks[3].nonce.ToString();
+            tb_block_c4.Text = Cblocks[3].number;
+            tb_nonce_c4.Text = Cblocks[3].nonce;
             tb_prev_c4.Text = Cblocks[3].prev_hash.ToString();
             tb_hash_c4.Text = Cblocks[3].hash.ToString();
         }
-        private void chain_A_eventHandler()
+
+        private void Chain_A_EventHandler()
         {
             tb_block_a1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "number", Ablocks, 0);
             tb_nonce_a1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "nonce", Ablocks, 0);
@@ -151,7 +152,7 @@ namespace Blockchain_Visualizer.UserControls
             tb_data_a4.TextChanged  += (sender, e) => Chain_TextChanged(sender, e, "data", Ablocks, 3);
         }
 
-        private void chain_B_eventHandler()
+        private void Chain_B_EventHandler()
         {
             tb_block_b1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "number", Bblocks, 0);
             tb_nonce_b1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "nonce", Bblocks, 0);
@@ -169,7 +170,8 @@ namespace Blockchain_Visualizer.UserControls
             tb_nonce_b4.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "nonce", Bblocks, 3);
             tb_data_b4.TextChanged  += (sender, e) => Chain_TextChanged(sender, e, "data", Bblocks, 3);
         }
-        private void chain_C_onChanging()
+
+        private void Chain_C_EventHandler()
         {
             tb_block_c1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "number", Cblocks, 0);
             tb_nonce_c1.TextChanged += (sender, e) => Chain_TextChanged(sender, e, "nonce", Cblocks, 0);
@@ -192,20 +194,11 @@ namespace Blockchain_Visualizer.UserControls
         {
             System.Windows.Forms.TextBox changedTextBox = (System.Windows.Forms.TextBox)sender;
             if (member == "number")
-            {
-                if (changedTextBox.Text != "")
-                    blocks[block_idx].number = BigInteger.Parse(changedTextBox.Text);
-                else
-                    blocks[block_idx].number = 0;
-            }
-            else if (member == "nonce")
-            {
-                if (changedTextBox.Text != "")
-                    blocks[block_idx].nonce = BigInteger.Parse(changedTextBox.Text);
-                else
-                    blocks[block_idx].nonce = 0;
+                blocks[block_idx].number = changedTextBox.Text;
 
-            }
+            else if (member == "nonce")
+                blocks[block_idx].nonce = changedTextBox.Text;
+
             else if (member == "data")
             {
                 blocks[block_idx].data.Clear();
@@ -237,22 +230,22 @@ namespace Blockchain_Visualizer.UserControls
 
         private void UpdateChain_A_TextBoxes()
         {
-            tb_nonce_a1.Text = Ablocks[0].nonce.ToString();
+            tb_nonce_a1.Text = Ablocks[0].nonce;
             tb_prev_a1.Text = Ablocks[0].prev_hash.ToString();
             tb_hash_a1.Text = Ablocks[0].hash.ToString();
             UpdateBackgroundColor(Ablocks[0], 0, panel1);
 
-            tb_nonce_a2.Text = Ablocks[1].nonce.ToString();
+            tb_nonce_a2.Text = Ablocks[1].nonce;
             tb_prev_a2.Text = Ablocks[1].prev_hash.ToString();
             tb_hash_a2.Text = Ablocks[1].hash.ToString();
             UpdateBackgroundColor(Ablocks[1], 0, panel2);
 
-            tb_nonce_a3.Text = Ablocks[2].nonce.ToString();
+            tb_nonce_a3.Text = Ablocks[2].nonce;
             tb_prev_a3.Text = Ablocks[2].prev_hash.ToString();
             tb_hash_a3.Text = Ablocks[2].hash.ToString();
             UpdateBackgroundColor(Ablocks[2], 0, panel3);
 
-            tb_nonce_a4.Text = Ablocks[3].nonce.ToString();
+            tb_nonce_a4.Text = Ablocks[3].nonce;
             tb_prev_a4.Text = Ablocks[3].prev_hash.ToString();
             tb_hash_a4.Text = Ablocks[3].hash.ToString();
             UpdateBackgroundColor(Ablocks[3], 0, panel4);
@@ -260,22 +253,22 @@ namespace Blockchain_Visualizer.UserControls
 
         private void UpdateChain_B_TextBoxes()
         {
-            tb_nonce_b1.Text = Bblocks[0].nonce.ToString();
+            tb_nonce_b1.Text = Bblocks[0].nonce;
             tb_prev_b1.Text = Bblocks[0].prev_hash.ToString();
             tb_hash_b1.Text = Bblocks[0].hash.ToString();
             UpdateBackgroundColor(Bblocks[0], 0, panel5);
 
-            tb_nonce_b2.Text = Bblocks[1].nonce.ToString();
+            tb_nonce_b2.Text = Bblocks[1].nonce;
             tb_prev_b2.Text = Bblocks[1].prev_hash.ToString();
             tb_hash_b2.Text = Bblocks[1].hash.ToString();
             UpdateBackgroundColor(Bblocks[1], 0, panel6);
 
-            tb_nonce_b3.Text = Bblocks[2].nonce.ToString();
+            tb_nonce_b3.Text = Bblocks[2].nonce;
             tb_prev_b3.Text = Bblocks[2].prev_hash.ToString();
             tb_hash_b3.Text = Bblocks[2].hash.ToString();
             UpdateBackgroundColor(Bblocks[2], 0, panel7);
 
-            tb_nonce_b4.Text = Bblocks[3].nonce.ToString();
+            tb_nonce_b4.Text = Bblocks[3].nonce;
             tb_prev_b4.Text = Bblocks[3].prev_hash.ToString();
             tb_hash_b4.Text = Bblocks[3].hash.ToString();
             UpdateBackgroundColor(Bblocks[3], 0, panel8);
@@ -283,22 +276,22 @@ namespace Blockchain_Visualizer.UserControls
 
         private void UpdateChain_C_TextBoxes()
         {
-            tb_nonce_c1.Text = Cblocks[0].nonce.ToString();
+            tb_nonce_c1.Text = Cblocks[0].nonce;
             tb_prev_c1.Text = Cblocks[0].prev_hash.ToString();
             tb_hash_c1.Text = Cblocks[0].hash.ToString();
             UpdateBackgroundColor(Cblocks[0], 0, panel9);
 
-            tb_nonce_c2.Text = Cblocks[1].nonce.ToString();
+            tb_nonce_c2.Text = Cblocks[1].nonce;
             tb_prev_c2.Text = Cblocks[1].prev_hash.ToString();
             tb_hash_c2.Text = Cblocks[1].hash.ToString();
             UpdateBackgroundColor(Cblocks[1], 0, panel10);
 
-            tb_nonce_c3.Text = Cblocks[2].nonce.ToString();
+            tb_nonce_c3.Text = Cblocks[2].nonce;
             tb_prev_c3.Text = Cblocks[2].prev_hash.ToString();
             tb_hash_c3.Text = Cblocks[2].hash.ToString();
             UpdateBackgroundColor(Cblocks[2], 0, panel11);
 
-            tb_nonce_c4.Text = Cblocks[3].nonce.ToString();
+            tb_nonce_c4.Text = Cblocks[3].nonce;
             tb_prev_c4.Text = Cblocks[3].prev_hash.ToString();
             tb_hash_c4.Text = Cblocks[3].hash.ToString();
             UpdateBackgroundColor(Cblocks[3], 0, panel12);
