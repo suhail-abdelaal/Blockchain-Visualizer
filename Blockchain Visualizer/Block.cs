@@ -1,66 +1,67 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System.Text;
 namespace Blockchain_Visualizer
 {
     public class Block
     {
-        public string number {  get; set; }
-        public string nonce { get; set; }
-        public StringBuilder data {  get; set; }
-        public StringBuilder hash { get; set; }
-        public StringBuilder prev_hash { get; set; }
-        public StringBuilder merkle_root { get; set; }
-        public Transaction[] transactions { get; set; }
-        public bool isValid {  get; set; }
+        public string Number { get; set; }            // Block number
+        public string Nonce { get; set; }             // Nonce value
+        public StringBuilder Data { get; set; }       // Data stored in the block
+        public StringBuilder BlkHash { get; set; }    // Hash of the block
+        public StringBuilder PrevHash { get; set; }   // Hash of the previous block
+        public StringBuilder MerkleRoot { get; set; } // Merkle root of transactions in the block
+        public Transaction[] Transactions { get; set; } // Array of transactions in the block
+        public bool IsValid { get; set; }             // Flag indicating if the block is valid
 
-        public Block(string number, string nonce, string prev_hash) {
-            this.number = number;
-            this.nonce = nonce; 
-            this.prev_hash = new StringBuilder(prev_hash);
-            data = new StringBuilder();
-            hash = new StringBuilder();
-            transactions = new Transaction[4];
-            isValid = false;
-            merkle_root = new StringBuilder();
+        // Constructor with parameters
+        public Block(string number, string nonce, string prevHash)
+        {
+            this.Number = number;
+            this.Nonce = nonce;
+            this.PrevHash = new StringBuilder(prevHash);
+            Data = new StringBuilder();
+            BlkHash = new StringBuilder();
+            Transactions = new Transaction[4];
+            IsValid = false;
+            MerkleRoot = new StringBuilder();
         }
 
+        // Default constructor
         public Block()
         {
-            data = new StringBuilder();
-            hash = new StringBuilder();
-            prev_hash = new StringBuilder();
-            transactions = new Transaction[4];
-            isValid = false;
-            merkle_root = new StringBuilder();
+            Data = new StringBuilder();
+            BlkHash = new StringBuilder();
+            PrevHash = new StringBuilder();
+            Transactions = new Transaction[4];
+            IsValid = false;
+            MerkleRoot = new StringBuilder();
         }
 
+        // Method to copy transactions to the block
         public void CopyTransactions(Transaction[] txs)
         {
-            Array.Copy(txs, transactions, txs.Length);
+            Array.Copy(txs, Transactions, txs.Length);
         }
 
+        // Method to calculate the Merkle root of transactions
         public void CalculateMerkleRoot()
         {
-            StringBuilder txs_combined = new StringBuilder();
-            for (int i = 0; i < transactions.Length; ++i)
-                txs_combined.Append(transactions[i].hash);
+            StringBuilder txsCombined = new StringBuilder();
+            foreach (var transaction in Transactions)
+            {
+                txsCombined.Append(transaction.Tx_Hash);
+            }
 
-            merkle_root.Clear();
-            merkle_root.Append(Hash.CalculateSHA256(txs_combined.ToString()));
+            MerkleRoot.Clear();
+            MerkleRoot.Append(BlockHashUtility.CalculateSHA256(txsCombined.ToString()));
         }
 
+        // Method to update the hash of the block
         public void UpdateHash(string newHash)
         {
-            hash.Clear();
-            hash.Append(newHash);
+            BlkHash.Clear();
+            BlkHash.Append(newHash);
 
-            isValid = newHash.StartsWith(Hash.target);
+            IsValid = newHash.StartsWith(BlockHashUtility.Target);
         }
     }
 }

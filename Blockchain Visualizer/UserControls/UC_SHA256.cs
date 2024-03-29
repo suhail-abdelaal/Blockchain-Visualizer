@@ -15,17 +15,17 @@ namespace Blockchain_Visualizer.UserControls
         public UC_SHA256()
         {
             InitializeComponent();
-            tb_hash.Text = Hash.CalculateSHA256(tb_data.Text);
             tb_data.TextChanged += tb_data_TextChanged;
         }
 
         private void tb_data_TextChanged(object sender, EventArgs e)
         {
-            tb_hash.Text = Hash.CalculateSHA256(tb_data.Text);
+            tb_hash.Text = BlockHashUtility.CalculateSHA256(tb_data.Text);
         }
 
         private void UC_SHA256_Load(object sender, EventArgs e)
         {
+            tb_hash.Text = BlockHashUtility.CalculateSHA256(tb_data.Text);
 
         }
     }
