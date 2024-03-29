@@ -175,7 +175,6 @@
             tb_hash_c2 = new TextBox();
             tb_data_c2 = new TextBox();
             panel10 = new Panel();
-            Load += UC_Distributed_Load;
             panel3.SuspendLayout();
             panel4.SuspendLayout();
             panel1.SuspendLayout();
@@ -536,7 +535,6 @@
             lbl_block.Size = new Size(80, 23);
             lbl_block.TabIndex = 65;
             lbl_block.Text = "Node A";
-            lbl_block.Click += lbl_block_Click;
             // 
             // lbl_hash1
             // 
@@ -1793,6 +1791,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             AutoSize = true;
+
+            Load += UC_Distributed_Load;
+
             Controls.Add(btn_mine_a3);
             Controls.Add(label39);
             Controls.Add(tb_block_c3);
