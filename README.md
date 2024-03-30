@@ -25,7 +25,7 @@ Yay, you're interested in contributing! That's awesome! If you've got some brill
 
 ## Acknowledgments 🙏
 
-- Hat tip to Anders Brownworth for inspiring me to embark on this blockchain adventure! 🎩
+- Hat tip to  @ander94 [Anders Brownworth](https://github.com/anders94) for inspiring me to embark on this blockchain adventure! 🎩
 
 ## Video Previews 🎥
 
