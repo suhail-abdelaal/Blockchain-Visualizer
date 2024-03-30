@@ -1,6 +1,6 @@
 ## Overview ℹ️
 
-Welcome to the Blockchain Visualizer project! This project is a practice endeavor inspired by the fantastic work of [Anders Brownworth's Blockchain](https://andersbrownworth.com/blockchain). I'm diving into the fascinating world of blockchain to understand its inner workings better!
+Blockchain Visualizer is a practice endeavor project inspired by the fantastic work of [Anders Brownworth's Blockchain](https://andersbrownworth.com/blockchain). We're diving into the fascinating world of blockchain to understand its inner workings better!
 
 ## Features 🚀
 
